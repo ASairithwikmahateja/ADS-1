@@ -16,7 +16,7 @@ public final class Solution {
     public static void main(final String[] args) {
         Scanner input = new Scanner(System.in);
         int a = Integer.parseInt(input.nextLine());
-        int b = Integer.parseInt(input.nextLine());        
+        int b = Integer.parseInt(input.nextLine());
         String[] t = input.nextLine().split(",");
         String[] s = input.nextLine().split(",");
         final int[] array1;
@@ -40,7 +40,7 @@ public final class Solution {
      * @param      array1  The array 1
      * @param      array2  The array 2
      */
-    public static void sort(int[] array1, int[] array2) {
+    public static void sort(final int[] array1, final int[] array2) {
         int i = 0;
         int j = 0;
         int[] result;
