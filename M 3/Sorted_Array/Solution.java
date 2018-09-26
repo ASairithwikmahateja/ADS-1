@@ -1,6 +1,13 @@
-import java.util.*;
-
+import java.util.Scanner;
+import java.util.Arrays;
+/**
+ * 
+ */
 public final class Solution {
+    /**
+     *
+     * @param      args  The arguments
+     */
     public static void main(final String[] args) {
         Scanner input = new Scanner(System.in);
 
@@ -15,21 +22,24 @@ public final class Solution {
 
         array2 = new int[s.length];
 
-        if(t[0].equals("")) {
+        if (t[0].equals("")) {
             array1 = new int[0];
-        }
-        else {
+        } else {
             array1 = new int[t.length];
-            for(int i = 0; i < t.length; i++) {
+            for (int i = 0; i < t.length; i++) {
             array1[i] = Integer.parseInt(t[i]);
+            }
         }
-        }
-        for(int i = 0; i < s.length; i++) {
+        for (int i = 0; i < s.length; i++) {
             array2[i] = Integer.parseInt(s[i]);
         }
         sort(array1, array2);
     }
-
+    /**
+     *
+     * @param      array1  The array 1
+     * @param      array2  The array 2
+     */
     public static void sort(int[] array1, int[] array2) {
         int i = 0;
         int j = 0;
