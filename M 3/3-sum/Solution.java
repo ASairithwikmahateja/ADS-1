@@ -1,19 +1,19 @@
 import java.util.Arrays;
 import java.util.Scanner;
-// /**
-//  * Class for solution.
-//  */
+/**
+ * Class for solution.
+ */
 final class Solution {
-    // /**
-    //  * Constructs the object.
-    //  */
+    /**
+     * Constructs the object.
+     */
     private Solution() {
 
     }
-    // /**
-    //  * main method that prints the count of pairs.
-    //  * @param      args  The arguments
-    //  */
+    /**
+     * main method that prints the count of pairs.
+     * @param      args  The arguments
+     */
     public static void main(final String[] args) {
         Scanner sc = new Scanner(System.in);
         int size = sc.nextInt();
