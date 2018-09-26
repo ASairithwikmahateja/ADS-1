@@ -5,11 +5,14 @@ import java.util.Arrays;
  */
 public final class Solution {
     /**
-     *
-     * @param      args  The arguments
+     * Constructs the object.
      */
     Solution() {
     }
+    /**
+     *
+     * @param      args  The arguments
+     */
     public static void main(final String[] args) {
         Scanner input = new Scanner(System.in);
         int a = Integer.parseInt(input.nextLine());
@@ -49,11 +52,9 @@ public final class Solution {
                 } else {
                     result[k] = array2[j++];
                 }
-            }
-            else if (i >= array1.length) {
+            } else if (i >= array1.length) {
                 result[k] = array2[j++];
-            }
-            else if (j >= array2.length) {
+            } else if (j >= array2.length) {
                 result[k] = array1[i++];
             }
         }
