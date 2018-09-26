@@ -7,7 +7,8 @@ class Solution {
     /**
      * Constructs the object.
      */
-    Solution() {
+    private Solution() {
+    
     }
     /**
      *
