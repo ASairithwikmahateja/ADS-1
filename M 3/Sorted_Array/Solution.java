@@ -1,27 +1,24 @@
 import java.util.Scanner;
 import java.util.Arrays;
 /**
- * 
+ *
  */
 public final class Solution {
     /**
      *
      * @param      args  The arguments
      */
+    Solution() {
+    }
     public static void main(final String[] args) {
         Scanner input = new Scanner(System.in);
-
         int a = Integer.parseInt(input.nextLine());
-        int b = Integer.parseInt(input.nextLine());
-        
+        int b = Integer.parseInt(input.nextLine());        
         String[] t = input.nextLine().split(",");
         String[] s = input.nextLine().split(",");
-        
-        int[] array1;
-        int[] array2;
-
+        final int[] array1;
+        final int[] array2;
         array2 = new int[s.length];
-
         if (t[0].equals("")) {
             array1 = new int[0];
         } else {
@@ -43,15 +40,15 @@ public final class Solution {
     public static void sort(int[] array1, int[] array2) {
         int i = 0;
         int j = 0;
-        int [] result;
+        int[] result;
         result = new int[array1.length + array2.length];
         for (int k = 0; k < result.length; k++) {
             if (i < array1.length && j < array2.length) {
                 if (array1[i] < array2[j]) {
                     result[k] = array1[i++];
-                }
-                else
+                } else {
                     result[k] = array2[j++];
+                }
             }
             else if (i >= array1.length) {
                 result[k] = array2[j++];
