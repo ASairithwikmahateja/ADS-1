@@ -33,10 +33,10 @@ class LinkedList {
         temp.next = obj;
     }
 
-    void delete(int value) {
+    int delete(int value) {
         if (start.data == value) {
             start = start.next;
-            return;
+            return value;
         }
         Node temp = start;
         Node prev = null;
@@ -46,7 +46,7 @@ class LinkedList {
             }
             prev = temp;
             temp = temp.next;
-        }
+        } return value;
     }
 
     int size() {
@@ -86,20 +86,24 @@ class AddLargeNumbers {
 
     public static String digitsToNumber(LinkedList list) {
         String s = "";
+        int i = 0;
         if (list.size() != 1) {
-        for (int i = 0; i <= list.size(); i++) {
+        for (i = 0; i <= list.size(); i++) {
             s += list.getNodedata(i);
         }
+        } else {
+            s = list.getNodedata(i) + "";
         }
         return s;
     }
 
     public static LinkedList addLargeNumbers(LinkedList list1, LinkedList list2) {
-        // LinkedList result = new LinkedList();
-        // for (int i = 0; i < list1; i++) {
-        //     list1.delete();
-        // }
-        return null;
+        LinkedList result = new LinkedList();
+        for (int i = 0; i < list1.size(); i++) {
+            int n = list1.delete(list1.getNodedata(i));
+            list2.delete(list2.getNodedata(i));
+        }
+        return result;
     }
 }
 
