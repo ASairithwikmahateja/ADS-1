@@ -3,9 +3,9 @@ import java.util.Arrays;
 
 class Node {
     Node next;
-    Long data;
+    int data;
 
-    Node(Long value) {
+    Node(int value) {
         data = value;
     }
 }
@@ -18,7 +18,7 @@ class LinkedList {
         size = 0;
     }
 
-    void insert(Long value) {
+    void insert(int value) {
         Node obj = new Node(value);
         if (size == 0) {
             start = obj;
@@ -33,7 +33,7 @@ class LinkedList {
         temp.next = obj;
     }
 
-    void delete(Long value) {
+    void delete(int value) {
         if (start.data == value) {
             start = start.next;
             return;
@@ -53,8 +53,12 @@ class LinkedList {
         return size;
     }
 
-    Long getNodedata(int size) {
+    int getNodedata(int size) {
         Node tmp = start;
+        if (tmp.data == 0) {
+            int flag = 0;
+            return 0;
+        }
         if (size == 0) {
             return tmp.data;
         } else {
@@ -70,9 +74,9 @@ class AddLargeNumbers {
     public static LinkedList numberToDigits(String number) {
         LinkedList l = new LinkedList();
         String[] str = number.split("");
-        Long[] arr = new Long[str.length];
+        int[] arr = new int[str.length];
         for (int i = 0; i < str.length; i++) {
-            arr[i] = Long.parseLong(str[i]);
+            arr[i] = Integer.parseInt(str[i]);
         }
         for (int i = 0; i < arr.length; i++) {
             l.insert(arr[i]);
@@ -82,10 +86,6 @@ class AddLargeNumbers {
 
     public static String digitsToNumber(LinkedList list) {
         String s = "";
-        if (list.size() == 0) {
-            s += 0;
-            return s;
-        }
         for (int i = 0; i <= list.size(); i++) {
             s += list.getNodedata(i);
         }
