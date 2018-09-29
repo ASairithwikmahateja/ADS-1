@@ -100,8 +100,13 @@ class AddLargeNumbers {
     public static LinkedList addLargeNumbers(LinkedList list1, LinkedList list2) {
         LinkedList result = new LinkedList();
         for (int i = 0; i < list1.size(); i++) {
-            int n = list1.delete(list1.getNodedata(i));
-            list2.delete(list2.getNodedata(i));
+            int n1 = list1.delete(list1.getNodedata(i));
+            System.out.println(n1);
+            int n2 = list2.delete(list2.getNodedata(i));
+            System.out.println(n2);
+            if ((n1 + n2) >= 10) {
+                result.insert((n1 + n2) - 10);
+            } result.insert(n1 + n2);
         }
         return result;
     }
@@ -127,6 +132,8 @@ public class Solution {
                 LinkedList result = AddLargeNumbers.addLargeNumbers(pDigits, qDigits);
                 System.out.println(AddLargeNumbers.digitsToNumber(result));
                 break;
+            default :
+                break;    
         }
     }
  
