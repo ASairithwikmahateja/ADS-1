@@ -101,9 +101,9 @@ class AddLargeNumbers {
         LinkedList result = new LinkedList();
         for (int i = 0; i < list1.size(); i++) {
             int n1 = list1.delete(list1.getNodedata(i));
-            System.out.println(n1);
+            // System.out.println(n1);
             int n2 = list2.delete(list2.getNodedata(i));
-            System.out.println(n2);
+            // System.out.println(n2);
             if ((n1 + n2) >= 10) {
                 result.insert((n1 + n2) - 10);
             } result.insert(n1 + n2);
