@@ -3,9 +3,9 @@ import java.util.Arrays;
 
 class Node {
     Node next;
-    Long data;
+    LinkedList data;
 
-    Node(Long value) {
+    Node(LinkedList value) {
         data = value;
     }
 }
@@ -18,7 +18,7 @@ class LinkedList {
         size = 0;
     }
 
-    void insert(Long value) {
+    void insert(LinkedList value) {
         Node obj = new Node(value);
         if (size == 0) {
             start = obj;
@@ -33,8 +33,8 @@ class LinkedList {
         temp.next = obj;
     }
 
-    void delete(Long value) {
-        if (start.data == value) {
+    void delete(LinkedList value) {
+        if (start.data.equals(value)) {
             start = start.next;
             return;
         }
@@ -53,7 +53,7 @@ class LinkedList {
         return size;
     }
 
-    Long getNodedata(int size) {
+    LinkedList getNodedata(int size) {
         Node tmp = start;
         if (size == 0) {
             return tmp.data;
@@ -82,10 +82,6 @@ class AddLargeNumbers {
 
     public static String digitsToNumber(LinkedList list) {
         String s = "";
-        if (list.size() == 0) {
-            s += 0;
-            return s;
-        }
         for (int i = 0; i <= list.size(); i++) {
             s += list.getNodedata(i);
         }
@@ -101,7 +97,7 @@ class AddLargeNumbers {
     }
 }
 
-public class Solution {
+public class Solution1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String input = sc.nextLine();
