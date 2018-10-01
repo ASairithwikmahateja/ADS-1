@@ -5,11 +5,11 @@ import java.util.Scanner;
  *
  * @param      <T>   generic mode.
  */
-class CircularLinkedList<T> {
+class List<T> {
     /**
      * Constructs the object.
      */
-    CircularLinkedList() {
+    List() {
         /**
          * only purpose is checkstyle.
          */
@@ -158,7 +158,7 @@ public final class Solution {
         for (int inp = 0; inp < inputcount; inp++) {
             int noOfPersons = scan.nextInt();
             int mthShift = scan.nextInt();
-            CircularLinkedList<Integer> cl = new CircularLinkedList<Integer>();
+            List<Integer> cl = new List<Integer>();
 
             for (int i = 0; i < noOfPersons; i++) {
                 cl.add(i);
