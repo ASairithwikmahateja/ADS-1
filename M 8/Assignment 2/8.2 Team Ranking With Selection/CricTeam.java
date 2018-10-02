@@ -1,9 +1,9 @@
-class CricketTeam implements Comparable<CricketTeam>{
+class CricTeam implements Comparable<CricTeam>{
 	String name;
 	int wins;
 	int losses;
 	int draws;
-	CricketTeam(String name, String wins, String losses, String draws) {
+	CricTeam(String name, String wins, String losses, String draws) {
 		this.name = name;
 		this.wins = Integer.parseInt(wins);
 		this.losses = Integer.parseInt(losses);
@@ -21,7 +21,7 @@ class CricketTeam implements Comparable<CricketTeam>{
 	public int getDraws() {
 		return draws;
 	}
-	public int compareTo(CricketTeam c) {
+	public int compareTo(CricTeam c) {
 		if (this.wins > c.wins) {
 			return 1;
 		}

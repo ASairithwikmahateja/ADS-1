@@ -15,15 +15,15 @@ final class Solution {
      */
     public static void main(final String[] args) {
         Scanner sc = new Scanner(System.in);
-        Team team = new Team();
+        Teams team = new Teams();
         while (sc.hasNext()) {
             String data = sc.nextLine();
             String[] str = data.split(",");
-            CricketTeam cric = new CricketTeam(str[0], str[1],
+            CricTeam cric = new CricTeam(str[0], str[1],
                 str[2], str[2 + 1]);
             team.addCricketTeam(cric);
         }
-        team.selectionSort();
+        team.InsertionSort();
         System.out.println(team);
     }
 }
