@@ -3,12 +3,12 @@ import java.util.Arrays;
  * Class for sort.
  */
 class Sort {
-	int[] aux;
-	int[] a;
-	/**
-	 * Sort method.
-	 *
-	 * @param      a     int[]
+    int[] aux;
+    int[] a;
+    /**
+     * Sort method.
+     *
+     * @param      a     int[]
 	 */
 	public void sort(int[] a) {
 		this.a = a;
