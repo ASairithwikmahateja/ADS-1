@@ -33,9 +33,9 @@ final class Solution {
 		}
 		seat.selectionSort();
 		System.out.println(seat + "\n");
-		while(vac > 0) {
-			System.out.println(seat);
-			vac--;
-		}
+		// while(vac > 0) {
+		// 	System.out.println(seat);
+		// 	vac--;
+		// }
 	}
 }
