@@ -9,5 +9,6 @@ Starting audit...
 [ERROR] E:\ADS-1\M 12\Assignment-1\Solution.java:30:72: '4' is a magic number. [MagicNumber]
 [ERROR] E:\ADS-1\M 12\Assignment-1\Solution.java:30:98: '5' is a magic number. [MagicNumber]
 [ERROR] E:\ADS-1\M 12\Assignment-1\Solution.java:30:107: '6' is a magic number. [MagicNumber]
+[ERROR] E:\ADS-1\M 12\Assignment-1\Solution.java:36:22: 'while' is not followed by whitespace. [WhitespaceAround]
 Audit done.
-Checkstyle ends with 10 errors.
+Checkstyle ends with 11 errors.

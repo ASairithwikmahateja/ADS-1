@@ -32,5 +32,11 @@ class Solution {
 		}
 		seat.selectionSort();
 		System.out.println(seat);
+		System.out.println();
+		while(vac > 0) {
+			System.out.println(seat);
+			vac--;
+		}
+
 	}
 }
