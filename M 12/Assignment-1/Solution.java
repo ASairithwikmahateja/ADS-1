@@ -31,10 +31,6 @@ class Solution {
 			seat.seatAllot(s);
 		}
 		seat.selectionSort();
-		while (vac > 0) {
-			System.out.println(seat);
-			vac--;
-		}
-
+		System.out.println(seat);
 	}
 }
