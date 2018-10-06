@@ -101,7 +101,7 @@ class SeatAllotment implements Comparable<SeatAllotment> {
 	}
 	public int compareTo(SeatAllotment s) {
 		if (this.totalmarks > s.totalmarks) {
-			return 1;
+			return -1;
 		}
 		else if (this.totalmarks == s.totalmarks && this.marks3 > s.marks3) {
 			return 1;
