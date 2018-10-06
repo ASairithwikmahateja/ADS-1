@@ -31,8 +31,7 @@ class Solution {
 			seat.seatAllot(s);
 		}
 		seat.selectionSort();
-		System.out.println(seat);
-		System.out.println();
+		System.out.println(seat + "\n");
 		while(vac > 0) {
 			System.out.println(seat);
 			vac--;
