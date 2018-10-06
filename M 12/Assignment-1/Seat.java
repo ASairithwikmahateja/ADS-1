@@ -33,7 +33,8 @@ class Seat {
 	public String toString() {
 		String s = "";
 		for (int i = 0; i < size; i++) {
-			s += seats[i].name+"\n";
+			s += seats[i].name + seats[i].totalmarks + seats[i].cate
+			+ "\n";
 		}
 		return s.substring(0, s.length() - 1);
 	}

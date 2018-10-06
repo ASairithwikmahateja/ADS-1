@@ -16,7 +16,7 @@ class Solution {
 	 */
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		Seat a = new Seat();
+		Seat seat = new Seat();
 		int noofstu = Integer.parseInt(sc.nextLine());
 		int vac = Integer.parseInt(sc.nextLine());
 		int unresvac = Integer.parseInt(sc.nextLine());
@@ -28,9 +28,9 @@ class Solution {
 			str = sc.nextLine().split(",");
 			SeatAllotment s = new SeatAllotment(str[0], str[1], Integer.parseInt(str[2]),
 			Integer.parseInt(str[3]), Integer.parseInt(str[4]), Integer.parseInt(str[5]), str[6]);
-			a.seatAllot(s);
+			seat.seatAllot(s);
 		}
-		a.selectionSort();
-		System.out.println(a);
+		seat.selectionSort();
+		System.out.println(seat);
 	}
 }
