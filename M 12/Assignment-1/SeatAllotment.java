@@ -106,7 +106,7 @@ class SeatAllotment implements Comparable<SeatAllotment> {
 		if (this.marks3 > s.marks3) {
 			return 1;
 		}
-		if (this.marks2 == this.marks2) {
+		if (this.marks2 == s.marks2) {
 			return 1;
 		}
 		if (this.dob.equals(s.dob)){
