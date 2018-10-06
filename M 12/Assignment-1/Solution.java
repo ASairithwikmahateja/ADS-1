@@ -28,7 +28,10 @@ class Solution {
 			str = sc.nextLine().split(",");
 			SeatAllotment s = new SeatAllotment(str[0], str[1], Integer.parseInt(str[2]),
 			Integer.parseInt(str[3]), Integer.parseInt(str[4]), Integer.parseInt(str[5]), str[6]);
-			seat.seatAllot(s);
+			while (vac > 0) {
+				seat.seatAllot(s);
+				vac--;
+			}
 		}
 		seat.selectionSort();
 		System.out.println(seat);
