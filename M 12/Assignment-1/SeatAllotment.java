@@ -109,15 +109,15 @@ final class SeatAllotment implements Comparable<SeatAllotment> {
 		if (this.dob.equals(s.dob)){
 			return 1;
 		}
-		if (s.cate.equals("SC")) {
-			return 1;
-		}
-		if (s.cate.equals("ST")) {
-			return 1;
-		}
-		if (s.cate.equals("BC")) {
-			return 1;
-		}
+		// if (s.cate.equals("SC")) {
+		// 	return 1;
+		// }
+		// if (s.cate.equals("ST")) {
+		// 	return 1;
+		// }
+		// if (s.cate.equals("BC")) {
+		// 	return 1;
+		// }
 		return 0;
 	}
 }
