@@ -89,19 +89,19 @@ class SeatAllotment implements Comparable<SeatAllotment> {
 	public int getmarks3() {
 		return marks3;
 	}
-
 	/**
-	 * Returns a string representation of the object.
+	 * compareTo method.
 	 *
-	 * @return     String representation of the object.
+	 * @param      s     Seat Allotment
+	 *
+	 * @return     int
 	 */
-	public String toString() {
-		String s = "";
-		return s;
-	}
 	public int compareTo(SeatAllotment s) {
 		if (this.totalmarks > s.totalmarks) {
-			return -1;
+			return 1;
+		}
+		if (this.cate.equals(s.cate)) { 
+			return 1;
 		}
 		if (this.marks3 > s.marks3) {
 			return 1;
