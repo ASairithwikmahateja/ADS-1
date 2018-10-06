@@ -78,6 +78,6 @@ class Seat {
 	 * @return     boolean
 	 */
 	boolean less(SeatAllotment[] arr, int i, int j) {
-		return  arr[i].compareTo(arr[j]) > 0;
+		return  arr[i].compareTo(arr[j]) < 0;
 	}
 }
