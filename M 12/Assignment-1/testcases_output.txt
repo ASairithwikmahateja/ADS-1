@@ -31,29 +31,29 @@ tanvi,90,BC
 Aditya,80,ST
 priya,72,SC
 Your Output: 
+Ira,93,ST
+Raj,87,BC
 Ajay,76,Open
-priya,72,SC
+Arjun,75,Open
 rahul,73,Open
-Abhishek,60,BC
-Priyanka,70,Open
+priya,72,SC
 Aditya,80,ST
 divya,99,ST
 tanvi,90,BC
-vani,50,Open
+Priyanka,70,Open
+varsha,66,BC
 yash,61,BC
-Anjali,38,SC
+Abhishek,60,BC
 Ankit,58,BC
-Shreya,23,SC
 shyam,71,ST
 riya,83,Open
 Deepak,98,Open
 Aryan,32,ST
+vani,50,Open
 Aishwarya,48,Open
-Raj,87,BC
-Arjun,75,Open
-varsha,66,BC
 Manoj,39,SC
-Ira,93,ST
+Anjali,38,SC
+Shreya,23,SC
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
@@ -97,11 +97,12 @@ Raj,87,BC
 Aditya,80,ST
 priya,72,SC
 Your Output: 
+Ira,93,ST
+Raj,87,BC
 Ajay,76,Open
-priya,72,SC
+Arjun,75,Open
 rahul,73,Open
-Tanya,66,BC
-Abhishek,60,BC
+priya,72,SC
 Priyanka,70,Open
 Aditya,80,ST
 divya,99,ST
@@ -110,23 +111,22 @@ tanvi,90,BC
 mahesh,87,Open
 Ishita,99,Open
 ROHIT,70,SC
-vani,50,Open
+Tanya,66,BC
+varsha,66,BC
 yash,61,BC
-Anjali,38,SC
+Abhishek,60,BC
 Ankit,58,BC
-Shreya,23,SC
 shyam,71,ST
 riya,83,Open
 Deepak,98,Open
-Sneha,50,SC
-Aryan,32,ST
-Aishwarya,48,Open
-Raj,87,BC
 Gayatri,58,SC
-Arjun,75,Open
-varsha,66,BC
+Sneha,50,SC
+Aishwarya,48,Open
+vani,50,Open
 Manoj,39,SC
-Ira,93,ST
+Aryan,32,ST
+Anjali,38,SC
+Shreya,23,SC
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -145,16 +145,16 @@ divya,99,Open
 Aditya,80,ST
 priya,76,SC
 Your Output: 
+divya,99,Open
+tanvi,90,Open
+Aditya,80,ST
 Ajay,76,Open
 priya,76,SC
 rahul,73,Open
+Amit,70,Open
+Priyanka,70,Open
 Tanya,66,BC
 Abhishek,60,BC
-Priyanka,70,Open
-Aditya,80,ST
-divya,99,Open
-Amit,70,Open
-tanvi,90,Open
 ----------------------------------------
 ########## Testcase 3: Failed ##########
 Expected Output: 
@@ -176,16 +176,16 @@ priya,76,SC
 Ajay,76,Open
 Tanya,66,BC
 Your Output: 
+divya,99,Open
+tanvi,90,ST
+Aditya,80,Open
 Ajay,76,Open
 priya,76,SC
 rahul,73,Open
+Amit,70,Open
+Priyanka,70,Open
 Tanya,66,BC
 Abhishek,60,BC
-Priyanka,70,Open
-Aditya,80,Open
-divya,99,Open
-Amit,70,Open
-tanvi,90,ST
 ----------------------------------------
 ########## Testcase 4: Failed ##########
 Expected Output: 
@@ -234,12 +234,13 @@ Ajay,76,Open
 Amit,76,Open
 Arjun,75,Open
 Your Output: 
-Ajay,76,Open
+Ira,93,Open
+Raj,87,Open
 priya,76,Open
+Ajay,76,Open
+Arjun,75,Open
 rahul,73,Open
 Tanya,72,Open
-Abhishek,60,Open
-Priyanka,70,Open
 Aditya,80,Open
 divya,99,Open
 Amit,76,Open
@@ -247,23 +248,22 @@ tanvi,99,Open
 mahesh,87,Open
 Ishita,99,Open
 ROHIT,70,Open
-vani,50,Open
+Priyanka,70,Open
+varsha,66,Open
 yash,61,Open
-Anjali,38,Open
+Abhishek,60,Open
 Ankit,58,Open
-Shreya,23,Open
-shyam,23,Open
+Gayatri,58,Open
 riya,83,Open
 Deepak,98,Open
-Sneha,50,Open
+vani,50,Open
 Aryan,32,Open
+Sneha,50,Open
 Aishwarya,48,Open
-Raj,87,Open
-Gayatri,58,Open
-Arjun,75,Open
-varsha,66,Open
 Manoj,39,Open
-Ira,93,Open
+Anjali,38,Open
+Shreya,23,Open
+shyam,23,Open
 ----------------------------------------
 ########## Testcase 5: Failed ##########
 Expected Output: 
@@ -314,11 +314,12 @@ rahul,73,Open
 priya,72,SC
 varsha,66,BC
 Your Output: 
+Ira,93,ST
+Raj,87,BC
 Ajay,76,Open
-priya,72,SC
+Arjun,75,Open
 rahul,73,Open
-Tanya,66,SC
-Abhishek,60,SC
+priya,72,SC
 Priyanka,70,Open
 Aditya,80,ST
 divya,99,ST
@@ -327,21 +328,20 @@ tanvi,90,BC
 mahesh,87,BC
 Ishita,99,Open
 ROHIT,70,SC
-vani,50,Open
+Tanya,66,SC
+varsha,66,BC
 yash,61,Open
-Anjali,38,SC
+Abhishek,60,SC
 Ankit,58,SC
-Shreya,23,SC
 shyam,71,ST
 riya,83,Open
 Deepak,99,Open
-Sneha,50,SC
-Aryan,32,ST
-Aishwarya,48,Open
-Raj,87,BC
 Gayatri,58,SC
-Arjun,75,Open
-varsha,66,BC
+Sneha,50,SC
+Aishwarya,48,Open
+vani,50,Open
+Anjali,38,SC
+Aryan,32,ST
 Manoj,32,SC
-Ira,93,ST
+Shreya,23,SC
 ----------------------------------------
