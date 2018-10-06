@@ -1,4 +1,4 @@
-class Seat {
+final class Seat {
 	/**
 	 * SeatAllotment array.
 	 */

@@ -1,7 +1,7 @@
 /**
  * Class for seat allotment.
  */
-class SeatAllotment implements Comparable<SeatAllotment> {
+final class SeatAllotment implements Comparable<SeatAllotment> {
 	/**
 	 * Constructs the object.
 	 */

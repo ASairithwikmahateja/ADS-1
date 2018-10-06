@@ -1,14 +1,11 @@
 Starting audit...
-[ERROR] E:\ADS-1\M 12\Assignment-1\Solution.java:5: Class Solution should be declared as final. [FinalClass]
 [ERROR] E:\ADS-1\M 12\Assignment-1\Solution.java:6:1: File contains tab characters (this is the first instance). [FileTabCharacter]
-[ERROR] E:\ADS-1\M 12\Assignment-1\Solution.java:17:33: Parameter args should be final. [FinalParameters]
-[ERROR] E:\ADS-1\M 12\Assignment-1\Solution.java:26:43: '10' is a magic number. [MagicNumber]
-[ERROR] E:\ADS-1\M 12\Assignment-1\Solution.java:29: Line is longer than 80 characters (found 101). [LineLength]
-[ERROR] E:\ADS-1\M 12\Assignment-1\Solution.java:30: Line is longer than 80 characters (found 110). [LineLength]
-[ERROR] E:\ADS-1\M 12\Assignment-1\Solution.java:30:46: '3' is a magic number. [MagicNumber]
-[ERROR] E:\ADS-1\M 12\Assignment-1\Solution.java:30:72: '4' is a magic number. [MagicNumber]
-[ERROR] E:\ADS-1\M 12\Assignment-1\Solution.java:30:98: '5' is a magic number. [MagicNumber]
-[ERROR] E:\ADS-1\M 12\Assignment-1\Solution.java:30:107: '6' is a magic number. [MagicNumber]
-[ERROR] E:\ADS-1\M 12\Assignment-1\Solution.java:35:22: 'while' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS-1\M 12\Assignment-1\Solution.java:30: Line is longer than 80 characters (found 101). [LineLength]
+[ERROR] E:\ADS-1\M 12\Assignment-1\Solution.java:31: Line is longer than 80 characters (found 110). [LineLength]
+[ERROR] E:\ADS-1\M 12\Assignment-1\Solution.java:31:46: '3' is a magic number. [MagicNumber]
+[ERROR] E:\ADS-1\M 12\Assignment-1\Solution.java:31:72: '4' is a magic number. [MagicNumber]
+[ERROR] E:\ADS-1\M 12\Assignment-1\Solution.java:31:98: '5' is a magic number. [MagicNumber]
+[ERROR] E:\ADS-1\M 12\Assignment-1\Solution.java:31:107: '6' is a magic number. [MagicNumber]
+[ERROR] E:\ADS-1\M 12\Assignment-1\Solution.java:36:22: 'while' is not followed by whitespace. [WhitespaceAfter]
 Audit done.
-Checkstyle ends with 11 errors.
+Checkstyle ends with 8 errors.
