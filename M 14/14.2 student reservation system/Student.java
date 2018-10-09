@@ -1,4 +1,3 @@
-import java.util.Scanner;
 /**
  * Student class.
  */
@@ -42,19 +41,20 @@ class Student implements Comparable<Student> {
      * @param      total     The total
      * @param      category  The category
      */
-    Student(final String name, final String dob, final String s1, final String s2,
-     final String s3, final String total, final String category) {
-        this.name = name;
-        this.dob = dob;
+    Student(final String namef, final String dobf, final String s1f,
+        final String s2f, final String s3f, final String totalf,
+        final String categoryf) {
+        this.name = namef;
+        this.dob = dobf;
         String[] date = dob.split("-");
         int year = Integer.parseInt(date[2]);
         int month = Integer.parseInt(date[1]);
         int day = Integer.parseInt(date[0]);
-        this.s1 = Integer.parseInt(s1);
-        this.s2 = Integer.parseInt(s2);
-        this.s3 = Integer.parseInt(s3);
-        this.total = Integer.parseInt(total);
-        this.category = category;
+        this.s1 = Integer.parseInt(s1f);
+        this.s2 = Integer.parseInt(s2f);
+        this.s3 = Integer.parseInt(s3f);
+        this.total = Integer.parseInt(totalf);
+        this.category = categoryf;
     }
     /**
      * Gets the name.
