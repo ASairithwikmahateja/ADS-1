@@ -1,4 +1,2 @@
 Starting audit...
-[ERROR] E:\ADS-1\M 14\14.2 student reservation system\Student.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 Audit done.
-Checkstyle ends with 1 errors.
