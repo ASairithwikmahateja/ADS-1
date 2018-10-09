@@ -53,10 +53,12 @@ public class MaxPQ<Key> {
     public MaxPQ(final Key[] keys) {
         n = keys.length;
         pq = (Key[]) new Object[keys.length + 1];
-        for (int i = 0; i < n; i++)
+        for (int i = 0; i < n; i++) {
             pq[i + 1] = keys[i];
-        for (int k = n / 2; k >= 1; k--)
+        }
+        for (int k = n / 2; k >= 1; k--) {
             sink(k);
+        }
     }
     /**
      * Returns true if this priority queue is empty.
