@@ -1,11 +1,22 @@
+
+
 import java.util.Comparator;
 /**
  * Class for maximum pq.
  * @param      <Key>  The key
  */
 public class MaxPQ<Key> {
+    /**
+     * array of data.
+     */
     private Key[] pq;
+    /**
+     * n elements.
+     */
     private int n;
+    /**
+     * comparator.
+     */
     private Comparator<Key> comparator;
 
     /**
@@ -27,21 +38,21 @@ public class MaxPQ<Key> {
      * using the given comparator.
      *
      * @param  initCapacity the initial capacity of this priority queue
-     * @param  comparator the order in which to compare the keys
+     * @param  comparatorr the order in which to compare the keys
      */
     public MaxPQ(final int initCapacity,
-        final Comparator<Key> comparator) {
-        this.comparator = comparator;
+                 final Comparator<Key> comparatorr) {
+        this.comparator = comparatorr;
         pq = (Key[]) new Object[initCapacity + 1];
         n = 0;
     }
     /**
      * Initializes an empty priority queue using the given comparator.
      *
-     * @param  comparator the order in which to compare the keys
+     * @param  comparatorr the order in which to compare the keys
      */
-    public MaxPQ(Comparator<Key> comparator) {
-        this(1, comparator);
+    public MaxPQ(final Comparator<Key> comparatorr) {
+        this(1, comparatorr);
     }
 
     /**
@@ -86,7 +97,13 @@ public class MaxPQ<Key> {
         }
         return pq[1];
     }
-    // helper function to double the size of the heap array
+
+
+    /**
+     * // helper function to double the size of the heap array.
+     *
+     * @param      capacity  The capacity
+     */
     private void resize(final int capacity) {
         Key[] temp = (Key[]) new Object[capacity];
         for (int i = 1; i <= n; i++) {
@@ -100,7 +117,9 @@ public class MaxPQ<Key> {
      */
     public void insert(final Key x) {
         // double size of array if necessary
-        if (n == pq.length - 1) resize(2 * pq.length);
+        if (n == pq.length - 1) {
+            resize(2 * pq.length);
+        }
         pq[++n] = x;
         swim(n);
     }
@@ -115,8 +134,11 @@ public class MaxPQ<Key> {
         Key max = pq[1];
         exch(1, n--);
         sink(1);
-        pq[n + 1] = null;   // to avoid loiterig and help with garbage collection
-        if ((n > 0) && (n == (pq.length - 1) / 4)) resize(pq.length / 2);
+        pq[n + 1] = null;
+        final int four = 4;
+        if ((n > 0) && (n == (pq.length - 1) / four)) {
+            resize(pq.length / 2);
+        }
         return max;
     }
     /**
@@ -138,8 +160,12 @@ public class MaxPQ<Key> {
         int k1 = k;
         while (2 * k1 <= n) {
             int j = 2 * k1;
-            if (j < n && less(j, j + 1)) j++;
-            if (!less(k1, j)) break;
+            if (j < n && less(j, j + 1)) {
+                j++;
+            }
+            if (!less(k1, j)) {
+                break;
+            }
             exch(k1, j);
             k1 = j;
         }
@@ -180,11 +206,20 @@ public class MaxPQ<Key> {
      * @return     True if maximum heap, False otherwise.
      */
     private boolean isMaxHeap(final int k) {
-        if (k > n) return true;
+        if (k > n) {
+            return true;
+        }
         int left = 2 * k;
         int right = 2 * k + 1;
-        if (left  <= n && less(k, left))  return false;
-        if (right <= n && less(k, right)) return false;
+        if (left  <= n && less(k, left)) {
+            return false;
+        }
+        if (right <= n && less(k, right)) {
+            return false;
+        }
         return isMaxHeap(left) && isMaxHeap(right);
     }
 }
+
+
+
