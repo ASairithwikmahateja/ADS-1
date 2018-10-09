@@ -1,4 +1,6 @@
-import java.util.*;
+import java.util.Scanner;
+import java.util.Arrays;
+import java.util.Collections;
 /**
  * Student class.
  */
@@ -213,7 +215,8 @@ class Merit {
     public String toString() {
         String str = "";
         for (int i = 0; i < size; i++) {
-            str += students[i].name+","+students[i].total+","+students[i].category+"\n";
+            str += students[i].name + "," + students[i].total
+            + "," + students[i].category + "\n";
         }
         return str;
     }
@@ -225,7 +228,8 @@ class Merit {
     public String toString1() {
         String str = "";
         for (int i = 0; i < size; i++) {
-            str += students[i].name+","+students[i].total+","+students[i].category+"\n";
+            str += students[i].name + "," + students[i].total
+            + "," + students[i].category + "\n";
         }
         return str;
     }
@@ -270,7 +274,8 @@ class Merit {
      * @param      noOfSC         No of sc
      * @param      noOfST         No of st
      */
-    public void sort(final int noOfvacancies,final int noOfunres,final int noOfBC,final int noOfSC,final int noOfST) {
+    public void sort(final int noOfvacancies, final int noOfunres,
+    	final int noOfBC, final int noOfSC, final int noOfST) {
         int z = 0;
         for (int i = 0; i < noOfunres; i++) {
             students1[z++] = students[i];
@@ -305,7 +310,7 @@ class Merit {
         }
         int st = 0;
         if (noOfST != 0) {
-            for (int i = noOfunres ; i<size; i++ ) {
+            for (int i = noOfunres ; i < size; i++ ) {
                 if (students[i].category.equals("ST")) {
                     students1[z++] = students[i];
                     st++;
@@ -316,7 +321,7 @@ class Merit {
             }
         }
         if (bc != noOfBC) {
-            for (int i = noOfunres; i<students.length; i++ ) {
+            for (int i = noOfunres; i < students.length; i++ ) {
                 if (!contains(students[i])){
                     students1[z++] = students[i];
                     bc++;
@@ -327,7 +332,7 @@ class Merit {
             }
         }
         if (sc != noOfSC) {
-            for (int i = noOfunres; i<students.length; i++ ) {
+            for (int i = noOfunres; i < students.length; i++ ) {
                 if (!contains(students[i])) {
                     students1[z++] = students[i];
                     sc++;
