@@ -1,60 +1,61 @@
 /**
- * Student class.
+ * Class for student.
  */
 class Student implements Comparable<Student> {
     /**
-     * name of the student.
+     * name.
      */
-    String name;
+    private String name;
     /**
-     * date of birth.
+     * dob.
      */
-    String dob;
+    private String dob;
     /**
-     * subject1.
+     * s1.
      */
-    int s1;
+    private int s1;
     /**
-     * subject2.
+     * s2.
      */
-    int s2;
+    private int s2;
     /**
-     * subject3.
+     * s3.
      */
-    int s3;
+    private int s3;
     /**
-     * total marks.
+     * total.
      */
-    int total;
+    private int total;
     /**
-     * reservation category.
+     * category.
      */
-    String category;
+    private String category;
     /**
      * Constructs the object.
      *
-     * @param      namef      The name
-     * @param      dobf       The dob
-     * @param      s1f        The s 1
-     * @param      s2f        The s 2
-     * @param      s3f        The s 3
-     * @param      totalf     The total
-     * @param      categoryf  The category
+     * @param      n      The name
+     * @param      d       The dob
+     * @param      sOne        The s 1
+     * @param      sTwo        The s 2
+     * @param      sThree      The s 3
+     * @param      t     The total
+     * @param      c  The category
      */
-    Student(final String namef, final String dobf, final String s1f,
-        final String s2f, final String s3f, final String totalf,
-        final String categoryf) {
-        this.name = namef;
-        this.dob = dobf;
-        String[] date = dob.split("-");
+    Student(final String n,
+    final  String d, final String sOne,
+     final String sTwo, final String sThree,
+     final  String t, final String c) {
+        this.name = n;
+        this.dob = d;
+        String[] date = d.split("-");
         int year = Integer.parseInt(date[2]);
         int month = Integer.parseInt(date[1]);
         int day = Integer.parseInt(date[0]);
-        this.s1 = Integer.parseInt(s1f);
-        this.s2 = Integer.parseInt(s2f);
-        this.s3 = Integer.parseInt(s3f);
-        this.total = Integer.parseInt(totalf);
-        this.category = categoryf;
+        this.s1 = Integer.parseInt(sOne);
+        this.s2 = Integer.parseInt(sTwo);
+        this.s3 = Integer.parseInt(sThree);
+        this.total = Integer.parseInt(t);
+        this.category = c;
     }
     /**
      * Gets the name.
@@ -111,11 +112,11 @@ class Student implements Comparable<Student> {
         return day;
     }
     /**
-     * Method to compare two objects.
+     * compare to method.
      *
-     * @param      s    student object
+     * @param      s     { parameter_description }
      *
-     * @return     integer value
+     * @return     { description_of_the_return_value }
      */
     public int compareTo(final Student s) {
         if (this.total > s.total) {
