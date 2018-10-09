@@ -6,19 +6,5 @@ Starting audit...
 [ERROR] E:\ADS-1\M 14\14.2 student reservation system\Student.java:24:9: Variable 's3' must be private and have accessor methods. [VisibilityModifier]
 [ERROR] E:\ADS-1\M 14\14.2 student reservation system\Student.java:28:9: Variable 'total' must be private and have accessor methods. [VisibilityModifier]
 [ERROR] E:\ADS-1\M 14\14.2 student reservation system\Student.java:32:12: Variable 'category' must be private and have accessor methods. [VisibilityModifier]
-[ERROR] E:\ADS-1\M 14\14.2 student reservation system\Student.java:36:8: Unused @param tag for 'name'. [JavadocMethod]
-[ERROR] E:\ADS-1\M 14\14.2 student reservation system\Student.java:37:8: Unused @param tag for 'dob'. [JavadocMethod]
-[ERROR] E:\ADS-1\M 14\14.2 student reservation system\Student.java:38:8: Unused @param tag for 's1'. [JavadocMethod]
-[ERROR] E:\ADS-1\M 14\14.2 student reservation system\Student.java:39:8: Unused @param tag for 's2'. [JavadocMethod]
-[ERROR] E:\ADS-1\M 14\14.2 student reservation system\Student.java:40:8: Unused @param tag for 's3'. [JavadocMethod]
-[ERROR] E:\ADS-1\M 14\14.2 student reservation system\Student.java:41:8: Unused @param tag for 'total'. [JavadocMethod]
-[ERROR] E:\ADS-1\M 14\14.2 student reservation system\Student.java:42:8: Unused @param tag for 'category'. [JavadocMethod]
-[ERROR] E:\ADS-1\M 14\14.2 student reservation system\Student.java:44:26: Expected @param tag for 'namef'. [JavadocMethod]
-[ERROR] E:\ADS-1\M 14\14.2 student reservation system\Student.java:44:46: Expected @param tag for 'dobf'. [JavadocMethod]
-[ERROR] E:\ADS-1\M 14\14.2 student reservation system\Student.java:44:65: Expected @param tag for 's1f'. [JavadocMethod]
-[ERROR] E:\ADS-1\M 14\14.2 student reservation system\Student.java:45:22: Expected @param tag for 's2f'. [JavadocMethod]
-[ERROR] E:\ADS-1\M 14\14.2 student reservation system\Student.java:45:40: Expected @param tag for 's3f'. [JavadocMethod]
-[ERROR] E:\ADS-1\M 14\14.2 student reservation system\Student.java:45:58: Expected @param tag for 'totalf'. [JavadocMethod]
-[ERROR] E:\ADS-1\M 14\14.2 student reservation system\Student.java:46:22: Expected @param tag for 'categoryf'. [JavadocMethod]
 Audit done.
-Checkstyle ends with 21 errors.
+Checkstyle ends with 7 errors.
