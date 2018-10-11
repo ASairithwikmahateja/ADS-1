@@ -16,18 +16,18 @@ class Book {
      */
     private float price;
     /**
-	 * Constructs the object.
-	 *
-	 * @param      namee    The namee
-	 * @param      authorr  The authorr
-	 * @param      pricee   The pricee
-	 */
-	Book(String namee, String authorr, float pricee) {
-		this.name = namee;
-		this.author = authorr;
-		this.price = pricee;
-	}
-	/**
+     * constructor.
+     *
+     * @param      n     { name }
+     * @param      a     { author }
+     * @param      p     { price }
+     */
+    Book(final String n, final String a, final float p) {
+        this.name = n;
+        this.author = a;
+        this.price = p;
+    }
+    /**
      * Gets the name.
      *
      * @return     The name.
@@ -72,12 +72,12 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
         /**
          * Constructs the object.
          *
-         * @param      k     The Book
-         * @param      v     The Value
+         * @param      k     { book }
+         * @param      v     { value }
          */
-        Node(final Book key, final int value) {
-            this.key = key;
-            this.value = value;
+        Node(final Book k, final int v) {
+            this.key = k;
+            this.value = v;
         }
     }
     /**
@@ -92,11 +92,11 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
     /**
      * put overloaded method.
      *
-     * @param      x      The Node
+     * @param      x      { Node }
      * @param      key    The key
      * @param      value  The value
      *
-     * @return     Node
+     * @return     { returns the node }
      */
     private Node put(final Node x,
      final Book key, final int value) {
@@ -120,7 +120,7 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
      *
      * @param      key   The key
      *
-     * @return     Integer
+     * @return     { returns integer value }
      */
     public Integer get(final Book key) {
         Node x = root;

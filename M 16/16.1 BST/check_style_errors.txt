@@ -1,14 +1,4 @@
 Starting audit...
 [ERROR] E:\ADS-1\M 16\16.1 BST\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] E:\ADS-1\M 16\16.1 BST\Solution.java:19:1: File contains tab characters (this is the first instance). [FileTabCharacter]
-[ERROR] E:\ADS-1\M 16\16.1 BST\Solution.java:25:14: Parameter namee should be final. [FinalParameters]
-[ERROR] E:\ADS-1\M 16\16.1 BST\Solution.java:25:28: Parameter authorr should be final. [FinalParameters]
-[ERROR] E:\ADS-1\M 16\16.1 BST\Solution.java:25:44: Parameter pricee should be final. [FinalParameters]
-[ERROR] E:\ADS-1\M 16\16.1 BST\Solution.java:75:12: Unused @param tag for 'k'. [JavadocMethod]
-[ERROR] E:\ADS-1\M 16\16.1 BST\Solution.java:76:12: Unused @param tag for 'v'. [JavadocMethod]
-[ERROR] E:\ADS-1\M 16\16.1 BST\Solution.java:78:25: 'key' hides a field. [HiddenField]
-[ERROR] E:\ADS-1\M 16\16.1 BST\Solution.java:78:25: Expected @param tag for 'key'. [JavadocMethod]
-[ERROR] E:\ADS-1\M 16\16.1 BST\Solution.java:78:40: 'value' hides a field. [HiddenField]
-[ERROR] E:\ADS-1\M 16\16.1 BST\Solution.java:78:40: Expected @param tag for 'value'. [JavadocMethod]
 Audit done.
-Checkstyle ends with 11 errors.
+Checkstyle ends with 1 errors.
