@@ -72,8 +72,8 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
         /**
          * Constructs the object.
          *
-         * @param      k     { book }
-         * @param      v     { value }
+         * @param      k     The Book
+         * @param      v     The Value
          */
         Node(final Book key, final int value) {
             this.key = key;
@@ -92,11 +92,11 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
     /**
      * put overloaded method.
      *
-     * @param      x      { Node }
+     * @param      x      The Node
      * @param      key    The key
      * @param      value  The value
      *
-     * @return     { returns the node }
+     * @return     Node
      */
     private Node put(final Node x,
      final Book key, final int value) {
@@ -120,7 +120,7 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
      *
      * @param      key   The key
      *
-     * @return     { returns integer value }
+     * @return     Integer
      */
     public Integer get(final Book key) {
         Node x = root;
