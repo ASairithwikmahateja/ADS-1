@@ -1,36 +1,70 @@
 import java.util.Scanner;
 /**
- * Class for taxicab.
+ * Class for cube sum.
  */
 class Taxicab implements Comparable<Taxicab> {
-    final int i;
-    final int j;
-    final long sum;   
+    /**
+     * sum.
+     */
+    private long sum;
+    /**
+     * integer i.
+     */
+    private int i;
+    /**
+     * integer j.
+     */
+    private int j;
+    /**
+     * Gets the sum.
+     *
+     * @return     The sum.
+     */
+    long getSum() {
+        return this.sum;
+    }
+    /**
+     * gets i.
+     *
+     * @return  integer
+     */
+    int geti() {
+        return this.i;
+    }
+    /**
+     * gets j.
+     *
+     * @return  integer
+     */
+    int getj() {
+        return this.j;
+    }
     /**
      * Constructs the object.
      *
-     * @param      i     int
-     * @param      j     int
+     * @param      a     integer i
+     * @param      b     integer j
      */
-    public Taxicab(int i, int j) {
-        this.sum = (long) i*i*i + (long) j*j*j;
+    Taxicab(final int i, final int j) {
+        this.sum = i * i * i + j * j * j;
         this.i = i;
         this.j = j;
     }
-
-    // compare by i^3 + j^3, breaking ties by i
-    public int compareTo(Taxicab obj) {
-        if (this.sum < obj.sum) {
-        	return -1;
-        } else if (this.sum > obj.sum) {
-        	return +1;
-        } else if (this.i < obj.i) {
-        	return -1;
-        } else if (this.i > obj.i) {
-        	return +1;
-        } else {
-           return  0;
-    	}
+    /**
+     * compares two objects.
+     *
+     * @param      obj
+     *
+     * @return     integer -1,0,1
+     */
+    public int compareTo(final Taxicab obj) {
+        if (this.sum < obj.getSum()) {
+            return -1;
+        }
+        if (this.sum > obj.getSum()) {
+            return +1;
+        }
+        return 0;
     }
     /**
      * Returns a string representation of the object.
@@ -44,44 +78,49 @@ class Taxicab implements Comparable<Taxicab> {
 /**
  * Class for solution.
  */
-public class Solution {
-	/**
-	 * main method.
-	 *
-	 * @param      args  The arguments
-	 */
-	public static void main(final String[] args) {
-		Scanner sc = new Scanner(System.in);
-		while (sc.hasNextLine()) {
-			String[] number = sc.nextLine().split(" ");
-			int ni = Integer.parseInt(number[0]);
-			int mi = Integer.parseInt(number[1]);
-			final int n = 200;
-			MinPQ<Taxicab> pq = new MinPQ<Taxicab>();
-	        for (int i = 1; i <= ni; i++) {
-	            pq.insert(new Taxicab(i, i));
-        	}
-        	int pair = 1;
-        	Taxicab prev = new Taxicab(0, 0);
-        	int count = 0;
-        	while (!pq.isEmpty()) {
-            	Taxicab curr = pq.delMin();
-            	if (prev.sum == curr.sum) {
-                	pair++;
-                	if (pair == mi) {
-                		count = count + 1;
-                	}
-                	if(count == ni) {
-	            		System.out.println(prev.sum);
-	            		break;
-            		}
-            	}
-            	else {
-                	pair = 1;
-            	}
-            	prev = curr;
-            	if (curr.j < n) pq.insert(new Taxicab(curr.i, curr.j + 1));
-        	}
+final class Solution {
+    /**
+     * Constructs the object.
+     */
+    private Solution() {
+    }
+    /**
+     * main function.
+     *
+     * @param      args  The arguments
+     */
+     public static void main(final String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int m = sc.nextInt();
+        final int twohu = 200;
+        // initialize priority queue
+        MinPQ<Taxicab> pq = new MinPQ<Taxicab>();
+        for (int i = 1; i <= twohu; i++) {
+            pq.insert(new Taxicab(i, i));
+        }
+        int pair = 1;
+        int count = 0;
+        Taxicab previous = new Taxicab(0, 0);
+        // find smallest sum, print it out, and update
+        while (!pq.isEmpty()) {
+            Taxicab current = pq.delMin();
+            if (current.getSum() == previous.getSum()) {
+                pair++;
+                if (pair == m) {
+                    count++;
+                }
+                if (n == count) {
+                    System.out.println(current);
+                    break;
+                }
+            } else {
+                pair = 1;
+            }
+            previous = current;
+            if (current.getj() < twohu) {
+                pq.insert(new Taxicab(current.geti(), current.getj() + 1));
+            }
         }
     }
 }
