@@ -42,18 +42,18 @@ class Taxicab implements Comparable<Taxicab> {
     /**
      * Constructs the object.
      *
-     * @param      a     integer i
-     * @param      b     integer j
+     * @param      fi     integer i
+     * @param      fj    integer j
      */
-    Taxicab(final int i, final int j) {
-        this.sum = i * i * i + j * j * j;
-        this.i = i;
-        this.j = j;
+    Taxicab(final int fi, final int fj) {
+        this.sum = fi * fi * fi + fj * fj * fj;
+        this.i = fi;
+        this.j = fj;
     }
     /**
      * compares two objects.
      *
-     * @param      obj
+     * @param      obj    Taxicab
      *
      * @return     integer -1,0,1
      */

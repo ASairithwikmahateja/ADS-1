@@ -1,10 +1,2 @@
 Starting audit...
-[ERROR] E:\ADS-1\M 17\TaxiCabNumbers\Solution.java:45:8: Unused @param tag for 'a'. [JavadocMethod]
-[ERROR] E:\ADS-1\M 17\TaxiCabNumbers\Solution.java:46:8: Unused @param tag for 'b'. [JavadocMethod]
-[ERROR] E:\ADS-1\M 17\TaxiCabNumbers\Solution.java:48:23: 'i' hides a field. [HiddenField]
-[ERROR] E:\ADS-1\M 17\TaxiCabNumbers\Solution.java:48:23: Expected @param tag for 'i'. [JavadocMethod]
-[ERROR] E:\ADS-1\M 17\TaxiCabNumbers\Solution.java:48:36: 'j' hides a field. [HiddenField]
-[ERROR] E:\ADS-1\M 17\TaxiCabNumbers\Solution.java:48:36: Expected @param tag for 'j'. [JavadocMethod]
-[ERROR] E:\ADS-1\M 17\TaxiCabNumbers\Solution.java:60:40: Expected @param tag for 'obj'. [JavadocMethod]
 Audit done.
-Checkstyle ends with 7 errors.
