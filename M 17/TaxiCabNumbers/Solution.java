@@ -54,11 +54,11 @@ public class Solution {
 		Scanner sc = new Scanner(System.in);
 		while (sc.hasNextLine()) {
 			String[] number = sc.nextLine().split(" ");
-			int N = Integer.parseInt(number[0]);
-			int M = Integer.parseInt(number[1]);
+			int ni = Integer.parseInt(number[0]);
+			int mi = Integer.parseInt(number[1]);
 			final int n = 200;
 			MinPQ<Taxicab> pq = new MinPQ<Taxicab>();
-	        for (int i = 1; i <= n; i++) {
+	        for (int i = 1; i <= ni; i++) {
 	            pq.insert(new Taxicab(i, i));
         	}
         	int pair = 1;
@@ -68,10 +68,10 @@ public class Solution {
             	Taxicab curr = pq.delMin();
             	if (prev.sum == curr.sum) {
                 	pair++;
-                	if (pair == M) {
-                		count = count+1;
+                	if (pair == mi) {
+                		count = count + 1;
                 	}
-                	if(count == N) {
+                	if(count == ni) {
 	            		System.out.println(prev.sum);
 	            		break;
             		}
