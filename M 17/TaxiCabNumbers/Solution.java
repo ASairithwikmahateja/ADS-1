@@ -93,10 +93,10 @@ final class Solution {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int m = sc.nextInt();
-        final int twohu = 200;
+        final int thou = 1000;
         // initialize priority queue
         MinPQ<Taxicab> pq = new MinPQ<Taxicab>();
-        for (int i = 1; i <= twohu; i++) {
+        for (int i = 1; i <= thou; i++) {
             pq.insert(new Taxicab(i, i));
         }
         int pair = 1;
@@ -118,7 +118,7 @@ final class Solution {
                 pair = 1;
             }
             previous = current;
-            if (current.getj() < twohu) {
+            if (current.getj() < thou) {
                 pq.insert(new Taxicab(current.geti(), current.getj() + 1));
             }
         }
