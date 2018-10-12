@@ -56,7 +56,7 @@ public class Solution {
 			String[] number = sc.nextLine().split(" ");
 			int N = Integer.parseInt(number[0]);
 			int M = Integer.parseInt(number[1]);
-			int n = 200;
+			final int n = 200;
 			MinPQ<Taxicab> pq = new MinPQ<Taxicab>();
 	        for (int i = 1; i <= n; i++) {
 	            pq.insert(new Taxicab(i, i));
