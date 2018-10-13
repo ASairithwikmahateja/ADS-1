@@ -81,7 +81,7 @@ class Stocks {
      */
     public String toString(final Stocks stk) {
     	String str = "";
-    		str = stk.getName() + stk.getper();
+    	    str = stk.getName() + " "  + stk.getper();
     	return str;
     }
 }
@@ -93,7 +93,6 @@ class Solution {
 	 * Constructs the object.
 	 */
 	Solution() {
-
 	}
     /**
 	 * main method.
@@ -110,9 +109,9 @@ class Solution {
 		for (int i = 0; i < six * n; i++) {
 	        str = s.nextLine();
 	        tokens = str.split(",");
-	        Stocks stock = new Stocks(tokens[0], Double.parseDouble(tokens[1]));
+	        Stocks stock = new Stocks(tokens[0],
+	        	Double.parseDouble(tokens[1]));
 	        stock.maxObj.insert(tokens[0]);
-			
 		}
 		Stocks stock = new Stocks(tokens[2]);
 		final int five = 5;
@@ -120,6 +119,8 @@ class Solution {
 		while (count > 0) {
 			stock.getMax().toString();
 			stock.maxObj.delMax();
+			stock.getMin().toString();
+			stock.minObj.delMin();
 			count--;
 		}
 		System.out.println();
