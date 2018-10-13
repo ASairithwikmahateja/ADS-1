@@ -1,0 +1,13 @@
+Starting audit...
+[ERROR] E:\ADS-1\M 18\Week-3_Assignment-1\Solution.java:6:1: File contains tab characters (this is the first instance). [FileTabCharacter]
+[ERROR] E:\ADS-1\M 18\Week-3_Assignment-1\Solution.java:9:16: Variable 'stockname' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] E:\ADS-1\M 18\Week-3_Assignment-1\Solution.java:13:16: Variable 'perchange' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] E:\ADS-1\M 18\Week-3_Assignment-1\Solution.java:17:29: Expected @param tag for 'stocknamee'. [JavadocMethod]
+[ERROR] E:\ADS-1\M 18\Week-3_Assignment-1\Solution.java:17:54: Expected @param tag for 'perchangee'. [JavadocMethod]
+[ERROR] E:\ADS-1\M 18\Week-3_Assignment-1\Solution.java:77:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] E:\ADS-1\M 18\Week-3_Assignment-1\Solution.java:89:46: '10' is a magic number. [MagicNumber]
+[ERROR] E:\ADS-1\M 18\Week-3_Assignment-1\Solution.java:93: Line is longer than 80 characters (found 82). [LineLength]
+[ERROR] E:\ADS-1\M 18\Week-3_Assignment-1\Solution.java:98:51: '10' is a magic number. [MagicNumber]
+[ERROR] E:\ADS-1\M 18\Week-3_Assignment-1\Solution.java:102:31: 'switch' is not followed by whitespace. [WhitespaceAround]
+Audit done.
+Checkstyle ends with 10 errors.
