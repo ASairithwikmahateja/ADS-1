@@ -102,6 +102,13 @@ class Solution {
 	        tokens = str.split(",");
 	        Stocks stk = new Stocks(tokens[0], Double.parseDouble(tokens[1]));
 		}
+		final int five = 5;
+		int count = five;
+		while (count > 0) {
+			sa.getMax().toString();
+			count--;
+		}
+		System.out.println();
 		int m = Integer.parseInt(s.nextLine());
 		while (m > 0) {
 			String str1 = new String();
