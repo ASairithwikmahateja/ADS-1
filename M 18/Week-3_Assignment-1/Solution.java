@@ -4,9 +4,9 @@ import java.util.Scanner;
  */
 class Stocks {
     /**
-	 * Stockname.
-	 */
-	private String stockname;
+     * Stockname.
+     */
+    private String stockname;
     /**
 	 * Percentage change.
 	 */
@@ -90,6 +90,12 @@ class StockAnalysis {
  * Class for solution.
  */
 class Solution {
+	/**
+	 * Constructs the object.
+	 */
+	Solution() {
+
+	}
     /**
 	 * main method.
 	 *
