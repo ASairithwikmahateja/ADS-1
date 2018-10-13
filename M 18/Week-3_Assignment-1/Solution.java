@@ -102,7 +102,8 @@ class Solution {
 		int n = Integer.parseInt(s.nextLine());
 		final int six = 6;
 		String str = new String();
-		String[] tokens = new String[10];
+		final int capacity = 10;
+		String[] tokens = new String[capacity];
 		for (int i = 0; i < six * n; i++) {
 	        str = s.nextLine();
 	        tokens = str.split(",");
@@ -118,7 +119,8 @@ class Solution {
 		int m = Integer.parseInt(s.nextLine());
 		while (m > 0) {
 			String str1 = new String();
-		    String[] tokens1 = new String[10];
+			final int capacity1 = 10;
+		    String[] tokens1 = new String[capacity1];
 		    for (int i = 0; i < n; i++) {
 	            str1 = s.nextLine();
 	            tokens1 = str1.split(",");
