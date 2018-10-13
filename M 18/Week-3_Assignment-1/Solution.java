@@ -75,9 +75,9 @@ class StockAnalysis {
      *
      * @return     String representation of the object.
      */
-    public String toString() {
-    	String str = "maha";
-    	
+    public String toString(Stocks stk) {
+    	String str = "";
+    		str = stk.getName() + stk.getper();
     	return str;
     }
 }
@@ -93,6 +93,7 @@ class Solution {
 	public static void main(final String[] args) {
 		Scanner s = new Scanner(System.in);
 		StockAnalysis sa = new StockAnalysis();
+		Stocks stock;
 		int n = Integer.parseInt(s.nextLine());
 		final int six = 6;
 		String str = new String();
@@ -100,7 +101,7 @@ class Solution {
 		for (int i = 0; i < six * n; i++) {
 	        str = s.nextLine();
 	        tokens = str.split(",");
-	        Stocks stk = new Stocks(tokens[0], Double.parseDouble(tokens[1]));
+	        stock = new Stocks(tokens[0], Double.parseDouble(tokens[1]));
 		}
 		final int five = 5;
 		int count = five;
