@@ -3,22 +3,25 @@ import java.util.Scanner;
  * Class for stocks.
  */
 class Stocks {
-	/**
+    /**
 	 * Stockname.
 	 */
-	String stockname;
-	/**
+	private String stockname;
+    /**
 	 * Percentage change.
 	 */
-	double perchange;
-	/**
-	 * Constructs the object.
-	 */
+	private double perchange;
+    /**
+     * Constructs the object.
+     *
+     * @param      stocknamee  The stocknamee
+     * @param      perchangee  The perchangee
+     */
 	Stocks(final String stocknamee, final double perchangee) {
 		this.stockname = stocknamee;
 		this.perchange = perchangee;
 	}
-	/**
+    /**
 	 * getstockname method.
 	 *
 	 * @return     String
@@ -26,7 +29,7 @@ class Stocks {
 	public String getName() {
 		return stockname;
 	}
-	/**
+    /**
 	 * getpercentage method.
 	 *
 	 * @return     double
@@ -54,7 +57,7 @@ class StockAnalysis {
 		minObj = new MinPQ();
 		maxObj = new MaxPQ();
 	}
-	/**
+    /**
      *this method gets the minimum element.
      * from minheap.
      * @return     The minimum.
@@ -73,9 +76,11 @@ class StockAnalysis {
     /**
      * Returns a string representation of the object.
      *
+     * @param      stk   The stk
+     *
      * @return     String representation of the object.
      */
-    public String toString(Stocks stk) {
+    public String toString(final Stocks stk) {
     	String str = "";
     		str = stk.getName() + stk.getper();
     	return str;
@@ -85,7 +90,7 @@ class StockAnalysis {
  * Class for solution.
  */
 class Solution {
-	/**
+    /**
 	 * main method.
 	 *
 	 * @param      args  The arguments
@@ -117,7 +122,7 @@ class Solution {
 		    for (int i = 0; i < n; i++) {
 	            str1 = s.nextLine();
 	            tokens1 = str1.split(",");
-		    	switch(tokens1[0]) {
+		    	switch (tokens1[0]) {
 				case "get":
 					if (tokens1[1].equals("maxST")) {
 						sa.getMax().toString();
