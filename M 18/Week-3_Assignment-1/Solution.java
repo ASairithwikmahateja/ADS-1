@@ -102,9 +102,9 @@ class Solution {
 		    	switch(tokens1[0]) {
 				case "get":
 					if (tokens1[1].equals("maxST")) {
-						sa.getMax();
+						System.out.println(sa.getMax());
 					} else if (tokens1[1].equals("minST")) {
-						sa.getMin();
+						System.out.println(sa.getMin());
 					}
 				break;
 				case "intersection":

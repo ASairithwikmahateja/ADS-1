@@ -229,6 +229,10 @@ WABCO India 0.33
 1
 3
 Your Output: 
+null
+null
+null
+null
 Exception in thread "main" java.util.NoSuchElementException: No line found
 	at java.base/java.util.Scanner.nextLine(Unknown Source)
 	at Solution.main(Solution.java:100)
@@ -312,6 +316,10 @@ Chola Inv Fin 1.47
 4
 0
 Your Output: 
+null
+null
+null
+null
 Exception in thread "main" java.util.NoSuchElementException: No line found
 	at java.base/java.util.Scanner.nextLine(Unknown Source)
 	at Solution.main(Solution.java:100)
@@ -410,6 +418,14 @@ Schaeffler India
 TTK Prestige
 Tasty Bite Eat
 Your Output: 
+null
+null
+null
+null
+null
+null
+null
+null
 Exception in thread "main" java.util.NoSuchElementException: No line found
 	at java.base/java.util.Scanner.nextLine(Unknown Source)
 	at Solution.main(Solution.java:100)
