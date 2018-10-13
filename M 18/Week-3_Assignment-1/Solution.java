@@ -118,6 +118,7 @@ class Solution {
 		final int five = 5;
 		int count = five;
 		while (count > 0) {
+			System.out.println(sa.getMax());
 			sa.getMax().toString();
 			sa.maxObj.delMax();
 			count--;
