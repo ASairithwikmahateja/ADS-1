@@ -3,7 +3,18 @@ import java.util.Scanner;
  * Class for stocks.
  */
 class Stocks {
-    /**
+	/**
+	 * Min object.
+	 */
+	MinPQ minObj = new MinPQ();
+	/**
+	 * Max object.
+	 */
+	MaxPQ maxObj = new MaxPQ();
+	/**
+	 * Constructs the object.
+	 */
+	/**
      * Stockname.
      */
     private String stockname;
@@ -21,6 +32,14 @@ class Stocks {
 		this.stockname = stocknamee;
 		this.perchange = perchangee;
 	}
+	/**
+	 * Constructs the object.
+	 *
+	 * @param      stocknam  The stocknam
+	 */
+	Stocks(final String stocknam) {
+		this.stockname = stocknam;
+	}
     /**
 	 * getstockname method.
 	 *
@@ -36,26 +55,6 @@ class Stocks {
 	 */
 	public double getper() {
 		return perchange;
-	}
-}
-/**
- * Class for stock analysis.
- */
-class StockAnalysis {
-	/**
-	 * Min object.
-	 */
-	MinPQ minObj;
-	/**
-	 * Max object.
-	 */
-	MaxPQ maxObj;
-	/**
-	 * Constructs the object.
-	 */
-	StockAnalysis() {
-		minObj = new MinPQ();
-		maxObj = new MaxPQ();
 	}
     /**
      *this method gets the minimum element.
@@ -103,8 +102,6 @@ class Solution {
 	 */
 	public static void main(final String[] args) {
 		Scanner s = new Scanner(System.in);
-		StockAnalysis sa = new StockAnalysis();
-		Stocks stock;
 		int n = Integer.parseInt(s.nextLine());
 		final int six = 6;
 		String str = new String();
@@ -113,14 +110,16 @@ class Solution {
 		for (int i = 0; i < six * n; i++) {
 	        str = s.nextLine();
 	        tokens = str.split(",");
-	        stock = new Stocks(tokens[0], Double.parseDouble(tokens[1]));
+	        Stocks stock = new Stocks(tokens[0], Double.parseDouble(tokens[1]));
+	        stock.maxObj.insert(tokens[0]);
+			
 		}
+		Stocks stock = new Stocks(tokens[2]);
 		final int five = 5;
 		int count = five;
 		while (count > 0) {
-			System.out.println(sa.getMax());
-			sa.getMax().toString();
-			sa.maxObj.delMax();
+			stock.getMax().toString();
+			stock.maxObj.delMax();
 			count--;
 		}
 		System.out.println();
@@ -135,9 +134,9 @@ class Solution {
 		    	switch (tokens1[0]) {
 				case "get":
 					if (tokens1[1].equals("maxST")) {
-						sa.getMax().toString();
+						stock.getMax().toString();
 					} else if (tokens1[1].equals("minST")) {
-						sa.getMin().toString();
+						stock.getMin().toString();
 					}
 				break;
 				case "intersection":

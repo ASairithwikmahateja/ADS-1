@@ -1,7 +1,9 @@
 Starting audit...
-[ERROR] E:\ADS-1\M 18\Week-3_Assignment-1\Solution.java:11:1: File contains tab characters (this is the first instance). [FileTabCharacter]
-[ERROR] E:\ADS-1\M 18\Week-3_Assignment-1\Solution.java:48:15: Variable 'minObj' must be private and have accessor methods. [VisibilityModifier]
-[ERROR] E:\ADS-1\M 18\Week-3_Assignment-1\Solution.java:52:15: Variable 'maxObj' must be private and have accessor methods. [VisibilityModifier]
-[ERROR] E:\ADS-1\M 18\Week-3_Assignment-1\Solution.java:92:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] E:\ADS-1\M 18\Week-3_Assignment-1\Solution.java:6:1: File contains tab characters (this is the first instance). [FileTabCharacter]
+[ERROR] E:\ADS-1\M 18\Week-3_Assignment-1\Solution.java:9:15: Variable 'minObj' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] E:\ADS-1\M 18\Week-3_Assignment-1\Solution.java:13:15: Variable 'maxObj' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] E:\ADS-1\M 18\Week-3_Assignment-1\Solution.java:91:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] E:\ADS-1\M 18\Week-3_Assignment-1\Solution.java:113: Line is longer than 80 characters (found 84). [LineLength]
+[ERROR] E:\ADS-1\M 18\Week-3_Assignment-1\Solution.java:115: Line has trailing spaces. [RegexpSingleline]
 Audit done.
-Checkstyle ends with 4 errors.
+Checkstyle ends with 6 errors.
