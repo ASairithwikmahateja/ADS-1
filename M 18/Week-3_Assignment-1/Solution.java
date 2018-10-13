@@ -70,6 +70,16 @@ class StockAnalysis {
     public Object getMax() {
         return maxObj.max();
     }
+    /**
+     * Returns a string representation of the object.
+     *
+     * @return     String representation of the object.
+     */
+    public String toString() {
+    	String str = "maha";
+    	
+    	return str;
+    }
 }
 /**
  * Class for solution.
@@ -102,9 +112,9 @@ class Solution {
 		    	switch(tokens1[0]) {
 				case "get":
 					if (tokens1[1].equals("maxST")) {
-						System.out.println(sa.getMax());
+						sa.getMax().toString();
 					} else if (tokens1[1].equals("minST")) {
-						System.out.println(sa.getMin());
+						sa.getMin().toString();
 					}
 				break;
 				case "intersection":
