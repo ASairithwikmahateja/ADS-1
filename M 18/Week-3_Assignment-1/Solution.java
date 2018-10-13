@@ -45,11 +45,11 @@ class StockAnalysis {
 	/**
 	 * Min object.
 	 */
-	private MinPQ minObj;
+	MinPQ minObj;
 	/**
 	 * Max object.
 	 */
-	private MaxPQ maxObj;
+	MaxPQ maxObj;
 	/**
 	 * Constructs the object.
 	 */
@@ -119,6 +119,7 @@ class Solution {
 		int count = five;
 		while (count > 0) {
 			sa.getMax().toString();
+			sa.maxObj.delMax();
 			count--;
 		}
 		System.out.println();
