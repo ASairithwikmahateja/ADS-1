@@ -98,7 +98,7 @@ class Node {
     /**
      * Sets the count.
      *
-     * @param      c     { parameter_description }
+     * @param      c     The count
      */
     public void setCount(final int c) {
         this.count = c;
