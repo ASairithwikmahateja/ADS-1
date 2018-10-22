@@ -4,17 +4,6 @@ import java.util.Scanner;
  */
 class Stocks {
 	/**
-	 * Min object.
-	 */
-	MinPQ minObj = new MinPQ();
-	/**
-	 * Max object.
-	 */
-	MaxPQ maxObj = new MaxPQ();
-	/**
-	 * Constructs the object.
-	 */
-	/**
      * Stockname.
      */
     private String stockname;
@@ -56,22 +45,22 @@ class Stocks {
 	public double getper() {
 		return perchange;
 	}
-    /**
-     *this method gets the minimum element.
-     * from minheap.
-     * @return     The minimum.
-     */
-    public Object getMin() {
-        return minObj.min();
-    }
-    /**
-     *this method gets the maximum element.
-     * from maxheap.
-     * @return     The minimum.
-     */
-    public Object getMax() {
-        return maxObj.max();
-    }
+    // /**
+    //  *this method gets the minimum element.
+    //  * from minheap.
+    //  * @return     The minimum.
+    //  */
+    // public Object getMin() {
+    //     return minObj.min();
+    // }
+    // /**
+    //  *this method gets the maximum element.
+    //  * from maxheap.
+    //  * @return     The minimum.
+    //  */
+    // public Object getMax() {
+    //     return maxObj.max();
+    // }
     /**
      * Returns a string representation of the object.
      *
@@ -83,6 +72,12 @@ class Stocks {
     	String str = "";
     	    str = stk.getName() + " "  + stk.getper();
     	return str;
+    }
+    /**
+     * CompareTo method.
+     */
+    public int compareTo(Stocks stck) {
+    	return 0;
     }
 }
 /**
@@ -106,22 +101,28 @@ class Solution {
 		String str = new String();
 		final int capacity = 10;
 		String[] tokens = new String[capacity];
-		for (int i = 0; i < six * n; i++) {
-	        str = s.nextLine();
+		MaxPQ<Stocks> maxObj = new MaxPQ<Stocks>();
+		MinPQ<Stocks> minObj = new MinPQ<Stocks>();
+		for (int i = 0; i < six; i++) {
+			for (int k = 0; k < n; k++ ) {
+				 str = s.nextLine();
 	        tokens = str.split(",");
 	        Stocks stock = new Stocks(tokens[0],
 	        	Double.parseDouble(tokens[1]));
-	        stock.maxObj.insert(tokens[0]);
-		}
-		Stocks stock = new Stocks(tokens[2]);
-		final int five = 5;
-		int count = five;
-		while (count > 0) {
-			stock.getMax().toString();
-			stock.maxObj.delMax();
-			stock.getMin().toString();
-			stock.minObj.delMin();
-			count--;
+	        maxObj.insert(new Stocks(tokens[0]));
+	        minObj.insert(new Stocks(tokens[0]));
+	        //minpq(stock)
+	        //maxpq(stock)
+			}
+			final int five = 5;
+			int count = five;
+			while (count > 0) {
+				maxObj.max().toString();
+				maxObj.delMax();
+				minObj.min().toString();
+				minObj.delMin();
+				count--;
+			}
 		}
 		System.out.println();
 		int m = Integer.parseInt(s.nextLine());
@@ -135,9 +136,9 @@ class Solution {
 		    	switch (tokens1[0]) {
 				case "get":
 					if (tokens1[1].equals("maxST")) {
-						stock.getMax().toString();
+						maxObj.max().toString();
 					} else if (tokens1[1].equals("minST")) {
-						stock.getMin().toString();
+						minObj.min().toString();
 					}
 				break;
 				case "intersection":
