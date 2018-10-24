@@ -57,7 +57,7 @@ class MinHeap<Key extends Comparable<Key>> {
         return n == 0;
     }
     /**
-     * time complexity of size method is O(1).
+     * Time complexity of size method is O(1).
      */
     /**
      * Method to find array size.
@@ -68,7 +68,7 @@ class MinHeap<Key extends Comparable<Key>> {
         return n;
     }
     /**
-     * time complexity of less method is O(1).
+     * Time complexity of less method is O(1).
      */
     /**
      * insert an element into the array.
@@ -79,7 +79,7 @@ class MinHeap<Key extends Comparable<Key>> {
         pq[++n] = v;
     }
     /**
-     * time complexity of less method is O(1).
+     * Time complexity of less method is O(1).
      */
     /**
      * to compare two elements.
@@ -93,7 +93,7 @@ class MinHeap<Key extends Comparable<Key>> {
         return pq[i].compareTo(pq[j]) >= 0;
     }
     /**
-     * Time complexity of check method is log(N).
+     * Time complexity of check method is O(N).
      */
     /**
      * checks if parent element is less than child element.
