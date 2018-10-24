@@ -20,7 +20,7 @@ final class Solution {
             String data = sc.nextLine();
             String[] str = data.split(",");
             CricketTeam cric = new CricketTeam(str[0], str[1],
-                str[2], str[2 + 1]);
+                str[2], str[3]);
             team.addCricketTeam(cric);
         }
         team.selectionSort();
