@@ -86,7 +86,7 @@ final class Solution {
     }
     /**
      * main function.
-     *
+     * The time complexity is O(2N).
      * @param      args  The arguments
      */
      public static void main(final String[] args) {
