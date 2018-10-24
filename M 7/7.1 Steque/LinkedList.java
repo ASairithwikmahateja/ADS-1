@@ -1,10 +1,20 @@
 class LinkedList<E> {
+	/**
+	 * Class for node.
+	 */
 	class Node {
 		E data;
 		Node link;
 	}
 	Node head;
 	int size;
+	/**
+	 * insertAtStart method.
+	 * The time Complexity is O(1).Because only one if condition is
+	 * enough to insert at start position.
+	 *
+	 * @param      data  The data
+	 */
 	void insertAtStart(E data) {
 		Node node = new Node();
 		size++;
@@ -18,6 +28,13 @@ class LinkedList<E> {
 			head = node;
 		}
 	}
+	/**
+	 * insertAtEnd method.
+	 * The time Complexity is O(N).Because insert takes N
+	 * iterations to insert an element at the end position.
+	 *
+	 * @param      data  The data
+	 */
 	void insertAtEnd(E data) {
 		Node node = new Node();
 		size++;
@@ -35,6 +52,14 @@ class LinkedList<E> {
 			node.link = null;
 		}
 	}
+	/**
+	 * insertAtPos method.
+	 * The time Complexity is O(N).Because insert takes N
+	 * iterations to insert an element at a given position.
+	 *
+	 * @param      data  The data
+	 * @param      pos   The position
+	 */
 	void insertAtPos(E data, int pos) {
 		Node node = new Node();
 		if (pos == 0) {
@@ -55,6 +80,11 @@ class LinkedList<E> {
 		temp.link = node;
 		size++;
 	}
+	/**
+	 * deleteAtStart method.
+	 * The time Complexity is O(1).Because delete takes only one
+	 * iteration to delete an element from the start position.
+	 */
 	void deleteAtStart() {
 		if (size == 0) {
 			return;
@@ -66,6 +96,11 @@ class LinkedList<E> {
 		head = temp;
 		size--;
 	}
+	/**
+	 * deleteAtEnd method.
+	 * The time Complexity is O(N).Because delete takes N
+	 * iterations to delete an element at the end position.
+	 */
 	void deleteAtEnd() {
 		Node node = new Node();
 		Node temp = head;
@@ -75,6 +110,11 @@ class LinkedList<E> {
 		temp.link = null;
 		size--;
 	}
+	/**
+	 * deleteAtPos method.
+	 * The time Complexity is O(N).Because delete takes N
+	 * iterations to delete an element at a given position.
+	 */
 	void deleteAtPos(int pos) {
 		if (pos == 0) return;
 		if (pos == 1) {
@@ -90,6 +130,11 @@ class LinkedList<E> {
 		temp.link = temp.link.link;
 		size--;
 	}
+	/**
+	 * display method.
+	 * The time Complexity is O(N).Iterating through the N elements
+	 * in a linked list.
+	 */
 	void display() {
 		if (size == 0) {
 			System.out.println("Empty");
@@ -106,7 +151,11 @@ class LinkedList<E> {
 		}
 		System.out.println(temp.data);
 	}
-
+	/**
+	 * overloaded display method.
+	 * The time Complexity is O(N).Iterating through the N elements
+	 * in a linked list.
+	 */
 	void display1() {
 		if (size == 0) {
 			System.out.println("Steque is empty.");
