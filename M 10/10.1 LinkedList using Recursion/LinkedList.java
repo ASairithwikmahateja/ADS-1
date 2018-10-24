@@ -23,7 +23,9 @@ class LinkedList {
     }
     /**
      * insertAt method.
-     *
+     * The time Complexity is O(1), since conditional statement
+     * and function call have only a constant time k. 
+     *  
      * @param      pos        The position
      * @param      ele        The ele
      *
@@ -37,7 +39,9 @@ class LinkedList {
         head = insertAt(pos, head, newNode, 0);
     }
     /**
-     * Oveloading insertAt method.
+     * Overloading insertAt method.
+     * The time Complexity is O(1), since conditional statement
+     * has only a constant time k.
      *
      * @param      pos    The position
      * @param      first  The first
@@ -57,13 +61,17 @@ class LinkedList {
     }
     /**
      * reverse method.
+     * The time Complexity is O(1), since function call
+     * has constant time k.
      */
     public void reverse() {
         reverse(null, head);
     }
     /**
      * Overloading reverse method.
-     *
+     * The time Complexity is O(1), since conditional statement
+     * and function call have only a constant time k. 
+     *  
      * @param      previous  The previous
      * @param      current   The current
      */
@@ -77,6 +85,8 @@ class LinkedList {
     }
     /**
      * display method.
+     * The time Complexity is O(N), since iteration statement
+     * takes N times.
      */
     void display() {
         Node temp = head;
