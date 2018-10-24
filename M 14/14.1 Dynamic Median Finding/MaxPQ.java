@@ -1,5 +1,3 @@
-
-
 import java.util.Comparator;
 /**
  * Class for maximum pq.
@@ -220,6 +218,3 @@ public class MaxPQ<Key> {
         return isMaxHeap(left) && isMaxHeap(right);
     }
 }
-
-
-

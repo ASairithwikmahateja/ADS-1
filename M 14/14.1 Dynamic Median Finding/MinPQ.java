@@ -1,5 +1,3 @@
-
-
 import java.util.Comparator;
 /**
  * Class for minimum pq.
@@ -211,6 +209,3 @@ public class MinPQ<Key> {
         return isMinHeap(left) && isMinHeap(right);
     }
 }
-
-
-

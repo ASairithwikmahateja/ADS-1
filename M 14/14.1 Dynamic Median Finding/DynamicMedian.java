@@ -18,16 +18,22 @@ class DynamicMedian {
         maxObj = new MaxPQ<Double>();
     }
     /**
-     *the method will insert the element
-     *to minheap.
+     * the method will insert the element
+     * to minheap.
+     * The time complexity for this method is O(1), since
+     * we are using insert method.
+     * 
      * @param      item  The item
      */
     public void insertAtMin(final double item) {
         minObj.insert(item);
     }
     /**
-     *the method will insert the element
-     *to maxheap.
+     * the method will insert the element
+     * to maxheap.
+     * The time complexity for this method is O(1), since
+     * we are using insert method.
+     * 
      * @param      item  The item
      */
     public void insertAtMax(final double item) {
@@ -50,16 +56,22 @@ class DynamicMedian {
         return maxObj.max();
     }
     /**
-     *this method delete the maximum element.
+     * this method delete the maximum element.
      * from maxheap.
+     * The time complexity for this method is O(log N), since
+     * we are using delMax() method.
+     * 
      * @return     The minimum.
      */
     public double delMax() {
         return maxObj.delMax();
     }
     /**
-     *this method delete the minimum element.
+     * this method delete the minimum element.
      * from maxheap.
+     * The time complexity for this method is O(log N), since
+     * we are using delMin() method.
+     * 
      * @return     The minimum.
      */
     public double delMin() {
@@ -67,6 +79,7 @@ class DynamicMedian {
     }
     /**
      *gets the size of minheap.
+     *Time complexity for this method is O(1).
      *
      * @return     The minimum size.
      */
@@ -75,6 +88,7 @@ class DynamicMedian {
     }
     /**
      * Gets the maximum size of maxheap.
+     * Time complexity for this method is O(1).
      *
      * @return     The maximum size.
      */
@@ -82,4 +96,3 @@ class DynamicMedian {
         return maxObj.size();
     }
 }
-
