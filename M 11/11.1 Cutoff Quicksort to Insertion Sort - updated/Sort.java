@@ -7,10 +7,10 @@ class Sort {
      */
     Sort() {
     }
-// time complexity for this method is O(N^2).
     /**
      * sort the given array.
-     *
+     * The time complexity is O(N^2), since two iteration
+     * statements takes N^2.
      * @param      arr  The array
      * @param      lo   lowest index
      * @param      hi   highest index
@@ -24,9 +24,10 @@ class Sort {
         }
     }
     /**
-     * time complexity of this method is O(1).
-     * Swap the elements.
-     *
+     *Swap the elements.
+     * The time complexity is O(1), since each statement
+     * take constant time k.
+     * 
      * @param      arr  The arguments
      * @param      j  The arguments
      * @param      min  The arguments
@@ -36,12 +37,13 @@ class Sort {
         arr[j] = arr[min];
         arr[min] = temp;
     }
-// time complexity of this method is O(N).
     /**
      * Returns a string representation of the object.
-     *
+     * The time complexity is O(N), since iteration statement
+     * takes N times.
+     * 
      * @param      arr   The arr
-     *
+     * 
      * @return     String representation of the object.
      */
     public String toString(final Comparable[] arr) {
@@ -52,9 +54,10 @@ class Sort {
         str += arr[arr.length - 1] + "]";
         return str;
     }
-// time complexity is O(log N)
     /**
      * sort the sub arrays.
+     * The time complexity is O(log N), since sort method
+     * takes atleast logN time.
      *
      * @param      arr  The array
      * @param      low  lowest index
@@ -73,19 +76,22 @@ class Sort {
         sort(arr, low, k - 1, cutOff);
         sort(arr, k + 1, high, cutOff);
     }
-    //time complexity is O(1)
     /**
      * sort method.
-     *
+     * The time complexity is O(1), since sort method
+     * takes constant time k.
+     * 
      * @param      array   The array
      * @param      cutOff  The cut off
      */
     public void sort(final Comparable[] array, final int cutOff) {
         sort(array, 0, array.length - 1, cutOff);
     }
-   // time complexity is O(N)
     /**
      * Method to partition elements of the array.
+     * The time complexity is O(N^2), since two iteration 
+     * statement takes N^2. 
+     * 
      * @param      arr   The arr
      * @param      low   The low
      * @param      high  The high
@@ -115,9 +121,11 @@ class Sort {
         exch(arr, low, j);
         return j;
     }
-    // time complexity is O(1)
     /**
      * to compare two elements.
+     * The time complexity is O(1), since the function
+     * call takes constant time k. 
+     * 
      * @param      a     { parameter_description }
      * @param      b     { parameter_description }
      *

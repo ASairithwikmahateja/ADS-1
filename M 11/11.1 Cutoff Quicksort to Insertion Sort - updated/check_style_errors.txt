@@ -1,2 +1,12 @@
 Starting audit...
+[ERROR] E:\ADS-1\M 11\11.1 Cutoff Quicksort to Insertion Sort - updated\Sort.java:30: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\ADS-1\M 11\11.1 Cutoff Quicksort to Insertion Sort - updated\Sort.java:44: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\ADS-1\M 11\11.1 Cutoff Quicksort to Insertion Sort - updated\Sort.java:46: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\ADS-1\M 11\11.1 Cutoff Quicksort to Insertion Sort - updated\Sort.java:83: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\ADS-1\M 11\11.1 Cutoff Quicksort to Insertion Sort - updated\Sort.java:92: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\ADS-1\M 11\11.1 Cutoff Quicksort to Insertion Sort - updated\Sort.java:93: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\ADS-1\M 11\11.1 Cutoff Quicksort to Insertion Sort - updated\Sort.java:94: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\ADS-1\M 11\11.1 Cutoff Quicksort to Insertion Sort - updated\Sort.java:127: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\ADS-1\M 11\11.1 Cutoff Quicksort to Insertion Sort - updated\Sort.java:128: Line has trailing spaces. [RegexpSingleline]
 Audit done.
+Checkstyle ends with 9 errors.

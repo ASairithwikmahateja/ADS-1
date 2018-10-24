@@ -10,10 +10,11 @@ public final class Solution {
     }
     /**
      * main function.
-     *
+     * The time complexity is O(N), since while loop
+     * statement takes N times.
+     *    
      * @param      args  The arguments
      */
-    // time complexity for the main method is N(while loop)
     public static void main(final String[] args) {
         Scanner sc = new Scanner(System.in);
         Sort sort = new Sort();
