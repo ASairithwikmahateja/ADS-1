@@ -3,28 +3,22 @@ import java.util.Scanner;
  * Class for solution.
  */
 public class Solution {
-	/**
-	 * Constructs the object.
-	 */
-	Solution() {
-
-	}
-	/**
-	 * Main function.
-	 *
-	 * @param      args  The arguments
-	 */
-	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-		String[] str = sc.nextLine().split(" ");
-		int m = Integer.parseInt(str[0]);
-		int n = Integer.parseInt(str[1]);
-		SeparateChainingHashST<String, Integer> maG =
-		new SeparateChainingHashST<String, Integer>();
-		String[] magazine = sc.nextLine().split(" ");
-		for (int  i = 0; i < m; i++) {
-			maG.put(magazine[i], 0);
-		}
+    /**
+     * Main function.
+     *
+     * @param      args  The arguments
+     */
+    public static void main(final String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String[] str = sc.nextLine().split(" ");
+        int m = Integer.parseInt(str[0]);
+        int n = Integer.parseInt(str[1]);
+        SeparateChainingHashST<String, Integer> maG =
+        new SeparateChainingHashST<String, Integer>();
+        String[] magazine = sc.nextLine().split(" ");
+        for (int  i = 0; i < m; i++) {
+        	maG.put(magazine[i], 0);
+        }
 		SeparateChainingHashST<String, Integer> raN =
 		new SeparateChainingHashST<String, Integer>();
 		String[] ransom = sc.nextLine().split(" ");
