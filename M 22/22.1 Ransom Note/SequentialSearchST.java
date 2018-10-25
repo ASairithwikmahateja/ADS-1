@@ -5,14 +5,37 @@
  * @param      <Value>  The value
  */
 public final class SequentialSearchST<Key, Value> {
-    private int n;           
+    /**
+     * integer n
+     */
+    private int n;
+    /**
+     * node first
+     */
     private Node first;
-
+    /**
+     * Class for node.
+     */
     private class Node {
+        /**
+         * key
+         */
         private Key key;
+        /**
+         * value
+         */
         private Value val;
+        /**
+         * next
+         */
         private Node next;
-
+        /**
+         * Constructs the object.
+         *
+         * @param      key   The key
+         * @param      val   The value
+         * @param      next  The next
+         */
         public Node(Key key, Value val, Node next)  {
             this.key  = key;
             this.val  = val;
