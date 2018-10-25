@@ -59,7 +59,7 @@ public final class SequentialSearchST<Key, Value> {
 
     /**
      * Is this symbol table empty?
-     * @return {@code true} if this symbol table is empty and {@code false} otherwise
+     * @return boolean
      */
     public boolean isEmpty() {
         return size() == 0;
@@ -68,8 +68,7 @@ public final class SequentialSearchST<Key, Value> {
     /**
      * Does this symbol table contain the given key?
      * @param key the key
-     * @return {@code true} if this symbol table contains {@code key} and
-     *     {@code false} otherwise
+     * @return boolean
      */
     public boolean contains(Key key) {
         return get(key) != null;
@@ -78,8 +77,7 @@ public final class SequentialSearchST<Key, Value> {
     /**
      * Returns the value associated with the given key.
      * @param key the key
-     * @return the value associated with the given key if the key is in the symbol table
-     *     and {@code null} if the key is not in the symbol table
+     * @return Value
      */
     public Value get(Key key) {
         for (Node x = first; x != null; x = x.next) {
@@ -121,8 +119,15 @@ public final class SequentialSearchST<Key, Value> {
         first = delete(first, key);
     }
 
-    // delete key in linked list beginning at Node x
-    // warning: function call stack too large if table is large
+    /**
+     * delete key in linked list beginning at Node x
+     * warning: function call stack too large if table is large
+     * @param      x     The node
+     * @param      key   The key
+     *
+     * @return     Node
+     */
+
     private Node delete(Node x, Key key) {
         if (x == null) return null;
         if (key.equals(x.key)) {
