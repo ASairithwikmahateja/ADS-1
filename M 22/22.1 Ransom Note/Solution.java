@@ -21,16 +21,14 @@ public class Solution {
 		int n = Integer.parseInt(str[1]);
 		SeparateChainingHashST<String, Integer> maG =
 		new SeparateChainingHashST<String, Integer>();
-		String[] magazine = new String[m];
+		String[] magazine = sc.nextLine().split(" ");
 		for (int  i = 0; i < m; i++) {
-			magazine[i] = sc.nextLine();
 			maG.put(magazine[i], 0);
 		}
 		SeparateChainingHashST<String, Integer> raN =
 		new SeparateChainingHashST<String, Integer>();
-		String[] ransom = new String[n];
+		String[] ransom = sc.nextLine().split(" ");
 		for (int i = 0; i < n; i++) {
-			ransom[i] = sc.nextLine();
 			raN.put(ransom[i], 0);
 		}
 
