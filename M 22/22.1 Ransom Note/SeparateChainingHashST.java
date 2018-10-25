@@ -3,7 +3,7 @@
  * @param      <Key>    The key
  * @param      <Value>  The value
  */
-public class SeparateChainingHashST<Key, Value> {
+public final class SeparateChainingHashST<Key, Value> {
     /**
      * initial capacity of hash table.
      */

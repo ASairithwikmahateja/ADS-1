@@ -4,7 +4,7 @@
  * @param      <Key>    The key
  * @param      <Value>  The value
  */
-class SequentialSearchST<Key, Value> {
+public final class SequentialSearchST<Key, Value> {
     private int n;           
     private Node first;
 
