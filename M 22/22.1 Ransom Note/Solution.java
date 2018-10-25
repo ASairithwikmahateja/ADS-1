@@ -23,14 +23,14 @@ public final class Solution {
         new SeparateChainingHashST<String, Integer>();
         String[] magazine = sc.nextLine().split(" ");
         for (int  i = 0; i < m; i++) {
-        	maG.put(magazine[i], 0);
+            maG.put(magazine[i], 0);
         }
-		SeparateChainingHashST<String, Integer> raN =
-		new SeparateChainingHashST<String, Integer>();
-		String[] ransom = sc.nextLine().split(" ");
-		for (int i = 0; i < n; i++) {
-			raN.put(ransom[i], 0);
-		}
+        SeparateChainingHashST<String, Integer> raN =
+        new SeparateChainingHashST<String, Integer>();
+        String[] ransom = sc.nextLine().split(" ");
+        for (int i = 0; i < n; i++) {
+            raN.put(ransom[i], 0);
+        }
 
         for (int i = 0; i < m; i++) {
             int count = maG.get(magazine[i]);
