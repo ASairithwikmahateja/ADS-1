@@ -29,7 +29,7 @@ public class Solution {
 			     lpst.delete(str[1]);
 				break;
 				case "display":
-				 String temp = "{";
+				 String temp = "[";
                  for (String s : lpst.keys()) {
                      temp += (s + ":" + lpst.get(s) + ", ");
                  }
