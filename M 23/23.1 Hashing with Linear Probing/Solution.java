@@ -26,7 +26,7 @@ public class Solution {
 				 System.out.println(lpst.get(str[1]));
 				break;
 				case "delete":
-			     lpst.delete(str[1]);
+			     lpst.delete(str[0]);
 				break;
 				case "display":
 				 String temp = "[";
