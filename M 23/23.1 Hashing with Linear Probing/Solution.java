@@ -2,7 +2,7 @@ import java.util.Scanner;
 /**
  * Class for solution.
  */
-public class Solution {
+public final class Solution {
     /**
      * Constructs the object.
     */
@@ -23,7 +23,7 @@ public class Solution {
         LinearProbingHashST<String, Integer> lpst =
         new LinearProbingHashST<String, Integer>();
         for (int i = 0; i < n; i++) {
-        	String[] str = sc.nextLine().split(" ");
+            String[] str = sc.nextLine().split(" ");
         	switch (str[0]) {
         		case "put":
         		lpst.put(str[1], Integer.parseInt(str[2]));

@@ -1,5 +1,4 @@
 Starting audit...
-[ERROR] E:\ADS-1\M 23\23.1 Hashing with Linear Probing\Solution.java:5: Class Solution should be declared as final. [FinalClass]
-[ERROR] E:\ADS-1\M 23\23.1 Hashing with Linear Probing\Solution.java:26:9: File contains tab characters (this is the first instance). [FileTabCharacter]
+[ERROR] E:\ADS-1\M 23\23.1 Hashing with Linear Probing\Solution.java:27:9: File contains tab characters (this is the first instance). [FileTabCharacter]
 Audit done.
-Checkstyle ends with 2 errors.
+Checkstyle ends with 1 errors.
