@@ -29,12 +29,12 @@ public class Solution {
 			     lpst.delete(str[1]);
 				break;
 				case "display":
-				 String temp = "[";
+				 String temp = "{";
                  for (String s : lpst.keys()) {
                      temp += (s + ":" + lpst.get(s) + ", ");
                  }
                  temp = temp.replaceAll(", $", "");
-                 System.out.println(temp + "]");
+                 System.out.println(temp + "}");
                 break;
 				default:
 				break;
