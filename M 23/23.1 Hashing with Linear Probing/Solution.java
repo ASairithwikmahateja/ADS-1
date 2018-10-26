@@ -6,7 +6,7 @@ public class Solution {
     /**
      * Constructs the object.
     */
-    Solution() {
+    private Solution() {
 
     }
     /**
@@ -14,9 +14,9 @@ public class Solution {
      * Time complexity for this method is O(NlogN).
      * For some cases the time complexity may be O(M*N) where
      * M is for hash method and N is for while loop.
-	 *
-	 * @param      args  The arguments
-	 */
+     *
+     * @param      args  The arguments
+     */
     public static void main(final String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = Integer.parseInt(sc.nextLine());
