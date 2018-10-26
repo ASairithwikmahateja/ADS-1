@@ -24,20 +24,20 @@ public final class Solution {
         new LinearProbingHashST<String, Integer>();
         for (int i = 0; i < n; i++) {
             String[] str = sc.nextLine().split(" ");
-        	switch (str[0]) {
-        		case "put":
-        		lpst.put(str[1], Integer.parseInt(str[2]));
-        		break;
-        		case "get":
-        		System.out.println(lpst.get(str[1]));
-        		break;
-        		case "delete":
-        		lpst.delete(str[1]);
-        		break;
-        		case "display":
-        		String temp = "{";
-        		for (String s : lpst.keys()) {
-        			temp += (s + ":" + lpst.get(s) + ", ");
+            switch (str[0]) {
+                case "put":
+                lpst.put(str[1], Integer.parseInt(str[2]));
+                break;
+                case "get":
+                System.out.println(lpst.get(str[1]));
+                break;
+                case "delete":
+                lpst.delete(str[1]);
+                break;
+                case "display":
+                String temp = "{";
+                for (String s : lpst.keys()) {
+                	temp += (s + ":" + lpst.get(s) + ", ");
                 }
                 temp = temp.replaceAll(", $", "");
                 System.out.println(temp + "}");
