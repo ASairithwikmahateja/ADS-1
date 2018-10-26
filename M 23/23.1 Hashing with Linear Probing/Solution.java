@@ -37,7 +37,7 @@ public final class Solution {
                 case "display":
                 String temp = "{";
                 for (String s : lpst.keys()) {
-                	temp += (s + ":" + lpst.get(s) + ", ");
+                    temp += (s + ":" + lpst.get(s) + ", ");
                 }
                 temp = temp.replaceAll(", $", "");
                 System.out.println(temp + "}");
