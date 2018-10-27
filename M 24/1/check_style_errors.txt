@@ -1,14 +1,7 @@
 Starting audit...
-[ERROR] E:\ADS-1\M 24\1\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] E:\ADS-1\M 24\1\Solution.java:5: Class Solution should be declared as final. [FinalClass]
-[ERROR] E:\ADS-1\M 24\1\Solution.java:6:1: File contains tab characters (this is the first instance). [FileTabCharacter]
-[ERROR] E:\ADS-1\M 24\1\Solution.java:35: Line is longer than 80 characters (found 87). [LineLength]
-[ERROR] E:\ADS-1\M 24\1\Solution.java:36:41: '}' at column 6 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally). [RightCurly]
+[ERROR] E:\ADS-1\M 24\1\Solution.java:36:17: '}' at column 17 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally). [RightCurly]
 [ERROR] E:\ADS-1\M 24\1\Solution.java:37: 'else' construct must use '{}'s. [NeedBraces]
-[ERROR] E:\ADS-1\M 24\1\Solution.java:38: Line is longer than 80 characters (found 96). [LineLength]
-[ERROR] E:\ADS-1\M 24\1\Solution.java:42: Line is longer than 80 characters (found 88). [LineLength]
-[ERROR] E:\ADS-1\M 24\1\Solution.java:43:41: '}' at column 6 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally). [RightCurly]
+[ERROR] E:\ADS-1\M 24\1\Solution.java:43:17: '}' at column 17 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally). [RightCurly]
 [ERROR] E:\ADS-1\M 24\1\Solution.java:44: 'else' construct must use '{}'s. [NeedBraces]
-[ERROR] E:\ADS-1\M 24\1\Solution.java:45: Line is longer than 80 characters (found 96). [LineLength]
 Audit done.
-Checkstyle ends with 11 errors.
+Checkstyle ends with 4 errors.
