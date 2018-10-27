@@ -31,10 +31,18 @@ class Solution {
 			String[] chips = s.nextLine().split(" ");
 			switch (chips[2]) {
 				case "1":
-				System.out.println(scst.get(chips[1]));
+					if (scst.get(chips[1]) != null) {
+						System.out.println(scst.get(chips[1]));
+					}
+					else
+						System.out.println("Student doesn't exists...");
 				break;
 				case "2":
-				System.out.println(scst1.get(chips[1]));
+					if (scst1.get(chips[1]) != null) {
+						System.out.println(scst1.get(chips[1]));
+					}
+					else
+						System.out.println("Student doesn't exists...");
 				break;
 				default:
 				break;
