@@ -21,7 +21,8 @@ public final class Solution {
 		new BinarySearchTree<String, String, Double>();
 		for (int i = 0; i < n; i++) {
 			String[] tokens = s.nextLine().split(",");
-			bst.put(tokens[0], tokens[1], Double.parseDouble(tokens[2]));
+			bst.put(tokens[0],
+				tokens[1], Double.parseDouble(tokens[2]));
 		}
 		int m = Integer.parseInt(s.nextLine());
 		for (int j = 0; j < m; j++) {
@@ -29,8 +30,8 @@ public final class Solution {
 			switch (chips[0]) {
 				case "BE":
 					System.out.println(
-						bst.getKey(Double.parseDouble(chips[1]),
-						Double.parseDouble(chips[2])));
+						bst.getKey(Double.parseDouble
+							(chips[1]), Double.parseDouble(chips[2])));
 				break;
 				case "LE":
 					System.out.println(
