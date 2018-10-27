@@ -31,7 +31,7 @@ class Solution {
 			String[] chips = s.nextLine().split(" ");
 			switch (chips[0]) {
 				case "BE":
-					bst.get(chips[1]);
+					System.out.println(bst.get(chips[1]));
 				break;
 				case "LE":
 				break;
