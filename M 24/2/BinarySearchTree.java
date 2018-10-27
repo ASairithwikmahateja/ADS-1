@@ -2,9 +2,10 @@
  * Class for binary search tree.
  *
  * @param      <Key>    The key
+ * @param      <Value1>  The Key
  * @param      <Value>  The value
  */
-class BinarySearchTree<Key extends Comparable<Key>, Value> {
+class BinarySearchTree<Key extends Comparable<Key>, Value1 extends Comparable<Key>, Value> {
     /**
      * Constructs the object.
      */
@@ -18,27 +19,33 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
     /**
      * Class for node.
      */
-    public class Node {
+    private class Node {
         /**
          * key of book type.
          */
-        public Key key;
+        private Key key;
+        /**
+         * value of string type.
+         */
+        private Key value1;
         /**
          * value of integer type.
          */
-        public Value value;
+        private Value value;
         /**
          * left and right nodes.
          */
-        public Node left, right;
+        private Node left, right;
         /**
          * Constructs the object.
          *
-         * @param      k     { book }
+         * @param      k     { key }
+         * @param      v1   { key }
          * @param      v     { value }
          */
-        Node(final Key k, final Value v) {
+        Node(final Key k, final Key v1, final Value v) {
             this.key = k;
+            this.value1 = v1;
             this.value = v;
         }
     }
@@ -46,10 +53,11 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
      * put method.
      *
      * @param      key    The key
+     * @param      value1    The value
      * @param      value  The value
      */
-    public void put(final Key key, final Value value) {
-         root = put(root, key, value);
+    public void put(final Key key, final Key value1, final Value value) {
+         root = put(root, key, value1, value);
     }
     /**
      * put overloaded method.
@@ -61,16 +69,16 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
      * @return     { returns the node }
      */
     private Node put(final Node x,
-     final Key key, final Value value) {
+     final Key key, final Key value1, final Value value) {
         if (x == null) {
-            return new Node(key, value);
+            return new Node(key, value1, value);
         }
         int cmp = key.compareTo(x.key);
         if (cmp < 0) {
-            x.left = put(x.left, key, value);
+            x.left = put(x.left, key, value1, value);
         }
         if (cmp > 0) {
-            x.right = put(x.right, key, value);
+            x.right = put(x.right, key, value1, value);
         }
         if (cmp == 0) {
             x.value = value;
@@ -100,7 +108,7 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
             } return null;
     }
 
-    public Key getKey(final Key key, final Value value) {
-        return key;
+    public Key getKey(final Key value1, final Value value) {
+        return value1;
     }
 }

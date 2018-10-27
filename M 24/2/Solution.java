@@ -17,21 +17,18 @@ class Solution {
 	public static void main(final String[] args) {
 		Scanner s = new Scanner(System.in);
 		int n = Integer.parseInt(s.nextLine());
-		BinarySearchTree<String, String> bst =
-		new BinarySearchTree<String, String>();
-		BinarySearchTree<String, Double> bst1 =
-		new BinarySearchTree<String, Double>();
+		BinarySearchTree<String, String, Double> bst =
+		new BinarySearchTree<String, String, Double>();
 		for (int i = 0; i < n; i++) {
 			String[] tokens = s.nextLine().split(",");
-			bst.put(tokens[0], tokens[1]);
-			bst1.put(tokens[0], Double.parseDouble(tokens[2]));
+			bst.put(tokens[0], tokens[1], Double.parseDouble(tokens[2]));
 		}
 		int m = Integer.parseInt(s.nextLine());
 		for (int j = 0; j < m; j++) {
 			String[] chips = s.nextLine().split(" ");
 			switch (chips[0]) {
 				case "BE":
-					System.out.println(bst.get(bst1.getKey(chips[0], Double.parseDouble(chips[1]))));
+					System.out.println(bst.getKey(chips[0], Double.parseDouble(chips[1])));
 				break;
 				case "LE":
 				break;
