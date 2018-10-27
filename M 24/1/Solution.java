@@ -33,16 +33,16 @@ final class Solution {
                 case "1":
                 if (scst.get(chips[1]) != null) {
                     System.out.println(scst.get(chips[1]));
-                }
-                else
+                } else {
                     System.out.println("Student doesn't exists...");
+                }
                 break;
                 case "2":
                 if (scst1.get(chips[1]) != null) {
                     System.out.println(scst1.get(chips[1]));
-                }
-                else
+                } else {
                     System.out.println("Student doesn't exists...");
+                }
                 break;
                 default:
                 break;
