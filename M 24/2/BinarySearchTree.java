@@ -18,19 +18,19 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
     /**
      * Class for node.
      */
-    private class Node {
+    public class Node {
         /**
          * key of book type.
          */
-        private Key key;
+        public Key key;
         /**
          * value of integer type.
          */
-        private Value value;
+        public Value value;
         /**
          * left and right nodes.
          */
-        private Node left, right;
+        public Node left, right;
         /**
          * Constructs the object.
          *
@@ -98,5 +98,9 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
                     return x.value;
                 }
             } return null;
+    }
+
+    public Key getKey(final Key key, final Value value) {
+        return key;
     }
 }
