@@ -30,8 +30,8 @@ public final class Solution {
 			switch (chips[0]) {
 				case "BE":
 					System.out.println(
-						bst.getKey(Double.parseDouble
-							(chips[1]), Double.parseDouble(chips[2])));
+						bst.getKey(Double.parseDouble(chips[1]),
+							Double.parseDouble(chips[2])));
 				break;
 				case "LE":
 					System.out.println(

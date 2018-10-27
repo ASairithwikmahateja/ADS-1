@@ -1,8 +1,8 @@
 Starting audit...
 [ERROR] E:\ADS-1\M 24\2\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] E:\ADS-1\M 24\2\Solution.java:6:1: File contains tab characters (this is the first instance). [FileTabCharacter]
-[ERROR] E:\ADS-1\M 24\2\Solution.java:34: Line is longer than 80 characters (found 99). [LineLength]
-[ERROR] E:\ADS-1\M 24\2\Solution.java:34:57: '(' should be on the previous line. [MethodParamPad]
+[ERROR] E:\ADS-1\M 24\2\Solution.java:33: Line is longer than 80 characters (found 88). [LineLength]
+[ERROR] E:\ADS-1\M 24\2\Solution.java:34: Line is longer than 80 characters (found 87). [LineLength]
 [ERROR] E:\ADS-1\M 24\2\Solution.java:38: Line is longer than 80 characters (found 90). [LineLength]
 [ERROR] E:\ADS-1\M 24\2\Solution.java:42: Line is longer than 80 characters (found 90). [LineLength]
 Audit done.
