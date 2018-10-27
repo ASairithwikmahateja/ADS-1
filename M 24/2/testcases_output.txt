@@ -60,7 +60,7 @@ Exception in thread "main" java.lang.NullPointerException
 	at java.base/java.lang.String.compareTo(Unknown Source)
 	at java.base/java.lang.String.compareTo(Unknown Source)
 	at BinarySearchTree.getKey(BinarySearchTree.java:334)
-	at Solution.main(Solution.java:38)
+	at Solution.main(Solution.java:41)
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -131,7 +131,7 @@ Exception in thread "main" java.lang.NullPointerException
 	at java.base/java.lang.String.compareTo(Unknown Source)
 	at java.base/java.lang.String.compareTo(Unknown Source)
 	at BinarySearchTree.getKey(BinarySearchTree.java:334)
-	at Solution.main(Solution.java:35)
+	at Solution.main(Solution.java:37)
 ----------------------------------------
 ########## Testcase 3: Failed ##########
 Expected Output: 
@@ -854,5 +854,5 @@ Exception in thread "main" java.lang.NullPointerException
 	at java.base/java.lang.String.compareTo(Unknown Source)
 	at java.base/java.lang.String.compareTo(Unknown Source)
 	at BinarySearchTree.getKey(BinarySearchTree.java:334)
-	at Solution.main(Solution.java:38)
+	at Solution.main(Solution.java:41)
 ----------------------------------------
