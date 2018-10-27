@@ -56,8 +56,11 @@ Abegg
 Brian Caffrey
 Your Output: 
 
-null
-null
+Exception in thread "main" java.lang.NullPointerException
+	at java.base/java.lang.String.compareTo(Unknown Source)
+	at java.base/java.lang.String.compareTo(Unknown Source)
+	at BinarySearchTree.getKey(BinarySearchTree.java:334)
+	at Solution.main(Solution.java:38)
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -124,9 +127,11 @@ Neil Cadigan
 Megon
 Meili Cady
 Your Output: 
-null
-null
-null
+Exception in thread "main" java.lang.NullPointerException
+	at java.base/java.lang.String.compareTo(Unknown Source)
+	at java.base/java.lang.String.compareTo(Unknown Source)
+	at BinarySearchTree.getKey(BinarySearchTree.java:334)
+	at Solution.main(Solution.java:35)
 ----------------------------------------
 ########## Testcase 3: Failed ##########
 Expected Output: 
@@ -845,13 +850,9 @@ Marianna Palk
 Thelma Page
 Vicky Hales-Dutton
 Your Output: 
-null
-null
-null
-null
-null
-
-null
-
-null
+Exception in thread "main" java.lang.NullPointerException
+	at java.base/java.lang.String.compareTo(Unknown Source)
+	at java.base/java.lang.String.compareTo(Unknown Source)
+	at BinarySearchTree.getKey(BinarySearchTree.java:334)
+	at Solution.main(Solution.java:38)
 ----------------------------------------

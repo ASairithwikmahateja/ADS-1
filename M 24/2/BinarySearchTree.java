@@ -320,4 +320,19 @@ Value1 extends Comparable<Key>, Value extends Comparable<Value>> {
             str = str + (Key) get1(i); 
         } return str;
     }
+    /**
+     * Gets the key.
+     *
+     * @param      valuea  The valuea
+     * @param      valueb  The valueb
+     *
+     * @return     The key.
+     */
+    public String getKey(final Value valuea) {
+        String str = "";
+        Value i = valuea;
+        while (max().compareTo(get1(i)) > 0) {
+            str = str + (Key) get1(i); 
+        } return str;
+    }
 }

@@ -32,10 +32,10 @@ class Solution {
 						Double.parseDouble(chips[2])));
 				break;
 				case "LE":
-					System.out.println(bst.get1(Double.parseDouble(chips[1])));
+					System.out.println(bst.getKey(Double.parseDouble(chips[1])));
 				break;
 				case "GE":
-					System.out.println(bst.get1(Double.parseDouble(chips[1])));
+					System.out.println(bst.getKey(Double.parseDouble(chips[1])));
 				break;
 				default:
 				break;
