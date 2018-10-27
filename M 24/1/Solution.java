@@ -31,10 +31,10 @@ class Solution {
 			String[] chips = s.nextLine().split(" ");
 			switch (chips[2]) {
 				case "1":
-				scst.get(chips[1]);
+				System.out.println(scst.get(chips[1]));
 				break;
 				case "2":
-				scst1.get(chips[1]);
+				System.out.println(scst1.get(chips[1]));
 				break;
 				default:
 				break;
