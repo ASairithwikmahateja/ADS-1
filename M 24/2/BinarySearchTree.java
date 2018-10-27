@@ -5,7 +5,7 @@
  * @param      <Value1>  The Key
  * @param      <Value>  The value
  */
-class BinarySearchTree<Key extends Comparable<Key>, Value1 extends Comparable<Key>, Value> {
+class BinarySearchTree<Key extends Comparable<Key>, Value1 extends Comparable<Key>, Value extends Comparable<Value>> {
     /**
      * Constructs the object.
      */
@@ -108,7 +108,41 @@ class BinarySearchTree<Key extends Comparable<Key>, Value1 extends Comparable<Ke
             } return null;
     }
 
-    public Key getKey(final Key value1, final Value value) {
-        return value1;
+
+    /**
+     * get method.
+     *
+     * @param      key   The key
+     *
+     * @return     { returns integer value }
+     */
+    public Key get1(final Value value) {
+        Node x = root;
+        while (x != null) {
+            int cmp = value.compareTo(x.value);
+                if (cmp < 0) {
+                    x = x.left;
+                }
+                if (cmp > 0) {
+                    x = x.right;
+                }
+                if (cmp == 0) {
+                    return x.key;
+                }
+            } return null;
     }
+    // /**
+    //  * Gets the key.
+    //  *
+    //  * @param      valuea  The valuea
+    //  * @param      valueb  The valueb
+    //  *
+    //  * @return     The key.
+    //  */
+    // public String getKey(final Value valuea, final Value valueb) {
+    //     String str = "";
+    //     for (Value i = valuea; i.compareTo(valueb) > 0; i += (Value) 0.1) {
+    //         str = str + (Key) get1(i); 
+    //     } return str;
+    // }
 }

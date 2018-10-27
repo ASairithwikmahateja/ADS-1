@@ -3,6 +3,9 @@ Starting audit...
 [ERROR] E:\ADS-1\M 24\2\Solution.java:5: Class Solution should be declared as final. [FinalClass]
 [ERROR] E:\ADS-1\M 24\2\Solution.java:6:1: File contains tab characters (this is the first instance). [FileTabCharacter]
 [ERROR] E:\ADS-1\M 24\2\Solution.java:24: Line is longer than 80 characters (found 85). [LineLength]
-[ERROR] E:\ADS-1\M 24\2\Solution.java:31: Line is longer than 80 characters (found 111). [LineLength]
+[ERROR] E:\ADS-1\M 24\2\Solution.java:31: Line is longer than 80 characters (found 102). [LineLength]
+[ERROR] E:\ADS-1\M 24\2\Solution.java:32: Line is longer than 80 characters (found 82). [LineLength]
+[ERROR] E:\ADS-1\M 24\2\Solution.java:35: Line is longer than 80 characters (found 99). [LineLength]
+[ERROR] E:\ADS-1\M 24\2\Solution.java:38: Line is longer than 80 characters (found 99). [LineLength]
 Audit done.
-Checkstyle ends with 5 errors.
+Checkstyle ends with 8 errors.
