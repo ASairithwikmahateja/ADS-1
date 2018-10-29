@@ -2,7 +2,7 @@
  * Class for binary st.
  *
  */
-class BinaryST {
+class BinaryST<Key extends Comparable<Key>, value> {
     /**
      * root node.
      */
