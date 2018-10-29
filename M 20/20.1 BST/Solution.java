@@ -15,7 +15,7 @@ final class Solution {
      */
     public static void main(final String[] args) {
         Scanner sc = new Scanner(System.in);
-        BinaryST bst = new BinaryST();
+        BinaryST<Book, String> bst = new BinaryST<Book, String>();
         final int three = 3;
         final int four = 4;
         while (sc.hasNextLine()) {
