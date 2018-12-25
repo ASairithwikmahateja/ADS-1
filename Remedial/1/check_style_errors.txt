@@ -72,22 +72,18 @@ Starting audit...
 Audit done.
 Checkstyle ends with 24 errors.
 Starting audit...
-[ERROR] E:\ADS-1\Remedial\1\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] E:\ADS-1\Remedial\1\Solution.java:1: Using the '.*' form of import should be avoided - java.util.*. [AvoidStarImport]
 [ERROR] E:\ADS-1\Remedial\1\Solution.java:3: Missing a Javadoc comment. [JavadocType]
 [ERROR] E:\ADS-1\Remedial\1\Solution.java:3:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
 [ERROR] E:\ADS-1\Remedial\1\Solution.java:4:1: File contains tab characters (this is the first instance). [FileTabCharacter]
 [ERROR] E:\ADS-1\Remedial\1\Solution.java:4:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] E:\ADS-1\Remedial\1\Solution.java:4:33: Parameter args should be final. [FinalParameters]
-[ERROR] E:\ADS-1\Remedial\1\Solution.java:9:20: 'for' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS-1\Remedial\1\Solution.java:9:20: 'for' is not followed by whitespace. [WhitespaceAfter]
 [ERROR] E:\ADS-1\Remedial\1\Solution.java:17:55: '+' is not preceded with whitespace. [WhitespaceAround]
 [ERROR] E:\ADS-1\Remedial\1\Solution.java:17:56: '+' is not followed by whitespace. [WhitespaceAround]
 [ERROR] E:\ADS-1\Remedial\1\Solution.java:19: switch without "default" clause. [MissingSwitchDefault]
-[ERROR] E:\ADS-1\Remedial\1\Solution.java:21: Line has trailing spaces. [RegexpSingleline]
-[ERROR] E:\ADS-1\Remedial\1\Solution.java:21: Line is longer than 80 characters (found 88). [LineLength]
-[ERROR] E:\ADS-1\Remedial\1\Solution.java:23: Line is longer than 80 characters (found 88). [LineLength]
-[ERROR] E:\ADS-1\Remedial\1\Solution.java:25: Line has trailing spaces. [RegexpSingleline]
-[ERROR] E:\ADS-1\Remedial\1\Solution.java:26:33: '}' at column 5 should be alone on a line. [RightCurly]
-[ERROR] E:\ADS-1\Remedial\1\Solution.java:29: Line is longer than 80 characters (found 88). [LineLength]
+[ERROR] E:\ADS-1\Remedial\1\Solution.java:22: Line is longer than 80 characters (found 88). [LineLength]
+[ERROR] E:\ADS-1\Remedial\1\Solution.java:24: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\ADS-1\Remedial\1\Solution.java:25:33: '}' at column 5 should be alone on a line. [RightCurly]
+[ERROR] E:\ADS-1\Remedial\1\Solution.java:28: Line is longer than 80 characters (found 88). [LineLength]
 Audit done.
-Checkstyle ends with 17 errors.
+Checkstyle ends with 13 errors.

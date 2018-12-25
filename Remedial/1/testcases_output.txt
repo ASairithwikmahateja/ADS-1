@@ -11,29 +11,21 @@ John
 
 Your Output: 
 Clark,76.7
-null
-Student doesn't exists...
+Clark
 Rivest,78.4
-null
-Student doesn't exists...
+Rivest
 Abegg,65.4
-null
-Student doesn't exists...
+Abegg
 Fred,49.4
-null
-Student doesn't exists...
+Fred
 Wayne,98.3
-null
-Student doesn't exists...
+Wayne
 Alice,88.7
-null
-Student doesn't exists...
+Alice
 Bob,100.7
-null
-Student doesn't exists...
+Bob
 John,56.4
-null
-Student doesn't exists...
+John
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -54,31 +46,31 @@ Expected Output:
 
 Your Output: 
 Knuth,100.1
-Student doesn't exists...
+100.1
 Bob,100.0
-Student doesn't exists...
+100.0
 Clark,76.4
-Student doesn't exists...
+76.4
 Rivest,78.2
-Student doesn't exists...
+78.2
 Abegg,65.7
-Student doesn't exists...
+65.7
 Access,85.6
-Student doesn't exists...
+85.6
 Wayne,98.3
-Student doesn't exists...
+98.3
 Alice,88.3
-Student doesn't exists...
+88.3
 John,56.7
-Student doesn't exists...
+56.7
 Abegg,65.7
-Student doesn't exists...
+65.7
 Hank,11.2
-Student doesn't exists...
+11.2
 Keith,45.4
-Student doesn't exists...
+45.4
 Jeannette Caines,99.3
-Student doesn't exists...
+99.3
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -103,45 +95,37 @@ Student doesn't exists...
 
 Your Output: 
 Knuth,100.1
-null
-Student doesn't exists...
+Knuth
 Bob,100.0
-Student doesn't exists...
+100.0
 Clark,76.4
-null
-Student doesn't exists...
+Clark
 Rivest,78.2
-Student doesn't exists...
+78.2
 Abegg,65.7
-null
-Student doesn't exists...
+Abegg
 Access,85.6
-Student doesn't exists...
+85.6
 Wayne,98.3
-null
-Student doesn't exists...
+Wayne
 Alice,88.3
-Student doesn't exists...
+88.3
 John,56.7
-null
-Student doesn't exists...
+John
 Abegg,65.7
-Student doesn't exists...
+65.7
 Hank,11.2
-null
-Student doesn't exists...
+Hank
 Deborah Cadbury,13.3
-Student doesn't exists...
+13.3
 Jeannette Caines,99.3
+Jeannette Caines
 null
 Student doesn't exists...
 null
 Student doesn't exists...
 null
 Student doesn't exists...
-null
-Student doesn't exists...
-null
 null
 Student doesn't exists...
 ----------------------------------------
@@ -651,1263 +635,1004 @@ John Hale
 
 Your Output: 
 John Hale,7.213
-Student doesn't exists...
+7.213
 Michael Hale,74.62
-null
-Student doesn't exists...
+Michael Hale
 Steph Jagger,59.62
-Student doesn't exists...
+59.62
 Bradley Jackson,63.57
-null
-Student doesn't exists...
+Bradley Jackson
 Shannon Hale,57.53
-Student doesn't exists...
+57.53
 Madhur Jaffrey,11.58
-null
-Student doesn't exists...
+Madhur Jaffrey
 Ann-Marie MacDonald,86.65
-Student doesn't exists...
+86.65
 Ruth H. Jacobs,40.95
-null
-Student doesn't exists...
+Ruth H. Jacobs
 Mary MacCracken,90.69
-Student doesn't exists...
+90.69
 Michael Hale,74.62
-Student doesn't exists...
+74.62
 Taylor Hackford,62.17
-Student doesn't exists...
+62.17
 Richard Jacoby,48.67
-null
-Student doesn't exists...
+Richard Jacoby
 Kady MacDonald Denton,84.78
-null
-Student doesn't exists...
+Kady MacDonald Denton
 Kate Jacoby,45.39
-null
-Student doesn't exists...
+Kate Jacoby
 Charles B. Macdonald,66.20
-null
-Student doesn't exists...
+Charles B. Macdonald
 Laura Holmes Haddad,36.24
-null
-Student doesn't exists...
+Laura Holmes Haddad
 David H. Hackworth,36.40
-Student doesn't exists...
+36.40
 Debra W. Haffner,44.63
-null
-Student doesn't exists...
+Debra W. Haffner
 John Jacobs,98.13
-Student doesn't exists...
+98.13
 Richard Jackson,17.86
-Student doesn't exists...
+17.86
 Catherine Macaulay,21.24
-Student doesn't exists...
+21.24
 M MacCallum,76.56
-Student doesn't exists...
+76.56
 Ellie Macdonald,50.75
-Student doesn't exists...
+50.75
 Sophie Jaff,63.33
-Student doesn't exists...
+63.33
 Auston Habershaw,35.14
-Student doesn't exists...
+35.14
 Kathryn Jacobi,4.731
-null
-Student doesn't exists...
+Kathryn Jacobi
 Brad Haddin,20.62
-null
-Student doesn't exists...
+Brad Haddin
 Gerry Hadden,54.08
-null
-Student doesn't exists...
+Gerry Hadden
 Kathryn Ma,50.88
-null
-Student doesn't exists...
+Kathryn Ma
 Charlie Haas,30.97
-Student doesn't exists...
+30.97
 T. T. Macan,20.62
-null
-Student doesn't exists...
+T. T. Macan
 Simon Jacobson,59.67
-null
-Student doesn't exists...
+Simon Jacobson
 Carla Jablonski,88.48
-null
-Student doesn't exists...
+Carla Jablonski
 Stuart MacBride,24.51
-Student doesn't exists...
+24.51
 Keith Habersberger,99.46
-Student doesn't exists...
+99.46
 Meredith L. Jacobs,27.87
-Student doesn't exists...
+27.87
 Kady MacDonald Denton,84.78
-Student doesn't exists...
+84.78
 Sammy Hagar,99.38
-null
-Student doesn't exists...
+Sammy Hagar
 Tony Macaulay,87.26
-Student doesn't exists...
+87.26
 Ellen Jackson,53.48
-Student doesn't exists...
+53.48
 Taylor Hackford,62.17
-null
-Student doesn't exists...
+Taylor Hackford
 Michael Hale,74.62
-null
-Student doesn't exists...
+Michael Hale
 Taylor Hackford,62.17
-null
-Student doesn't exists...
+Taylor Hackford
 Laura Holmes Haddad,36.24
-Student doesn't exists...
+36.24
 Katharina Hagena,75.18
-null
-Student doesn't exists...
+Katharina Hagena
 Marilyn Hagerty,35.60
-Student doesn't exists...
+35.60
 Gracie MacGregor,53.79
-null
-Student doesn't exists...
+Gracie MacGregor
 David Halberstam,46.81
-null
-Student doesn't exists...
+David Halberstam
 Michael Haag,90.74
-null
-Student doesn't exists...
+Michael Haag
 Norm MacDonald,51.43
-Student doesn't exists...
+51.43
 Chuck Hagel,19.32
-null
-Student doesn't exists...
+Chuck Hagel
 Gene Hackman,87.16
-Student doesn't exists...
+87.16
 Sophie Jaff,63.33
-null
-Student doesn't exists...
+Sophie Jaff
 Taylor Hackford,62.17
-Student doesn't exists...
+62.17
 Jenna Bush Hager,6.627
-Student doesn't exists...
+6.627
 Katharina Hagena,75.18
-null
-Student doesn't exists...
+Katharina Hagena
 Keach Hagey,92.85
-Student doesn't exists...
+92.85
 Colin Jack,14.88
-null
-Student doesn't exists...
+Colin Jack
 Carla Jablonski,88.48
-Student doesn't exists...
+88.48
 Margaret Peterson Haddix,3.336
-null
-Student doesn't exists...
+Margaret Peterson Haddix
 Bethany Hagen,32.81
-null
-Student doesn't exists...
+Bethany Hagen
 Aparna Jain,62.03
-null
-Student doesn't exists...
+Aparna Jain
 Pamela Haag,10.31
-null
-Student doesn't exists...
+Pamela Haag
 H3CZ,97.83
-null
-Student doesn't exists...
+H3CZ
 Carrington MacDuffie,18.28
-Student doesn't exists...
+18.28
 Olivia Mace,46.77
-null
-Student doesn't exists...
+Olivia Mace
 Alan Jacobs,45.32
-Student doesn't exists...
+45.32
 Alex James,68.00
-Student doesn't exists...
+68.00
 Marilyn Hagerty,35.60
-Student doesn't exists...
+35.60
 Kristin Halbrook,79.87
-Student doesn't exists...
+79.87
 Debra W. Haffner,44.63
-null
-Student doesn't exists...
+Debra W. Haffner
 Ruth H. Jacobs,40.95
-Student doesn't exists...
+40.95
 Tracey Jackson,52.12
-null
-Student doesn't exists...
+Tracey Jackson
 Steve Hagen,41.03
-null
-Student doesn't exists...
+Steve Hagen
 Kinley MacGregor,79.49
-Student doesn't exists...
+79.49
 Yossi Klein Halevi,87.00
-null
-Student doesn't exists...
+Yossi Klein Halevi
 Nafisa Haji,35.46
-null
-Student doesn't exists...
+Nafisa Haji
 David Haig,62.74
-null
-Student doesn't exists...
+David Haig
 Mary Downing Hahn,89.14
-null
-Student doesn't exists...
+Mary Downing Hahn
 Roger Lea MacBride,85.27
-null
-Student doesn't exists...
+Roger Lea MacBride
 Steph Jagger,59.62
-null
-Student doesn't exists...
+Steph Jagger
 Ian Jackman,17.50
-null
-Student doesn't exists...
+Ian Jackman
 Peter Jackson,17.20
-Student doesn't exists...
+17.20
 Al Jaffee,35.74
-Student doesn't exists...
+35.74
 Guru Jagat,40.06
-null
-Student doesn't exists...
+Guru Jagat
 William Hague,4.893
-Student doesn't exists...
+4.893
 Melissa Jacobs,74.05
-Student doesn't exists...
+74.05
 Carrington MacDuffie,18.28
-null
-Student doesn't exists...
+Carrington MacDuffie
 Nasim Marie Jafry,35.81
-Student doesn't exists...
+35.81
 Charles B. Macdonald,66.20
-Student doesn't exists...
+66.20
 Jane MacDougall,72.20
-Student doesn't exists...
+72.20
 Tony Macaulay,87.26
-null
-Student doesn't exists...
+Tony Macaulay
 Jeff MacGregor,74.64
-Student doesn't exists...
+74.64
 Cynthia Jabar,28.69
-null
-Student doesn't exists...
+Cynthia Jabar
 Jerome A. Jackson,24.84
-Student doesn't exists...
+24.84
 Carla Hall,23.87
-null
-Student doesn't exists...
+Carla Hall
 Michael Hale,74.62
-null
-Student doesn't exists...
+Michael Hale
 James Macdonald,72.19
-Student doesn't exists...
+72.19
 A.N.D Haksar,54.45
-Student doesn't exists...
+54.45
 Ellen Jackson,53.48
-Student doesn't exists...
+53.48
 David Jacobs,69.29
-null
-Student doesn't exists...
+David Jacobs
 John Hornor Jacobs,91.51
-null
-Student doesn't exists...
+John Hornor Jacobs
 Ian Jackman,17.50
-Student doesn't exists...
+17.50
 Ellen Jackson,53.48
-Student doesn't exists...
+53.48
 Ann-Marie MacDonald,86.65
-null
-Student doesn't exists...
+Ann-Marie MacDonald
 Jane MacDougall,72.20
-null
-Student doesn't exists...
+Jane MacDougall
 Mark Haddon,71.85
-Student doesn't exists...
+71.85
 Amanda Hall,11.09
-null
-Student doesn't exists...
+Amanda Hall
 Shaili Jain M.D.,35.71
-null
-Student doesn't exists...
+Shaili Jain M.D.
 W. G. Hale,43.91
-Student doesn't exists...
+43.91
 Peter Jackson,17.20
-null
-Student doesn't exists...
+Peter Jackson
 Dana C. Jack,61.60
-null
-Student doesn't exists...
+Dana C. Jack
 Catherine Macaulay,21.24
-null
-Student doesn't exists...
+Catherine Macaulay
 John Hornor Jacobs,91.51
-null
-Student doesn't exists...
+John Hornor Jacobs
 Ann-Marie MacDonald,86.65
-Student doesn't exists...
+86.65
 Namita Jain,99.90
-null
-Student doesn't exists...
+Namita Jain
 David Halberstam,46.81
-null
-Student doesn't exists...
+David Halberstam
 Richard Jackson,17.86
-null
-Student doesn't exists...
+Richard Jackson
 David Halberstam,46.81
-Student doesn't exists...
+46.81
 Kate Jacoby,45.39
-Student doesn't exists...
+45.39
 Peter Jackson,17.20
-null
-Student doesn't exists...
+Peter Jackson
 Kellie Hailes,17.54
-null
-Student doesn't exists...
+Kellie Hailes
 Andrew Macdonald,66.37
-null
-Student doesn't exists...
+Andrew Macdonald
 Howard Jacobson,28.71
-null
-Student doesn't exists...
+Howard Jacobson
 Bernie Mac,10.42
-null
-Student doesn't exists...
+Bernie Mac
 Bernie Mac,10.42
-Student doesn't exists...
+10.42
 Amanda Hall,11.09
-Student doesn't exists...
+11.09
 Kate Jacoby,45.39
-Student doesn't exists...
+45.39
 Al Jaffee,35.74
-null
-Student doesn't exists...
+Al Jaffee
 Tessa Hadley,98.87
-null
-Student doesn't exists...
+Tessa Hadley
 A.N.D Haksar,54.45
-null
-Student doesn't exists...
+A.N.D Haksar
 Mary MacCracken,90.69
-null
-Student doesn't exists...
+Mary MacCracken
 Nasim Marie Jafry,35.81
-Student doesn't exists...
+35.81
 Steph Jagger,59.62
-null
-Student doesn't exists...
+Steph Jagger
 Richard Jackson,17.86
-Student doesn't exists...
+17.86
 Bradley Jackson,63.57
-null
-Student doesn't exists...
+Bradley Jackson
 Michele Jaffe,16.50
-null
-Student doesn't exists...
+Michele Jaffe
 Namita Jain,99.90
-null
-Student doesn't exists...
+Namita Jain
 Tracey Jackson,52.12
-null
-Student doesn't exists...
+Tracey Jackson
 Tony Macaulay,87.26
-Student doesn't exists...
+87.26
 Jennifer Haigh,48.84
-Student doesn't exists...
+48.84
 Olivia Mace,46.77
-null
-Student doesn't exists...
+Olivia Mace
 Shane Jacobson,93.97
-null
-Student doesn't exists...
+Shane Jacobson
 Don Hagen,42.81
-null
-Student doesn't exists...
+Don Hagen
 Ian Jackman,17.50
-Student doesn't exists...
+17.50
 Thomas Hackett,3.391
-Student doesn't exists...
+3.391
 Thomas Hackett,3.391
-null
-Student doesn't exists...
+Thomas Hackett
 Merle Haggard,55.34
-Student doesn't exists...
+55.34
 Mick Jackson,31.38
-null
-Student doesn't exists...
+Mick Jackson
 Sarah Jacoby,75.60
-null
-Student doesn't exists...
+Sarah Jacoby
 Madhur Jaffrey,11.58
-Student doesn't exists...
+11.58
 Vicky Hales-Dutton,39.78
-Student doesn't exists...
+39.78
 Philip MacDonald,14.77
-Student doesn't exists...
+14.77
 Derek Jacobi,8.360
-Student doesn't exists...
+8.360
 Nafisa Haji,35.46
-null
-Student doesn't exists...
+Nafisa Haji
 Katharina Hagena,75.18
-null
-Student doesn't exists...
+Katharina Hagena
 Nasim Marie Jafry,35.81
-null
-Student doesn't exists...
+Nasim Marie Jafry
 M MacCallum,76.56
-null
-Student doesn't exists...
+M MacCallum
 Jeannette Haien,69.73
-Student doesn't exists...
+69.73
 Betty MacDonald,26.33
-null
-Student doesn't exists...
+Betty MacDonald
 Jessie Haas,73.58
-null
-Student doesn't exists...
+Jessie Haas
 Andrew Macdonald,66.37
-null
-Student doesn't exists...
+Andrew Macdonald
 Lynn F. Jacobs,87.60
-Student doesn't exists...
+87.60
 Robert Jackson,89.61
-null
-Student doesn't exists...
+Robert Jackson
 Al Jaffee,35.74
-Student doesn't exists...
+35.74
 James Macdonald,72.19
-Student doesn't exists...
+72.19
 Richard Jacoby,48.67
-Student doesn't exists...
+48.67
 Daniel Hahn,69.74
-null
-Student doesn't exists...
+Daniel Hahn
 John W. Jacobs M.D.,1.603
-Student doesn't exists...
+1.603
 Kristin Halbrook,79.87
-null
-Student doesn't exists...
+Kristin Halbrook
 M MacCallum,76.56
-null
-Student doesn't exists...
+M MacCallum
 Roger O.M.D. Jahnke,59.63
-Student doesn't exists...
+59.63
 Tracy Hafen,15.56
-Student doesn't exists...
+15.56
 William Hague,4.893
-null
-Student doesn't exists...
+William Hague
 Taylor Hackford,62.17
-null
-Student doesn't exists...
+Taylor Hackford
 Debra W. Haffner,44.63
-null
-Student doesn't exists...
+Debra W. Haffner
 Al Jaffee,35.74
-Student doesn't exists...
+35.74
 Heather Hach,83.43
-null
-Student doesn't exists...
+Heather Hach
 John Hale,7.213
-Student doesn't exists...
+7.213
 Kathleen Hale,47.48
-null
-Student doesn't exists...
+Kathleen Hale
 Terrence J,93.95
-null
-Student doesn't exists...
+Terrence J
 Kate Jacoby,45.39
-Student doesn't exists...
+45.39
 Andrew Jacobson,23.21
-null
-Student doesn't exists...
+Andrew Jacobson
 Julie Mac,72.14
-null
-Student doesn't exists...
+Julie Mac
 Elaine Hall,3.876
-Student doesn't exists...
+3.876
 Kinley MacGregor,79.49
-null
-Student doesn't exists...
+Kinley MacGregor
 Kennell Jackson,17.55
-Student doesn't exists...
+17.55
 Namita Jain,99.90
-null
-Student doesn't exists...
+Namita Jain
 Keach Hagey,92.85
-Student doesn't exists...
+92.85
 Heather Hach,83.43
-null
-Student doesn't exists...
+Heather Hach
 Michael Hale,74.62
-null
-Student doesn't exists...
+Michael Hale
 Dana C. Jack,61.60
-null
-Student doesn't exists...
+Dana C. Jack
 Tracy Hafen,15.56
-Student doesn't exists...
+15.56
 Jerome A. Jackson,24.84
-Student doesn't exists...
+24.84
 John Hale,7.213
-Student doesn't exists...
+7.213
 Mary MacCracken,90.69
-null
-Student doesn't exists...
+Mary MacCracken
 Terrence J,93.95
-Student doesn't exists...
+93.95
 Namita Jain,99.90
-Student doesn't exists...
+99.90
 Kevin MacAllister,28.06
-null
-Student doesn't exists...
+Kevin MacAllister
 Simon Jacobson,59.67
-null
-Student doesn't exists...
+Simon Jacobson
 Bonnie MacBird,8.108
-Student doesn't exists...
+8.108
 Sheila Hale,5.739
-null
-Student doesn't exists...
+Sheila Hale
 Mary Curran Hackett,5.410
-Student doesn't exists...
+5.410
 Ruby Jackson,65.06
-Student doesn't exists...
+65.06
 Sara MacDonald,12.70
-null
-Student doesn't exists...
+Sara MacDonald
 Andrew Macdonald,66.37
-null
-Student doesn't exists...
+Andrew Macdonald
 Tony Macaulay,87.26
-Student doesn't exists...
+87.26
 John W. Jacobs M.D.,1.603
-null
-Student doesn't exists...
+John W. Jacobs M.D.
 Tracey Jackson,52.12
-Student doesn't exists...
+52.12
 Heather Hach,83.43
-null
-Student doesn't exists...
+Heather Hach
 Gene Hackman,87.16
-null
-Student doesn't exists...
+Gene Hackman
 James B. Maas,76.93
-Student doesn't exists...
+76.93
 Kennell Jackson,17.55
-null
-Student doesn't exists...
+Kennell Jackson
 Rawi Hage,40.10
-Student doesn't exists...
+40.10
 Mary MacCracken,90.69
-null
-Student doesn't exists...
+Mary MacCracken
 Carla Hall,23.87
-null
-Student doesn't exists...
+Carla Hall
 Nasim Marie Jafry,35.81
-Student doesn't exists...
+35.81
 Sophie Jaff,63.33
-null
-Student doesn't exists...
+Sophie Jaff
 Bonnie MacBird,26.54
-Student doesn't exists...
+26.54
 Joie Jager-Hyman,76.01
-null
-Student doesn't exists...
+Joie Jager-Hyman
 Emma Jackson,16.78
-null
-Student doesn't exists...
+Emma Jackson
 Peter Jackson,17.20
-Student doesn't exists...
+17.20
 Jeremy Jackson,5.843
-null
-Student doesn't exists...
+Jeremy Jackson
 Kathryn Ma,50.88
-Student doesn't exists...
+50.88
 W. G. Hale,43.91
-Student doesn't exists...
+43.91
 Olivia Mace,46.77
-null
-Student doesn't exists...
+Olivia Mace
 David H. Hackworth,36.40
-null
-Student doesn't exists...
+David H. Hackworth
 Stuart B. MacBride,96.83
-Student doesn't exists...
+96.83
 Rachel Jacobs,24.40
-null
-Student doesn't exists...
+Rachel Jacobs
 Ruth H. Jacobs,40.95
-null
-Student doesn't exists...
+Ruth H. Jacobs
 Dana Jacobi,43.33
-null
-Student doesn't exists...
+Dana Jacobi
 Bonnie MacBird,26.54
-null
-Student doesn't exists...
+Bonnie MacBird
 Al Jaffee,35.74
-null
-Student doesn't exists...
+Al Jaffee
 M MacCallum,76.56
-null
-Student doesn't exists...
+M MacCallum
 Lynn F. Jacobs,87.60
-null
-Student doesn't exists...
+Lynn F. Jacobs
 Carrington MacDuffie,18.28
-null
-Student doesn't exists...
+Carrington MacDuffie
 Annie Maccoby,82.63
-Student doesn't exists...
+82.63
 Cynthia Jabar,28.69
-null
-Student doesn't exists...
+Cynthia Jabar
 Albert Jack,24.34
-Student doesn't exists...
+24.34
 William Haefeli,48.77
-Student doesn't exists...
+48.77
 Michael Haag,90.74
-Student doesn't exists...
+90.74
 Marylin Hafner,30.75
-null
-Student doesn't exists...
+Marylin Hafner
 Annie Maccoby,82.63
-Student doesn't exists...
+82.63
 Myla Jackson,84.43
-Student doesn't exists...
+84.43
 Baby Halder,79.38
-Student doesn't exists...
+79.38
 James Macdonald,72.19
-Student doesn't exists...
+72.19
 Merle Haggard,55.34
-Student doesn't exists...
+55.34
 Ian Jackman,17.50
-Student doesn't exists...
+17.50
 Gene Hackman,87.16
-null
-Student doesn't exists...
+Gene Hackman
 Betty MacDonald,26.33
-Student doesn't exists...
+26.33
 Gracie MacGregor,53.79
-Student doesn't exists...
+53.79
 Marilyn Hagerty,35.60
-null
-Student doesn't exists...
+Marilyn Hagerty
 Araminta Hall,87.74
-null
-Student doesn't exists...
+Araminta Hall
 Mark Haddon,71.85
-Student doesn't exists...
+71.85
 David Jacobs,69.29
-null
-Student doesn't exists...
+David Jacobs
 Libby Jackson,79.58
-Student doesn't exists...
+79.58
 Kevin MacAllister,28.06
-Student doesn't exists...
+28.06
 Keach Hagey,92.85
-null
-Student doesn't exists...
+Keach Hagey
 Araminta Hall,87.74
-null
-Student doesn't exists...
+Araminta Hall
 Gene Hackman,87.16
-Student doesn't exists...
+87.16
 Allan Hall,48.28
-Student doesn't exists...
+48.28
 Marilyn Hagerty,35.60
-null
-Student doesn't exists...
+Marilyn Hagerty
 Bethany Hagen,32.81
-null
-Student doesn't exists...
+Bethany Hagen
 Sara MacDonald,12.70
-null
-Student doesn't exists...
+Sara MacDonald
 Pamela Haag,10.31
-Student doesn't exists...
+10.31
 Heather Hach,83.43
-Student doesn't exists...
+83.43
 Ian Jackman,17.50
-Student doesn't exists...
+17.50
 Richard Mabey,79.09
-Student doesn't exists...
+79.09
 Charlie Haas,30.97
-Student doesn't exists...
+30.97
 Kathleen Hale,47.48
-null
-Student doesn't exists...
+Kathleen Hale
 Laura Holmes Haddad,36.24
-null
-Student doesn't exists...
+Laura Holmes Haddad
 Jessie Haas,73.58
-null
-Student doesn't exists...
+Jessie Haas
 Philip MacDonald,14.77
-Student doesn't exists...
+14.77
 David Haig,62.74
-null
-Student doesn't exists...
+David Haig
 Peter Haining,11.63
-Student doesn't exists...
+11.63
 Bradley Jackson,63.57
-Student doesn't exists...
+63.57
 Robert Jackson,89.61
-Student doesn't exists...
+89.61
 John Jacobs,98.13
-null
-Student doesn't exists...
+John Jacobs
 Shvetha Jaishankar,15.89
-Student doesn't exists...
+15.89
 Gene Hackman,87.16
-null
-Student doesn't exists...
+Gene Hackman
 Laura Holmes Haddad,36.24
-Student doesn't exists...
+36.24
 Chuck Hagel,19.32
-Student doesn't exists...
+19.32
 Baby Halder,79.38
-Student doesn't exists...
+79.38
 Mary MacCracken,90.69
-null
-Student doesn't exists...
+Mary MacCracken
 Nate Jackson,60.37
-null
-Student doesn't exists...
+Nate Jackson
 Michael Hale,74.62
-Student doesn't exists...
+74.62
 William Hague,4.893
-null
-Student doesn't exists...
+William Hague
 M MacCallum,76.56
-Student doesn't exists...
+76.56
 Kinley MacGregor,79.49
-Student doesn't exists...
+79.49
 Ruby Jackson,65.06
-null
-Student doesn't exists...
+Ruby Jackson
 John Hale,7.213
-Student doesn't exists...
+7.213
 Saskia Maarleveld,30.10
-null
-Student doesn't exists...
+Saskia Maarleveld
 Michael Hale,74.62
-Student doesn't exists...
+74.62
 Kate Jacoby,45.39
-Student doesn't exists...
+45.39
 Tracey Jackson,52.12
-null
-Student doesn't exists...
+Tracey Jackson
 Don Hagen,42.81
-Student doesn't exists...
+42.81
 Kinley MacGregor,79.49
-Student doesn't exists...
+79.49
 Howard Jacobson,28.71
-Student doesn't exists...
+28.71
 Auston Habershaw,35.14
-null
-Student doesn't exists...
+Auston Habershaw
 Bruce Hale,81.72
-null
-Student doesn't exists...
+Bruce Hale
 Laura Holmes Haddad,36.24
-Student doesn't exists...
+36.24
 A.N.D Haksar,54.45
-Student doesn't exists...
+54.45
 Rawi Hage,40.10
-null
-Student doesn't exists...
+Rawi Hage
 Jo Jackson King,79.31
-null
-Student doesn't exists...
+Jo Jackson King
 Cynthia Jabar,28.69
-null
-Student doesn't exists...
+Cynthia Jabar
 Richard Jacoby,48.67
-null
-Student doesn't exists...
+Richard Jacoby
 Andrew Macdonald,66.37
-null
-Student doesn't exists...
+Andrew Macdonald
 Daniel Hahn,69.74
-null
-Student doesn't exists...
+Daniel Hahn
 Rachel Jacobs,24.40
-Student doesn't exists...
+24.40
 David Macfarlane,91.38
-Student doesn't exists...
+91.38
 Kate Jacoby,45.39
-Student doesn't exists...
+45.39
 Korey Jackson,7.065
-Student doesn't exists...
+7.065
 Melissa Jacobs,74.05
-Student doesn't exists...
+74.05
 James Graham Hale,54.82
-Student doesn't exists...
+54.82
 Vicky Hales-Dutton,39.78
-null
-Student doesn't exists...
+Vicky Hales-Dutton
 Yossi Klein Halevi,87.00
-null
-Student doesn't exists...
+Yossi Klein Halevi
 Laura Holmes Haddad,36.24
-Student doesn't exists...
+36.24
 Margaret Peterson Haddix,3.336
-null
-Student doesn't exists...
+Margaret Peterson Haddix
 Chuck Hagel,19.32
-Student doesn't exists...
+19.32
 Philip MacDonald,14.77
-Student doesn't exists...
+14.77
 Taylor Hackford,62.17
-Student doesn't exists...
+62.17
 Simcha Jacobovici,85.84
-Student doesn't exists...
+85.84
 Fiona MacDonald,75.00
-Student doesn't exists...
+75.00
 Kristin Halbrook,79.87
-Student doesn't exists...
+79.87
 Ellen Jackson,53.48
-null
-Student doesn't exists...
+Ellen Jackson
 Catherine Macaulay,21.24
-null
-Student doesn't exists...
+Catherine Macaulay
 Peter Haining,11.63
-null
-Student doesn't exists...
+Peter Haining
 Annie Maccoby,82.63
-null
-Student doesn't exists...
+Annie Maccoby
 David Macfarlane,91.38
-null
-Student doesn't exists...
+David Macfarlane
 Bernie Mac,10.42
-Student doesn't exists...
+10.42
 Margaret Read MacDonald,88.39
-Student doesn't exists...
-null
+88.39
 null
 Student doesn't exists...
 Meredith Jaeger,8.759
-Student doesn't exists...
+8.759
 Rawi Hage,40.10
-Student doesn't exists...
+40.10
 Al Jaffee,35.74
-Student doesn't exists...
+35.74
 Norm MacDonald,51.43
-Student doesn't exists...
+51.43
 William Haefeli,48.77
-Student doesn't exists...
+48.77
 Ann-Marie MacDonald,86.65
-null
-Student doesn't exists...
+Ann-Marie MacDonald
 Lynn F. Jacobs,87.60
-Student doesn't exists...
+87.60
 Ellie Macdonald,50.75
-null
-Student doesn't exists...
+Ellie Macdonald
 Michael Hague,24.02
-null
-Student doesn't exists...
+Michael Hague
 Madhur Jaffrey,11.58
-Student doesn't exists...
+11.58
 Ruby Jackson,65.06
-null
-Student doesn't exists...
+Ruby Jackson
 David Haig,62.74
-null
-Student doesn't exists...
+David Haig
 Cynthia Jabar,28.69
-Student doesn't exists...
+28.69
 Ellen Jackson,53.48
-Student doesn't exists...
+53.48
 Kevin MacAllister,90.91
-Student doesn't exists...
+90.91
 Jennifer Haigh,48.84
-null
-Student doesn't exists...
+Jennifer Haigh
 Steve Jackson,43.06
-Student doesn't exists...
+43.06
 Peter Maas,92.00
-Student doesn't exists...
+92.00
 Peter Maas,92.00
-Student doesn't exists...
+92.00
 Kevin MacAllister,28.06
-null
-Student doesn't exists...
+Kevin MacAllister
 Shannon Hale,57.53
-Student doesn't exists...
+57.53
 Katharina Hagena,75.18
-null
-Student doesn't exists...
+Katharina Hagena
 Kathryn Ma,50.88
-Student doesn't exists...
+50.88
 Shvetha Jaishankar,15.89
-Student doesn't exists...
+15.89
 Margaret Read MacDonald,88.39
-null
-Student doesn't exists...
+Margaret Read MacDonald
 Carla Jablonski,88.48
-null
-Student doesn't exists...
+Carla Jablonski
 Dana C. Jack,61.60
-Student doesn't exists...
+61.60
 Kate Jacoby,45.39
-null
-Student doesn't exists...
+Kate Jacoby
 Sylvie Haisman,60.27
-null
-Student doesn't exists...
+Sylvie Haisman
 Tony Macaulay,87.26
-null
-Student doesn't exists...
+Tony Macaulay
 Saskia Maarleveld,30.10
-null
-Student doesn't exists...
+Saskia Maarleveld
 Kellie Hailes,17.54
-null
-Student doesn't exists...
+Kellie Hailes
 Steve Hagen,41.03
-null
-Student doesn't exists...
+Steve Hagen
 H. JACKSON,91.92
-null
-Student doesn't exists...
+H. JACKSON
 John Hale,7.213
-null
-Student doesn't exists...
+John Hale
 Korey Jackson,7.065
-null
-Student doesn't exists...
+Korey Jackson
 Margaret Peterson Haddix,3.336
-Student doesn't exists...
+3.336
 Betty Halbreich,81.10
-null
-Student doesn't exists...
+Betty Halbreich
 Marilyn Hagerty,35.60
-Student doesn't exists...
+35.60
 Dana C. Jack,61.60
-null
-Student doesn't exists...
+Dana C. Jack
 null
 Student doesn't exists...
 Elaine Hall,3.876
-null
-Student doesn't exists...
+Elaine Hall
 Bonnie MacBird,8.108
-null
-Student doesn't exists...
+Bonnie MacBird
 A.N.D Haksar,54.45
-Student doesn't exists...
+54.45
 Dana C. Jack,61.60
-Student doesn't exists...
+61.60
 John Hornor Jacobs,91.51
-null
-Student doesn't exists...
+John Hornor Jacobs
 William Hague,4.893
-null
-Student doesn't exists...
+William Hague
 Marilyn Hagerty,35.60
-null
-Student doesn't exists...
+Marilyn Hagerty
 Steph Jagger,59.62
-Student doesn't exists...
+59.62
 Simon Jacobson,59.67
-null
-Student doesn't exists...
+Simon Jacobson
 Tessa Hadley,98.87
-Student doesn't exists...
+98.87
 David Haig,62.74
-null
-Student doesn't exists...
+David Haig
 Myla Jackson,84.43
-null
-Student doesn't exists...
+Myla Jackson
 David Halberstam,46.81
-Student doesn't exists...
+46.81
 Guru Jagat,40.06
-null
-Student doesn't exists...
+Guru Jagat
 June Hadley,4.058
-null
-Student doesn't exists...
+June Hadley
 Catherine Macaulay,21.24
-Student doesn't exists...
+21.24
 Jeannette Haien,69.73
-null
-Student doesn't exists...
+Jeannette Haien
 David Hagedorn,76.48
-Student doesn't exists...
+76.48
 Sophie Jaff,63.33
-Student doesn't exists...
+63.33
 Kathryn Miller Haines,40.43
-Student doesn't exists...
+40.43
 J.D. Jackson,85.69
-Student doesn't exists...
+85.69
 Emma Jackson,16.78
-null
-Student doesn't exists...
+Emma Jackson
 Namita Jain,99.90
-Student doesn't exists...
+99.90
 Al Jaffee,35.74
-Student doesn't exists...
+35.74
 Kathryn Miller Haines,40.43
-null
-Student doesn't exists...
+Kathryn Miller Haines
 Shane Jacobson,93.97
-Student doesn't exists...
+93.97
 Baby Halder,79.38
-Student doesn't exists...
+79.38
 Adele Jacques,34.21
-null
-Student doesn't exists...
+Adele Jacques
 Baby Halder,79.38
-null
-Student doesn't exists...
+Baby Halder
 Richard Jacoby,48.67
-Student doesn't exists...
+48.67
 Katharina Hagena,75.18
-Student doesn't exists...
+75.18
 Shaili Jain M.D.,35.71
-Student doesn't exists...
+35.71
 Colin Jack,14.88
-null
-Student doesn't exists...
+Colin Jack
 Kevin MacAllister,28.06
-Student doesn't exists...
+28.06
 Andrew Jacobson,23.21
-null
-Student doesn't exists...
+Andrew Jacobson
 Meredith Jaeger,8.759
-Student doesn't exists...
+8.759
 Carla Hall,23.87
-null
-Student doesn't exists...
+Carla Hall
 Magnus MacFarlane-Barrow,17.39
-Student doesn't exists...
+17.39
 Carla Jablonski,88.48
-null
-Student doesn't exists...
+Carla Jablonski
 Tracey Jackson,52.12
-Student doesn't exists...
+52.12
 Sylvie Haisman,60.27
-Student doesn't exists...
+60.27
 Shelley Jackson,36.88
-null
-Student doesn't exists...
+Shelley Jackson
 Richard Jacoby,48.67
-null
-Student doesn't exists...
+Richard Jacoby
 Norm MacDonald,51.43
-null
-Student doesn't exists...
+Norm MacDonald
 Gildart Jackson,6.364
-Student doesn't exists...
+6.364
 Anthony Haden-Guest,43.12
-Student doesn't exists...
+43.12
 David Halberstam,46.81
-null
-Student doesn't exists...
+David Halberstam
 Kellie Hailes,17.54
-Student doesn't exists...
+17.54
 Nathan Hale,10.30
-null
-Student doesn't exists...
+Nathan Hale
 Peter Haining,11.63
-Student doesn't exists...
+11.63
 James B. Maas,76.93
-null
-Student doesn't exists...
+James B. Maas
 Kady MacDonald Denton,84.78
-null
-Student doesn't exists...
+Kady MacDonald Denton
 Catherine Macaulay,21.24
-null
-Student doesn't exists...
+Catherine Macaulay
 Fiona MacDonald,75.00
-Student doesn't exists...
+75.00
 Kate Jacoby,45.39
-null
-Student doesn't exists...
+Kate Jacoby
 Roger O.M.D. Jahnke,59.63
-null
-Student doesn't exists...
+Roger O.M.D. Jahnke
 Sophie Jaff,63.33
-Student doesn't exists...
+63.33
 Simon Jacobson,59.67
-Student doesn't exists...
+59.67
 Colin Jack,14.88
-null
-Student doesn't exists...
+Colin Jack
 David Macfarlane,91.38
-null
-Student doesn't exists...
+David Macfarlane
 James Macdonald,72.19
-null
-Student doesn't exists...
+James Macdonald
 Richard Mabey,79.09
-null
-Student doesn't exists...
+Richard Mabey
 Libby Jackson,79.58
-Student doesn't exists...
+79.58
 Emma Jackson,16.78
-Student doesn't exists...
+16.78
 Madhur Jaffrey,11.58
-null
-Student doesn't exists...
+Madhur Jaffrey
 Bethany Hagen,32.81
-Student doesn't exists...
+32.81
 David Haig,62.74
-Student doesn't exists...
+62.74
 Magnus MacFarlane-Barrow,17.39
-Student doesn't exists...
+17.39
 Jane MacDougall,72.20
-null
-Student doesn't exists...
+Jane MacDougall
 Bonnie MacBird,8.108
-null
-Student doesn't exists...
+Bonnie MacBird
 Philip MacDonald,14.77
-Student doesn't exists...
+14.77
 Heather Hach,83.43
-null
-Student doesn't exists...
+Heather Hach
 Tessa Hadley,98.87
-Student doesn't exists...
+98.87
 Chuck Hagel,19.32
-null
-Student doesn't exists...
+Chuck Hagel
 Mary MacCracken,90.69
-Student doesn't exists...
+90.69
 Heather Hach,83.43
-Student doesn't exists...
+83.43
 John W. Jacobs,78.56
-null
-Student doesn't exists...
+John W. Jacobs
 David Hagedorn,76.48
-null
-Student doesn't exists...
+David Hagedorn
 Todd Haberkorn,90.91
-null
-Student doesn't exists...
+Todd Haberkorn
 null
 Student doesn't exists...
 Mary Curran Hackett,5.410
-null
-Student doesn't exists...
+Mary Curran Hackett
 Catherine Macaulay,21.24
-null
-Student doesn't exists...
+Catherine Macaulay
 Kinley MacGregor,79.49
-null
-Student doesn't exists...
+Kinley MacGregor
 Emily Hainsworth,89.85
-Student doesn't exists...
+89.85
 Daniel Hahn,69.74
-null
-Student doesn't exists...
+Daniel Hahn
 Laura Holmes Haddad,36.24
-null
-Student doesn't exists...
+Laura Holmes Haddad
 Joshilyn Jackson,73.72
-null
-Student doesn't exists...
+Joshilyn Jackson
 Kristin Halbrook,79.87
-Student doesn't exists...
+79.87
 Emily Hainsworth,89.85
-Student doesn't exists...
+89.85
 Kathryn Ma,50.88
-null
-Student doesn't exists...
+Kathryn Ma
 Ellie Macdonald,50.75
-Student doesn't exists...
+50.75
 John Hale,7.213
-null
-Student doesn't exists...
+John Hale
 Elaine Hall,3.876
-Student doesn't exists...
+3.876
 A.N.D Haksar,54.45
-null
-Student doesn't exists...
+A.N.D Haksar
 Michele Jaffe,16.50
-Student doesn't exists...
+16.50
 Nasim Marie Jafry,35.81
-Student doesn't exists...
+35.81
 Richard Jacoby,48.67
-Student doesn't exists...
+48.67
 Keach Hagey,92.85
-null
-Student doesn't exists...
+Keach Hagey
 Robert Jackson,89.61
-Student doesn't exists...
+89.61
 Tiffany D. Jackson,32.99
-Student doesn't exists...
+32.99
 Vicky Hales-Dutton,39.78
-Student doesn't exists...
+39.78
 Virginia Macgregor,80.31
-Student doesn't exists...
+80.31
 Kristin Hahn,14.24
-null
-Student doesn't exists...
+Kristin Hahn
 Ellen Jackson,53.48
-Student doesn't exists...
+53.48
 Richard Mabey,79.09
-null
-Student doesn't exists...
+Richard Mabey
 Derek Jacobi,8.360
-null
-Student doesn't exists...
+Derek Jacobi
 Jerome A. Jackson,24.84
-null
-Student doesn't exists...
+Jerome A. Jackson
 Mary Curran Hackett,5.410
-Student doesn't exists...
+5.410
 Tiffany D. Jackson,32.99
-Student doesn't exists...
+32.99
 George Jacobs,45.09
-Student doesn't exists...
+45.09
 David Halberstam,46.81
-null
-Student doesn't exists...
+David Halberstam
 Bradley Jackson,63.57
-null
-Student doesn't exists...
+Bradley Jackson
 Carla Hall,23.87
-Student doesn't exists...
+23.87
 Kathleen Hale,47.48
-Student doesn't exists...
+47.48
 Kathryn Ma,50.88
-Student doesn't exists...
+50.88
 William Hague,4.893
-null
-Student doesn't exists...
+William Hague
 Daniel Hahn,69.74
-null
-Student doesn't exists...
+Daniel Hahn
 T. T. Macan,20.62
-null
-Student doesn't exists...
+T. T. Macan
 Meredith L. Jacobs,27.87
-Student doesn't exists...
+27.87
 H. JACKSON,91.92
-Student doesn't exists...
+91.92
 Fiona MacDonald,75.00
-null
-Student doesn't exists...
+Fiona MacDonald
 Tony Macaulay,87.26
-Student doesn't exists...
+87.26
 H. JACKSON,91.92
-Student doesn't exists...
+91.92
 Elaine Hall,3.876
-null
-Student doesn't exists...
+Elaine Hall
 Robert Macfarlane,89.47
-null
-Student doesn't exists...
+Robert Macfarlane
 John Hale,7.213
-null
-Student doesn't exists...
+John Hale
 Gracie MacGregor,53.79
-Student doesn't exists...
+53.79
 ----------------------------------------
 
