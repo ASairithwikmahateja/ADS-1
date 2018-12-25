@@ -79,7 +79,7 @@ Starting audit...
 [ERROR] E:\ADS-1\Remedial\1\Solution.java:4:1: File contains tab characters (this is the first instance). [FileTabCharacter]
 [ERROR] E:\ADS-1\Remedial\1\Solution.java:4:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] E:\ADS-1\Remedial\1\Solution.java:4:33: Parameter args should be final. [FinalParameters]
-[ERROR] E:\ADS-1\Remedial\1\Solution.java:9:20: 'for' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS-1\Remedial\1\Solution.java:9:20: 'for' is not followed by whitespace. [WhitespaceAfter]
 [ERROR] E:\ADS-1\Remedial\1\Solution.java:17:55: '+' is not preceded with whitespace. [WhitespaceAround]
 [ERROR] E:\ADS-1\Remedial\1\Solution.java:17:56: '+' is not followed by whitespace. [WhitespaceAround]
 [ERROR] E:\ADS-1\Remedial\1\Solution.java:18: switch without "default" clause. [MissingSwitchDefault]

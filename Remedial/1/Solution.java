@@ -17,13 +17,13 @@ public class Solution {
 			String str = sc.get(token1[1])+"";
 			switch (token1[2]) {
 				case "1":
-				if (sc.get(str) != null) {
+				if (sc.get(str) == null) {
 					System.out.println("Student doesn't exists...");
 			    } else {
 					System.out.println(str.split(",")[0]);	
 				} break;
 				case "2":
-				if (sc.get(str) != null) {
+				if (sc.get(str) == null) {
 					System.out.println("Student doesn't exists...");
 				} else {
 					System.out.println(str.split(",")[1]);
