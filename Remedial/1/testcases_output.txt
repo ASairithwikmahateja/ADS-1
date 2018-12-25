@@ -1,4 +1,4 @@
-########## Testcase 0: Failed ##########
+########## Testcase 0: Passed ##########
 Expected Output: 
 Clark
 Rivest
@@ -10,7 +10,6 @@ Bob
 John
 
 Your Output: 
-8
 Clark
 Rivest
 Abegg
@@ -19,9 +18,6 @@ Wayne
 Alice
 Bob
 John
-Exception in thread "main" java.util.NoSuchElementException: No line found
-	at java.base/java.util.Scanner.nextLine(Unknown Source)
-	at Solution.main(Solution.java:16)
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -41,7 +37,6 @@ Expected Output:
 99.3
 
 Your Output: 
-13
 Knuth
 Bob
 Clark
@@ -55,9 +50,6 @@ Abegg
 Hank
 Keith
 Jeannette Caines
-Exception in thread "main" java.util.NoSuchElementException: No line found
-	at java.base/java.util.Scanner.nextLine(Unknown Source)
-	at Solution.main(Solution.java:16)
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -81,7 +73,6 @@ Student doesn't exists...
 Student doesn't exists...
 
 Your Output: 
-17
 Knuth
 Bob
 Clark
@@ -95,7 +86,6 @@ Abegg
 Hank
 Deborah Cadbury
 Jeannette Caines
-null
 null
 null
 null
@@ -606,7 +596,6 @@ John Hale
 53.79
 
 Your Output: 
-500
 John Hale
 Michael Hale
 Steph Jagger
@@ -1107,8 +1096,5 @@ Elaine Hall
 Robert Macfarlane
 John Hale
 Gracie MacGregor
-Exception in thread "main" java.util.NoSuchElementException: No line found
-	at java.base/java.util.Scanner.nextLine(Unknown Source)
-	at Solution.main(Solution.java:16)
 ----------------------------------------
 

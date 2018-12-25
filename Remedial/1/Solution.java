@@ -11,8 +11,8 @@ public class Solution {
 			sc.put(token[0], token[1]);
 		}
 		int m = Integer.parseInt(scan.nextLine());
-		System.out.println(m);
-		for (int j = 0; j <= m; j++) {
+		// System.out.println(m);
+		for (int j = 0; j < m; j++) {
 			String[] token1 = scan.nextLine().split(" ");
 			System.out.println(sc.get(token1[1]));	
 		}
