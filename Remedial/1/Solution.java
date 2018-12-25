@@ -16,10 +16,10 @@ public class Solution {
 			String[] token1 = scan.nextLine().split(" ");
 			switch (token1[2]) {
 				case "1":
-					System.out.println(sc.get(token1[1].split(",")[1]));	
+					System.out.println(sc.get(token1[1]));	
 				break;
 				case "2":
-					System.out.println(sc.get(token1[1].split(",")[2]));
+					System.out.println(sc.get(token1[1]));
 			}
 		}
 	}

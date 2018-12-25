@@ -10,8 +10,14 @@ Bob
 John
 
 Your Output: 
-Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 1
-	at Solution.main(Solution.java:19)
+Clark,76.7
+Rivest,78.4
+Abegg,65.4
+Fred,49.4
+Wayne,98.3
+Alice,88.7
+Bob,100.7
+John,56.4
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -31,8 +37,19 @@ Expected Output:
 99.3
 
 Your Output: 
-Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 2
-	at Solution.main(Solution.java:22)
+Knuth,100.1
+Bob,100.0
+Clark,76.4
+Rivest,78.2
+Abegg,65.7
+Access,85.6
+Wayne,98.3
+Alice,88.3
+John,56.7
+Abegg,65.7
+Hank,11.2
+Keith,45.4
+Jeannette Caines,99.3
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -56,8 +73,23 @@ Student doesn't exists...
 Student doesn't exists...
 
 Your Output: 
-Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 1
-	at Solution.main(Solution.java:19)
+Knuth,100.1
+Bob,100.0
+Clark,76.4
+Rivest,78.2
+Abegg,65.7
+Access,85.6
+Wayne,98.3
+Alice,88.3
+John,56.7
+Abegg,65.7
+Hank,11.2
+Deborah Cadbury,13.3
+Jeannette Caines,99.3
+null
+null
+null
+null
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -564,7 +596,505 @@ John Hale
 53.79
 
 Your Output: 
-Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 2
-	at Solution.main(Solution.java:22)
+John Hale,7.213
+Michael Hale,74.62
+Steph Jagger,59.62
+Bradley Jackson,63.57
+Shannon Hale,57.53
+Madhur Jaffrey,11.58
+Ann-Marie MacDonald,86.65
+Ruth H. Jacobs,40.95
+Mary MacCracken,90.69
+Michael Hale,74.62
+Taylor Hackford,62.17
+Richard Jacoby,48.67
+Kady MacDonald Denton,84.78
+Kate Jacoby,45.39
+Charles B. Macdonald,66.20
+Laura Holmes Haddad,36.24
+David H. Hackworth,36.40
+Debra W. Haffner,44.63
+John Jacobs,98.13
+Richard Jackson,17.86
+Catherine Macaulay,21.24
+M MacCallum,76.56
+Ellie Macdonald,50.75
+Sophie Jaff,63.33
+Auston Habershaw,35.14
+Kathryn Jacobi,4.731
+Brad Haddin,20.62
+Gerry Hadden,54.08
+Kathryn Ma,50.88
+Charlie Haas,30.97
+T. T. Macan,20.62
+Simon Jacobson,59.67
+Carla Jablonski,88.48
+Stuart MacBride,24.51
+Keith Habersberger,99.46
+Meredith L. Jacobs,27.87
+Kady MacDonald Denton,84.78
+Sammy Hagar,99.38
+Tony Macaulay,87.26
+Ellen Jackson,53.48
+Taylor Hackford,62.17
+Michael Hale,74.62
+Taylor Hackford,62.17
+Laura Holmes Haddad,36.24
+Katharina Hagena,75.18
+Marilyn Hagerty,35.60
+Gracie MacGregor,53.79
+David Halberstam,46.81
+Michael Haag,90.74
+Norm MacDonald,51.43
+Chuck Hagel,19.32
+Gene Hackman,87.16
+Sophie Jaff,63.33
+Taylor Hackford,62.17
+Jenna Bush Hager,6.627
+Katharina Hagena,75.18
+Keach Hagey,92.85
+Colin Jack,14.88
+Carla Jablonski,88.48
+Margaret Peterson Haddix,3.336
+Bethany Hagen,32.81
+Aparna Jain,62.03
+Pamela Haag,10.31
+H3CZ,97.83
+Carrington MacDuffie,18.28
+Olivia Mace,46.77
+Alan Jacobs,45.32
+Alex James,68.00
+Marilyn Hagerty,35.60
+Kristin Halbrook,79.87
+Debra W. Haffner,44.63
+Ruth H. Jacobs,40.95
+Tracey Jackson,52.12
+Steve Hagen,41.03
+Kinley MacGregor,79.49
+Yossi Klein Halevi,87.00
+Nafisa Haji,35.46
+David Haig,62.74
+Mary Downing Hahn,89.14
+Roger Lea MacBride,85.27
+Steph Jagger,59.62
+Ian Jackman,17.50
+Peter Jackson,17.20
+Al Jaffee,35.74
+Guru Jagat,40.06
+William Hague,4.893
+Melissa Jacobs,74.05
+Carrington MacDuffie,18.28
+Nasim Marie Jafry,35.81
+Charles B. Macdonald,66.20
+Jane MacDougall,72.20
+Tony Macaulay,87.26
+Jeff MacGregor,74.64
+Cynthia Jabar,28.69
+Jerome A. Jackson,24.84
+Carla Hall,23.87
+Michael Hale,74.62
+James Macdonald,72.19
+A.N.D Haksar,54.45
+Ellen Jackson,53.48
+David Jacobs,69.29
+John Hornor Jacobs,91.51
+Ian Jackman,17.50
+Ellen Jackson,53.48
+Ann-Marie MacDonald,86.65
+Jane MacDougall,72.20
+Mark Haddon,71.85
+Amanda Hall,11.09
+Shaili Jain M.D.,35.71
+W. G. Hale,43.91
+Peter Jackson,17.20
+Dana C. Jack,61.60
+Catherine Macaulay,21.24
+John Hornor Jacobs,91.51
+Ann-Marie MacDonald,86.65
+Namita Jain,99.90
+David Halberstam,46.81
+Richard Jackson,17.86
+David Halberstam,46.81
+Kate Jacoby,45.39
+Peter Jackson,17.20
+Kellie Hailes,17.54
+Andrew Macdonald,66.37
+Howard Jacobson,28.71
+Bernie Mac,10.42
+Bernie Mac,10.42
+Amanda Hall,11.09
+Kate Jacoby,45.39
+Al Jaffee,35.74
+Tessa Hadley,98.87
+A.N.D Haksar,54.45
+Mary MacCracken,90.69
+Nasim Marie Jafry,35.81
+Steph Jagger,59.62
+Richard Jackson,17.86
+Bradley Jackson,63.57
+Michele Jaffe,16.50
+Namita Jain,99.90
+Tracey Jackson,52.12
+Tony Macaulay,87.26
+Jennifer Haigh,48.84
+Olivia Mace,46.77
+Shane Jacobson,93.97
+Don Hagen,42.81
+Ian Jackman,17.50
+Thomas Hackett,3.391
+Thomas Hackett,3.391
+Merle Haggard,55.34
+Mick Jackson,31.38
+Sarah Jacoby,75.60
+Madhur Jaffrey,11.58
+Vicky Hales-Dutton,39.78
+Philip MacDonald,14.77
+Derek Jacobi,8.360
+Nafisa Haji,35.46
+Katharina Hagena,75.18
+Nasim Marie Jafry,35.81
+M MacCallum,76.56
+Jeannette Haien,69.73
+Betty MacDonald,26.33
+Jessie Haas,73.58
+Andrew Macdonald,66.37
+Lynn F. Jacobs,87.60
+Robert Jackson,89.61
+Al Jaffee,35.74
+James Macdonald,72.19
+Richard Jacoby,48.67
+Daniel Hahn,69.74
+John W. Jacobs M.D.,1.603
+Kristin Halbrook,79.87
+M MacCallum,76.56
+Roger O.M.D. Jahnke,59.63
+Tracy Hafen,15.56
+William Hague,4.893
+Taylor Hackford,62.17
+Debra W. Haffner,44.63
+Al Jaffee,35.74
+Heather Hach,83.43
+John Hale,7.213
+Kathleen Hale,47.48
+Terrence J,93.95
+Kate Jacoby,45.39
+Andrew Jacobson,23.21
+Julie Mac,72.14
+Elaine Hall,3.876
+Kinley MacGregor,79.49
+Kennell Jackson,17.55
+Namita Jain,99.90
+Keach Hagey,92.85
+Heather Hach,83.43
+Michael Hale,74.62
+Dana C. Jack,61.60
+Tracy Hafen,15.56
+Jerome A. Jackson,24.84
+John Hale,7.213
+Mary MacCracken,90.69
+Terrence J,93.95
+Namita Jain,99.90
+Kevin MacAllister,28.06
+Simon Jacobson,59.67
+Bonnie MacBird,8.108
+Sheila Hale,5.739
+Mary Curran Hackett,5.410
+Ruby Jackson,65.06
+Sara MacDonald,12.70
+Andrew Macdonald,66.37
+Tony Macaulay,87.26
+John W. Jacobs M.D.,1.603
+Tracey Jackson,52.12
+Heather Hach,83.43
+Gene Hackman,87.16
+James B. Maas,76.93
+Kennell Jackson,17.55
+Rawi Hage,40.10
+Mary MacCracken,90.69
+Carla Hall,23.87
+Nasim Marie Jafry,35.81
+Sophie Jaff,63.33
+Bonnie MacBird,26.54
+Joie Jager-Hyman,76.01
+Emma Jackson,16.78
+Peter Jackson,17.20
+Jeremy Jackson,5.843
+Kathryn Ma,50.88
+W. G. Hale,43.91
+Olivia Mace,46.77
+David H. Hackworth,36.40
+Stuart B. MacBride,96.83
+Rachel Jacobs,24.40
+Ruth H. Jacobs,40.95
+Dana Jacobi,43.33
+Bonnie MacBird,26.54
+Al Jaffee,35.74
+M MacCallum,76.56
+Lynn F. Jacobs,87.60
+Carrington MacDuffie,18.28
+Annie Maccoby,82.63
+Cynthia Jabar,28.69
+Albert Jack,24.34
+William Haefeli,48.77
+Michael Haag,90.74
+Marylin Hafner,30.75
+Annie Maccoby,82.63
+Myla Jackson,84.43
+Baby Halder,79.38
+James Macdonald,72.19
+Merle Haggard,55.34
+Ian Jackman,17.50
+Gene Hackman,87.16
+Betty MacDonald,26.33
+Gracie MacGregor,53.79
+Marilyn Hagerty,35.60
+Araminta Hall,87.74
+Mark Haddon,71.85
+David Jacobs,69.29
+Libby Jackson,79.58
+Kevin MacAllister,28.06
+Keach Hagey,92.85
+Araminta Hall,87.74
+Gene Hackman,87.16
+Allan Hall,48.28
+Marilyn Hagerty,35.60
+Bethany Hagen,32.81
+Sara MacDonald,12.70
+Pamela Haag,10.31
+Heather Hach,83.43
+Ian Jackman,17.50
+Richard Mabey,79.09
+Charlie Haas,30.97
+Kathleen Hale,47.48
+Laura Holmes Haddad,36.24
+Jessie Haas,73.58
+Philip MacDonald,14.77
+David Haig,62.74
+Peter Haining,11.63
+Bradley Jackson,63.57
+Robert Jackson,89.61
+John Jacobs,98.13
+Shvetha Jaishankar,15.89
+Gene Hackman,87.16
+Laura Holmes Haddad,36.24
+Chuck Hagel,19.32
+Baby Halder,79.38
+Mary MacCracken,90.69
+Nate Jackson,60.37
+Michael Hale,74.62
+William Hague,4.893
+M MacCallum,76.56
+Kinley MacGregor,79.49
+Ruby Jackson,65.06
+John Hale,7.213
+Saskia Maarleveld,30.10
+Michael Hale,74.62
+Kate Jacoby,45.39
+Tracey Jackson,52.12
+Don Hagen,42.81
+Kinley MacGregor,79.49
+Howard Jacobson,28.71
+Auston Habershaw,35.14
+Bruce Hale,81.72
+Laura Holmes Haddad,36.24
+A.N.D Haksar,54.45
+Rawi Hage,40.10
+Jo Jackson King,79.31
+Cynthia Jabar,28.69
+Richard Jacoby,48.67
+Andrew Macdonald,66.37
+Daniel Hahn,69.74
+Rachel Jacobs,24.40
+David Macfarlane,91.38
+Kate Jacoby,45.39
+Korey Jackson,7.065
+Melissa Jacobs,74.05
+James Graham Hale,54.82
+Vicky Hales-Dutton,39.78
+Yossi Klein Halevi,87.00
+Laura Holmes Haddad,36.24
+Margaret Peterson Haddix,3.336
+Chuck Hagel,19.32
+Philip MacDonald,14.77
+Taylor Hackford,62.17
+Simcha Jacobovici,85.84
+Fiona MacDonald,75.00
+Kristin Halbrook,79.87
+Ellen Jackson,53.48
+Catherine Macaulay,21.24
+Peter Haining,11.63
+Annie Maccoby,82.63
+David Macfarlane,91.38
+Bernie Mac,10.42
+Margaret Read MacDonald,88.39
+null
+Meredith Jaeger,8.759
+Rawi Hage,40.10
+Al Jaffee,35.74
+Norm MacDonald,51.43
+William Haefeli,48.77
+Ann-Marie MacDonald,86.65
+Lynn F. Jacobs,87.60
+Ellie Macdonald,50.75
+Michael Hague,24.02
+Madhur Jaffrey,11.58
+Ruby Jackson,65.06
+David Haig,62.74
+Cynthia Jabar,28.69
+Ellen Jackson,53.48
+Kevin MacAllister,90.91
+Jennifer Haigh,48.84
+Steve Jackson,43.06
+Peter Maas,92.00
+Peter Maas,92.00
+Kevin MacAllister,28.06
+Shannon Hale,57.53
+Katharina Hagena,75.18
+Kathryn Ma,50.88
+Shvetha Jaishankar,15.89
+Margaret Read MacDonald,88.39
+Carla Jablonski,88.48
+Dana C. Jack,61.60
+Kate Jacoby,45.39
+Sylvie Haisman,60.27
+Tony Macaulay,87.26
+Saskia Maarleveld,30.10
+Kellie Hailes,17.54
+Steve Hagen,41.03
+H. JACKSON,91.92
+John Hale,7.213
+Korey Jackson,7.065
+Margaret Peterson Haddix,3.336
+Betty Halbreich,81.10
+Marilyn Hagerty,35.60
+Dana C. Jack,61.60
+null
+Elaine Hall,3.876
+Bonnie MacBird,8.108
+A.N.D Haksar,54.45
+Dana C. Jack,61.60
+John Hornor Jacobs,91.51
+William Hague,4.893
+Marilyn Hagerty,35.60
+Steph Jagger,59.62
+Simon Jacobson,59.67
+Tessa Hadley,98.87
+David Haig,62.74
+Myla Jackson,84.43
+David Halberstam,46.81
+Guru Jagat,40.06
+June Hadley,4.058
+Catherine Macaulay,21.24
+Jeannette Haien,69.73
+David Hagedorn,76.48
+Sophie Jaff,63.33
+Kathryn Miller Haines,40.43
+J.D. Jackson,85.69
+Emma Jackson,16.78
+Namita Jain,99.90
+Al Jaffee,35.74
+Kathryn Miller Haines,40.43
+Shane Jacobson,93.97
+Baby Halder,79.38
+Adele Jacques,34.21
+Baby Halder,79.38
+Richard Jacoby,48.67
+Katharina Hagena,75.18
+Shaili Jain M.D.,35.71
+Colin Jack,14.88
+Kevin MacAllister,28.06
+Andrew Jacobson,23.21
+Meredith Jaeger,8.759
+Carla Hall,23.87
+Magnus MacFarlane-Barrow,17.39
+Carla Jablonski,88.48
+Tracey Jackson,52.12
+Sylvie Haisman,60.27
+Shelley Jackson,36.88
+Richard Jacoby,48.67
+Norm MacDonald,51.43
+Gildart Jackson,6.364
+Anthony Haden-Guest,43.12
+David Halberstam,46.81
+Kellie Hailes,17.54
+Nathan Hale,10.30
+Peter Haining,11.63
+James B. Maas,76.93
+Kady MacDonald Denton,84.78
+Catherine Macaulay,21.24
+Fiona MacDonald,75.00
+Kate Jacoby,45.39
+Roger O.M.D. Jahnke,59.63
+Sophie Jaff,63.33
+Simon Jacobson,59.67
+Colin Jack,14.88
+David Macfarlane,91.38
+James Macdonald,72.19
+Richard Mabey,79.09
+Libby Jackson,79.58
+Emma Jackson,16.78
+Madhur Jaffrey,11.58
+Bethany Hagen,32.81
+David Haig,62.74
+Magnus MacFarlane-Barrow,17.39
+Jane MacDougall,72.20
+Bonnie MacBird,8.108
+Philip MacDonald,14.77
+Heather Hach,83.43
+Tessa Hadley,98.87
+Chuck Hagel,19.32
+Mary MacCracken,90.69
+Heather Hach,83.43
+John W. Jacobs,78.56
+David Hagedorn,76.48
+Todd Haberkorn,90.91
+null
+Mary Curran Hackett,5.410
+Catherine Macaulay,21.24
+Kinley MacGregor,79.49
+Emily Hainsworth,89.85
+Daniel Hahn,69.74
+Laura Holmes Haddad,36.24
+Joshilyn Jackson,73.72
+Kristin Halbrook,79.87
+Emily Hainsworth,89.85
+Kathryn Ma,50.88
+Ellie Macdonald,50.75
+John Hale,7.213
+Elaine Hall,3.876
+A.N.D Haksar,54.45
+Michele Jaffe,16.50
+Nasim Marie Jafry,35.81
+Richard Jacoby,48.67
+Keach Hagey,92.85
+Robert Jackson,89.61
+Tiffany D. Jackson,32.99
+Vicky Hales-Dutton,39.78
+Virginia Macgregor,80.31
+Kristin Hahn,14.24
+Ellen Jackson,53.48
+Richard Mabey,79.09
+Derek Jacobi,8.360
+Jerome A. Jackson,24.84
+Mary Curran Hackett,5.410
+Tiffany D. Jackson,32.99
+George Jacobs,45.09
+David Halberstam,46.81
+Bradley Jackson,63.57
+Carla Hall,23.87
+Kathleen Hale,47.48
+Kathryn Ma,50.88
+William Hague,4.893
+Daniel Hahn,69.74
+T. T. Macan,20.62
+Meredith L. Jacobs,27.87
+H. JACKSON,91.92
+Fiona MacDonald,75.00
+Tony Macaulay,87.26
+H. JACKSON,91.92
+Elaine Hall,3.876
+Robert Macfarlane,89.47
+John Hale,7.213
+Gracie MacGregor,53.79
 ----------------------------------------
 
