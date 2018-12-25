@@ -1,4 +1,4 @@
-########## Testcase 0: Failed ##########
+########## Testcase 0: Passed ##########
 Expected Output: 
 Clark
 Rivest
@@ -10,25 +10,17 @@ Bob
 John
 
 Your Output: 
-Clark,76.7
 Clark
-Rivest,78.4
 Rivest
-Abegg,65.4
 Abegg
-Fred,49.4
 Fred
-Wayne,98.3
 Wayne
-Alice,88.7
 Alice
-Bob,100.7
 Bob
-John,56.4
 John
 ----------------------------------------
 
-########## Testcase 1: Failed ##########
+########## Testcase 1: Passed ##########
 Expected Output: 
 100.1
 100.0
@@ -45,35 +37,22 @@ Expected Output:
 99.3
 
 Your Output: 
-Knuth,100.1
 100.1
-Bob,100.0
 100.0
-Clark,76.4
 76.4
-Rivest,78.2
 78.2
-Abegg,65.7
 65.7
-Access,85.6
 85.6
-Wayne,98.3
 98.3
-Alice,88.3
 88.3
-John,56.7
 56.7
-Abegg,65.7
 65.7
-Hank,11.2
 11.2
-Keith,45.4
 45.4
-Jeannette Caines,99.3
 99.3
 ----------------------------------------
 
-########## Testcase 2: Failed ##########
+########## Testcase 2: Passed ##########
 Expected Output: 
 Knuth
 100.0
@@ -94,39 +73,22 @@ Student doesn't exists...
 Student doesn't exists...
 
 Your Output: 
-Knuth,100.1
 Knuth
-Bob,100.0
 100.0
-Clark,76.4
 Clark
-Rivest,78.2
 78.2
-Abegg,65.7
 Abegg
-Access,85.6
 85.6
-Wayne,98.3
 Wayne
-Alice,88.3
 88.3
-John,56.7
 John
-Abegg,65.7
 65.7
-Hank,11.2
 Hank
-Deborah Cadbury,13.3
 13.3
-Jeannette Caines,99.3
 Jeannette Caines
-null
 Student doesn't exists...
-null
 Student doesn't exists...
-null
 Student doesn't exists...
-null
 Student doesn't exists...
 ----------------------------------------
 
@@ -634,1005 +596,505 @@ John Hale
 53.79
 
 Your Output: 
-John Hale,7.213
 7.213
-Michael Hale,74.62
 Michael Hale
-Steph Jagger,59.62
 59.62
-Bradley Jackson,63.57
 Bradley Jackson
-Shannon Hale,57.53
 57.53
-Madhur Jaffrey,11.58
 Madhur Jaffrey
-Ann-Marie MacDonald,86.65
 86.65
-Ruth H. Jacobs,40.95
 Ruth H. Jacobs
-Mary MacCracken,90.69
 90.69
-Michael Hale,74.62
 74.62
-Taylor Hackford,62.17
 62.17
-Richard Jacoby,48.67
 Richard Jacoby
-Kady MacDonald Denton,84.78
 Kady MacDonald Denton
-Kate Jacoby,45.39
 Kate Jacoby
-Charles B. Macdonald,66.20
 Charles B. Macdonald
-Laura Holmes Haddad,36.24
 Laura Holmes Haddad
-David H. Hackworth,36.40
 36.40
-Debra W. Haffner,44.63
 Debra W. Haffner
-John Jacobs,98.13
 98.13
-Richard Jackson,17.86
 17.86
-Catherine Macaulay,21.24
 21.24
-M MacCallum,76.56
 76.56
-Ellie Macdonald,50.75
 50.75
-Sophie Jaff,63.33
 63.33
-Auston Habershaw,35.14
 35.14
-Kathryn Jacobi,4.731
 Kathryn Jacobi
-Brad Haddin,20.62
 Brad Haddin
-Gerry Hadden,54.08
 Gerry Hadden
-Kathryn Ma,50.88
 Kathryn Ma
-Charlie Haas,30.97
 30.97
-T. T. Macan,20.62
 T. T. Macan
-Simon Jacobson,59.67
 Simon Jacobson
-Carla Jablonski,88.48
 Carla Jablonski
-Stuart MacBride,24.51
 24.51
-Keith Habersberger,99.46
 99.46
-Meredith L. Jacobs,27.87
 27.87
-Kady MacDonald Denton,84.78
 84.78
-Sammy Hagar,99.38
 Sammy Hagar
-Tony Macaulay,87.26
 87.26
-Ellen Jackson,53.48
 53.48
-Taylor Hackford,62.17
 Taylor Hackford
-Michael Hale,74.62
 Michael Hale
-Taylor Hackford,62.17
 Taylor Hackford
-Laura Holmes Haddad,36.24
 36.24
-Katharina Hagena,75.18
 Katharina Hagena
-Marilyn Hagerty,35.60
 35.60
-Gracie MacGregor,53.79
 Gracie MacGregor
-David Halberstam,46.81
 David Halberstam
-Michael Haag,90.74
 Michael Haag
-Norm MacDonald,51.43
 51.43
-Chuck Hagel,19.32
 Chuck Hagel
-Gene Hackman,87.16
 87.16
-Sophie Jaff,63.33
 Sophie Jaff
-Taylor Hackford,62.17
 62.17
-Jenna Bush Hager,6.627
 6.627
-Katharina Hagena,75.18
 Katharina Hagena
-Keach Hagey,92.85
 92.85
-Colin Jack,14.88
 Colin Jack
-Carla Jablonski,88.48
 88.48
-Margaret Peterson Haddix,3.336
 Margaret Peterson Haddix
-Bethany Hagen,32.81
 Bethany Hagen
-Aparna Jain,62.03
 Aparna Jain
-Pamela Haag,10.31
 Pamela Haag
-H3CZ,97.83
 H3CZ
-Carrington MacDuffie,18.28
 18.28
-Olivia Mace,46.77
 Olivia Mace
-Alan Jacobs,45.32
 45.32
-Alex James,68.00
 68.00
-Marilyn Hagerty,35.60
 35.60
-Kristin Halbrook,79.87
 79.87
-Debra W. Haffner,44.63
 Debra W. Haffner
-Ruth H. Jacobs,40.95
 40.95
-Tracey Jackson,52.12
 Tracey Jackson
-Steve Hagen,41.03
 Steve Hagen
-Kinley MacGregor,79.49
 79.49
-Yossi Klein Halevi,87.00
 Yossi Klein Halevi
-Nafisa Haji,35.46
 Nafisa Haji
-David Haig,62.74
 David Haig
-Mary Downing Hahn,89.14
 Mary Downing Hahn
-Roger Lea MacBride,85.27
 Roger Lea MacBride
-Steph Jagger,59.62
 Steph Jagger
-Ian Jackman,17.50
 Ian Jackman
-Peter Jackson,17.20
 17.20
-Al Jaffee,35.74
 35.74
-Guru Jagat,40.06
 Guru Jagat
-William Hague,4.893
 4.893
-Melissa Jacobs,74.05
 74.05
-Carrington MacDuffie,18.28
 Carrington MacDuffie
-Nasim Marie Jafry,35.81
 35.81
-Charles B. Macdonald,66.20
 66.20
-Jane MacDougall,72.20
 72.20
-Tony Macaulay,87.26
 Tony Macaulay
-Jeff MacGregor,74.64
 74.64
-Cynthia Jabar,28.69
 Cynthia Jabar
-Jerome A. Jackson,24.84
 24.84
-Carla Hall,23.87
 Carla Hall
-Michael Hale,74.62
 Michael Hale
-James Macdonald,72.19
 72.19
-A.N.D Haksar,54.45
 54.45
-Ellen Jackson,53.48
 53.48
-David Jacobs,69.29
 David Jacobs
-John Hornor Jacobs,91.51
 John Hornor Jacobs
-Ian Jackman,17.50
 17.50
-Ellen Jackson,53.48
 53.48
-Ann-Marie MacDonald,86.65
 Ann-Marie MacDonald
-Jane MacDougall,72.20
 Jane MacDougall
-Mark Haddon,71.85
 71.85
-Amanda Hall,11.09
 Amanda Hall
-Shaili Jain M.D.,35.71
 Shaili Jain M.D.
-W. G. Hale,43.91
 43.91
-Peter Jackson,17.20
 Peter Jackson
-Dana C. Jack,61.60
 Dana C. Jack
-Catherine Macaulay,21.24
 Catherine Macaulay
-John Hornor Jacobs,91.51
 John Hornor Jacobs
-Ann-Marie MacDonald,86.65
 86.65
-Namita Jain,99.90
 Namita Jain
-David Halberstam,46.81
 David Halberstam
-Richard Jackson,17.86
 Richard Jackson
-David Halberstam,46.81
 46.81
-Kate Jacoby,45.39
 45.39
-Peter Jackson,17.20
 Peter Jackson
-Kellie Hailes,17.54
 Kellie Hailes
-Andrew Macdonald,66.37
 Andrew Macdonald
-Howard Jacobson,28.71
 Howard Jacobson
-Bernie Mac,10.42
 Bernie Mac
-Bernie Mac,10.42
 10.42
-Amanda Hall,11.09
 11.09
-Kate Jacoby,45.39
 45.39
-Al Jaffee,35.74
 Al Jaffee
-Tessa Hadley,98.87
 Tessa Hadley
-A.N.D Haksar,54.45
 A.N.D Haksar
-Mary MacCracken,90.69
 Mary MacCracken
-Nasim Marie Jafry,35.81
 35.81
-Steph Jagger,59.62
 Steph Jagger
-Richard Jackson,17.86
 17.86
-Bradley Jackson,63.57
 Bradley Jackson
-Michele Jaffe,16.50
 Michele Jaffe
-Namita Jain,99.90
 Namita Jain
-Tracey Jackson,52.12
 Tracey Jackson
-Tony Macaulay,87.26
 87.26
-Jennifer Haigh,48.84
 48.84
-Olivia Mace,46.77
 Olivia Mace
-Shane Jacobson,93.97
 Shane Jacobson
-Don Hagen,42.81
 Don Hagen
-Ian Jackman,17.50
 17.50
-Thomas Hackett,3.391
 3.391
-Thomas Hackett,3.391
 Thomas Hackett
-Merle Haggard,55.34
 55.34
-Mick Jackson,31.38
 Mick Jackson
-Sarah Jacoby,75.60
 Sarah Jacoby
-Madhur Jaffrey,11.58
 11.58
-Vicky Hales-Dutton,39.78
 39.78
-Philip MacDonald,14.77
 14.77
-Derek Jacobi,8.360
 8.360
-Nafisa Haji,35.46
 Nafisa Haji
-Katharina Hagena,75.18
 Katharina Hagena
-Nasim Marie Jafry,35.81
 Nasim Marie Jafry
-M MacCallum,76.56
 M MacCallum
-Jeannette Haien,69.73
 69.73
-Betty MacDonald,26.33
 Betty MacDonald
-Jessie Haas,73.58
 Jessie Haas
-Andrew Macdonald,66.37
 Andrew Macdonald
-Lynn F. Jacobs,87.60
 87.60
-Robert Jackson,89.61
 Robert Jackson
-Al Jaffee,35.74
 35.74
-James Macdonald,72.19
 72.19
-Richard Jacoby,48.67
 48.67
-Daniel Hahn,69.74
 Daniel Hahn
-John W. Jacobs M.D.,1.603
 1.603
-Kristin Halbrook,79.87
 Kristin Halbrook
-M MacCallum,76.56
 M MacCallum
-Roger O.M.D. Jahnke,59.63
 59.63
-Tracy Hafen,15.56
 15.56
-William Hague,4.893
 William Hague
-Taylor Hackford,62.17
 Taylor Hackford
-Debra W. Haffner,44.63
 Debra W. Haffner
-Al Jaffee,35.74
 35.74
-Heather Hach,83.43
 Heather Hach
-John Hale,7.213
 7.213
-Kathleen Hale,47.48
 Kathleen Hale
-Terrence J,93.95
 Terrence J
-Kate Jacoby,45.39
 45.39
-Andrew Jacobson,23.21
 Andrew Jacobson
-Julie Mac,72.14
 Julie Mac
-Elaine Hall,3.876
 3.876
-Kinley MacGregor,79.49
 Kinley MacGregor
-Kennell Jackson,17.55
 17.55
-Namita Jain,99.90
 Namita Jain
-Keach Hagey,92.85
 92.85
-Heather Hach,83.43
 Heather Hach
-Michael Hale,74.62
 Michael Hale
-Dana C. Jack,61.60
 Dana C. Jack
-Tracy Hafen,15.56
 15.56
-Jerome A. Jackson,24.84
 24.84
-John Hale,7.213
 7.213
-Mary MacCracken,90.69
 Mary MacCracken
-Terrence J,93.95
 93.95
-Namita Jain,99.90
 99.90
-Kevin MacAllister,28.06
 Kevin MacAllister
-Simon Jacobson,59.67
 Simon Jacobson
-Bonnie MacBird,8.108
 8.108
-Sheila Hale,5.739
 Sheila Hale
-Mary Curran Hackett,5.410
 5.410
-Ruby Jackson,65.06
 65.06
-Sara MacDonald,12.70
 Sara MacDonald
-Andrew Macdonald,66.37
 Andrew Macdonald
-Tony Macaulay,87.26
 87.26
-John W. Jacobs M.D.,1.603
 John W. Jacobs M.D.
-Tracey Jackson,52.12
 52.12
-Heather Hach,83.43
 Heather Hach
-Gene Hackman,87.16
 Gene Hackman
-James B. Maas,76.93
 76.93
-Kennell Jackson,17.55
 Kennell Jackson
-Rawi Hage,40.10
 40.10
-Mary MacCracken,90.69
 Mary MacCracken
-Carla Hall,23.87
 Carla Hall
-Nasim Marie Jafry,35.81
 35.81
-Sophie Jaff,63.33
 Sophie Jaff
-Bonnie MacBird,26.54
 26.54
-Joie Jager-Hyman,76.01
 Joie Jager-Hyman
-Emma Jackson,16.78
 Emma Jackson
-Peter Jackson,17.20
 17.20
-Jeremy Jackson,5.843
 Jeremy Jackson
-Kathryn Ma,50.88
 50.88
-W. G. Hale,43.91
 43.91
-Olivia Mace,46.77
 Olivia Mace
-David H. Hackworth,36.40
 David H. Hackworth
-Stuart B. MacBride,96.83
 96.83
-Rachel Jacobs,24.40
 Rachel Jacobs
-Ruth H. Jacobs,40.95
 Ruth H. Jacobs
-Dana Jacobi,43.33
 Dana Jacobi
-Bonnie MacBird,26.54
 Bonnie MacBird
-Al Jaffee,35.74
 Al Jaffee
-M MacCallum,76.56
 M MacCallum
-Lynn F. Jacobs,87.60
 Lynn F. Jacobs
-Carrington MacDuffie,18.28
 Carrington MacDuffie
-Annie Maccoby,82.63
 82.63
-Cynthia Jabar,28.69
 Cynthia Jabar
-Albert Jack,24.34
 24.34
-William Haefeli,48.77
 48.77
-Michael Haag,90.74
 90.74
-Marylin Hafner,30.75
 Marylin Hafner
-Annie Maccoby,82.63
 82.63
-Myla Jackson,84.43
 84.43
-Baby Halder,79.38
 79.38
-James Macdonald,72.19
 72.19
-Merle Haggard,55.34
 55.34
-Ian Jackman,17.50
 17.50
-Gene Hackman,87.16
 Gene Hackman
-Betty MacDonald,26.33
 26.33
-Gracie MacGregor,53.79
 53.79
-Marilyn Hagerty,35.60
 Marilyn Hagerty
-Araminta Hall,87.74
 Araminta Hall
-Mark Haddon,71.85
 71.85
-David Jacobs,69.29
 David Jacobs
-Libby Jackson,79.58
 79.58
-Kevin MacAllister,28.06
 28.06
-Keach Hagey,92.85
 Keach Hagey
-Araminta Hall,87.74
 Araminta Hall
-Gene Hackman,87.16
 87.16
-Allan Hall,48.28
 48.28
-Marilyn Hagerty,35.60
 Marilyn Hagerty
-Bethany Hagen,32.81
 Bethany Hagen
-Sara MacDonald,12.70
 Sara MacDonald
-Pamela Haag,10.31
 10.31
-Heather Hach,83.43
 83.43
-Ian Jackman,17.50
 17.50
-Richard Mabey,79.09
 79.09
-Charlie Haas,30.97
 30.97
-Kathleen Hale,47.48
 Kathleen Hale
-Laura Holmes Haddad,36.24
 Laura Holmes Haddad
-Jessie Haas,73.58
 Jessie Haas
-Philip MacDonald,14.77
 14.77
-David Haig,62.74
 David Haig
-Peter Haining,11.63
 11.63
-Bradley Jackson,63.57
 63.57
-Robert Jackson,89.61
 89.61
-John Jacobs,98.13
 John Jacobs
-Shvetha Jaishankar,15.89
 15.89
-Gene Hackman,87.16
 Gene Hackman
-Laura Holmes Haddad,36.24
 36.24
-Chuck Hagel,19.32
 19.32
-Baby Halder,79.38
 79.38
-Mary MacCracken,90.69
 Mary MacCracken
-Nate Jackson,60.37
 Nate Jackson
-Michael Hale,74.62
 74.62
-William Hague,4.893
 William Hague
-M MacCallum,76.56
 76.56
-Kinley MacGregor,79.49
 79.49
-Ruby Jackson,65.06
 Ruby Jackson
-John Hale,7.213
 7.213
-Saskia Maarleveld,30.10
 Saskia Maarleveld
-Michael Hale,74.62
 74.62
-Kate Jacoby,45.39
 45.39
-Tracey Jackson,52.12
 Tracey Jackson
-Don Hagen,42.81
 42.81
-Kinley MacGregor,79.49
 79.49
-Howard Jacobson,28.71
 28.71
-Auston Habershaw,35.14
 Auston Habershaw
-Bruce Hale,81.72
 Bruce Hale
-Laura Holmes Haddad,36.24
 36.24
-A.N.D Haksar,54.45
 54.45
-Rawi Hage,40.10
 Rawi Hage
-Jo Jackson King,79.31
 Jo Jackson King
-Cynthia Jabar,28.69
 Cynthia Jabar
-Richard Jacoby,48.67
 Richard Jacoby
-Andrew Macdonald,66.37
 Andrew Macdonald
-Daniel Hahn,69.74
 Daniel Hahn
-Rachel Jacobs,24.40
 24.40
-David Macfarlane,91.38
 91.38
-Kate Jacoby,45.39
 45.39
-Korey Jackson,7.065
 7.065
-Melissa Jacobs,74.05
 74.05
-James Graham Hale,54.82
 54.82
-Vicky Hales-Dutton,39.78
 Vicky Hales-Dutton
-Yossi Klein Halevi,87.00
 Yossi Klein Halevi
-Laura Holmes Haddad,36.24
 36.24
-Margaret Peterson Haddix,3.336
 Margaret Peterson Haddix
-Chuck Hagel,19.32
 19.32
-Philip MacDonald,14.77
 14.77
-Taylor Hackford,62.17
 62.17
-Simcha Jacobovici,85.84
 85.84
-Fiona MacDonald,75.00
 75.00
-Kristin Halbrook,79.87
 79.87
-Ellen Jackson,53.48
 Ellen Jackson
-Catherine Macaulay,21.24
 Catherine Macaulay
-Peter Haining,11.63
 Peter Haining
-Annie Maccoby,82.63
 Annie Maccoby
-David Macfarlane,91.38
 David Macfarlane
-Bernie Mac,10.42
 10.42
-Margaret Read MacDonald,88.39
 88.39
-null
 Student doesn't exists...
-Meredith Jaeger,8.759
 8.759
-Rawi Hage,40.10
 40.10
-Al Jaffee,35.74
 35.74
-Norm MacDonald,51.43
 51.43
-William Haefeli,48.77
 48.77
-Ann-Marie MacDonald,86.65
 Ann-Marie MacDonald
-Lynn F. Jacobs,87.60
 87.60
-Ellie Macdonald,50.75
 Ellie Macdonald
-Michael Hague,24.02
 Michael Hague
-Madhur Jaffrey,11.58
 11.58
-Ruby Jackson,65.06
 Ruby Jackson
-David Haig,62.74
 David Haig
-Cynthia Jabar,28.69
 28.69
-Ellen Jackson,53.48
 53.48
-Kevin MacAllister,90.91
 90.91
-Jennifer Haigh,48.84
 Jennifer Haigh
-Steve Jackson,43.06
 43.06
-Peter Maas,92.00
 92.00
-Peter Maas,92.00
 92.00
-Kevin MacAllister,28.06
 Kevin MacAllister
-Shannon Hale,57.53
 57.53
-Katharina Hagena,75.18
 Katharina Hagena
-Kathryn Ma,50.88
 50.88
-Shvetha Jaishankar,15.89
 15.89
-Margaret Read MacDonald,88.39
 Margaret Read MacDonald
-Carla Jablonski,88.48
 Carla Jablonski
-Dana C. Jack,61.60
 61.60
-Kate Jacoby,45.39
 Kate Jacoby
-Sylvie Haisman,60.27
 Sylvie Haisman
-Tony Macaulay,87.26
 Tony Macaulay
-Saskia Maarleveld,30.10
 Saskia Maarleveld
-Kellie Hailes,17.54
 Kellie Hailes
-Steve Hagen,41.03
 Steve Hagen
-H. JACKSON,91.92
 H. JACKSON
-John Hale,7.213
 John Hale
-Korey Jackson,7.065
 Korey Jackson
-Margaret Peterson Haddix,3.336
 3.336
-Betty Halbreich,81.10
 Betty Halbreich
-Marilyn Hagerty,35.60
 35.60
-Dana C. Jack,61.60
 Dana C. Jack
-null
 Student doesn't exists...
-Elaine Hall,3.876
 Elaine Hall
-Bonnie MacBird,8.108
 Bonnie MacBird
-A.N.D Haksar,54.45
 54.45
-Dana C. Jack,61.60
 61.60
-John Hornor Jacobs,91.51
 John Hornor Jacobs
-William Hague,4.893
 William Hague
-Marilyn Hagerty,35.60
 Marilyn Hagerty
-Steph Jagger,59.62
 59.62
-Simon Jacobson,59.67
 Simon Jacobson
-Tessa Hadley,98.87
 98.87
-David Haig,62.74
 David Haig
-Myla Jackson,84.43
 Myla Jackson
-David Halberstam,46.81
 46.81
-Guru Jagat,40.06
 Guru Jagat
-June Hadley,4.058
 June Hadley
-Catherine Macaulay,21.24
 21.24
-Jeannette Haien,69.73
 Jeannette Haien
-David Hagedorn,76.48
 76.48
-Sophie Jaff,63.33
 63.33
-Kathryn Miller Haines,40.43
 40.43
-J.D. Jackson,85.69
 85.69
-Emma Jackson,16.78
 Emma Jackson
-Namita Jain,99.90
 99.90
-Al Jaffee,35.74
 35.74
-Kathryn Miller Haines,40.43
 Kathryn Miller Haines
-Shane Jacobson,93.97
 93.97
-Baby Halder,79.38
 79.38
-Adele Jacques,34.21
 Adele Jacques
-Baby Halder,79.38
 Baby Halder
-Richard Jacoby,48.67
 48.67
-Katharina Hagena,75.18
 75.18
-Shaili Jain M.D.,35.71
 35.71
-Colin Jack,14.88
 Colin Jack
-Kevin MacAllister,28.06
 28.06
-Andrew Jacobson,23.21
 Andrew Jacobson
-Meredith Jaeger,8.759
 8.759
-Carla Hall,23.87
 Carla Hall
-Magnus MacFarlane-Barrow,17.39
 17.39
-Carla Jablonski,88.48
 Carla Jablonski
-Tracey Jackson,52.12
 52.12
-Sylvie Haisman,60.27
 60.27
-Shelley Jackson,36.88
 Shelley Jackson
-Richard Jacoby,48.67
 Richard Jacoby
-Norm MacDonald,51.43
 Norm MacDonald
-Gildart Jackson,6.364
 6.364
-Anthony Haden-Guest,43.12
 43.12
-David Halberstam,46.81
 David Halberstam
-Kellie Hailes,17.54
 17.54
-Nathan Hale,10.30
 Nathan Hale
-Peter Haining,11.63
 11.63
-James B. Maas,76.93
 James B. Maas
-Kady MacDonald Denton,84.78
 Kady MacDonald Denton
-Catherine Macaulay,21.24
 Catherine Macaulay
-Fiona MacDonald,75.00
 75.00
-Kate Jacoby,45.39
 Kate Jacoby
-Roger O.M.D. Jahnke,59.63
 Roger O.M.D. Jahnke
-Sophie Jaff,63.33
 63.33
-Simon Jacobson,59.67
 59.67
-Colin Jack,14.88
 Colin Jack
-David Macfarlane,91.38
 David Macfarlane
-James Macdonald,72.19
 James Macdonald
-Richard Mabey,79.09
 Richard Mabey
-Libby Jackson,79.58
 79.58
-Emma Jackson,16.78
 16.78
-Madhur Jaffrey,11.58
 Madhur Jaffrey
-Bethany Hagen,32.81
 32.81
-David Haig,62.74
 62.74
-Magnus MacFarlane-Barrow,17.39
 17.39
-Jane MacDougall,72.20
 Jane MacDougall
-Bonnie MacBird,8.108
 Bonnie MacBird
-Philip MacDonald,14.77
 14.77
-Heather Hach,83.43
 Heather Hach
-Tessa Hadley,98.87
 98.87
-Chuck Hagel,19.32
 Chuck Hagel
-Mary MacCracken,90.69
 90.69
-Heather Hach,83.43
 83.43
-John W. Jacobs,78.56
 John W. Jacobs
-David Hagedorn,76.48
 David Hagedorn
-Todd Haberkorn,90.91
 Todd Haberkorn
-null
 Student doesn't exists...
-Mary Curran Hackett,5.410
 Mary Curran Hackett
-Catherine Macaulay,21.24
 Catherine Macaulay
-Kinley MacGregor,79.49
 Kinley MacGregor
-Emily Hainsworth,89.85
 89.85
-Daniel Hahn,69.74
 Daniel Hahn
-Laura Holmes Haddad,36.24
 Laura Holmes Haddad
-Joshilyn Jackson,73.72
 Joshilyn Jackson
-Kristin Halbrook,79.87
 79.87
-Emily Hainsworth,89.85
 89.85
-Kathryn Ma,50.88
 Kathryn Ma
-Ellie Macdonald,50.75
 50.75
-John Hale,7.213
 John Hale
-Elaine Hall,3.876
 3.876
-A.N.D Haksar,54.45
 A.N.D Haksar
-Michele Jaffe,16.50
 16.50
-Nasim Marie Jafry,35.81
 35.81
-Richard Jacoby,48.67
 48.67
-Keach Hagey,92.85
 Keach Hagey
-Robert Jackson,89.61
 89.61
-Tiffany D. Jackson,32.99
 32.99
-Vicky Hales-Dutton,39.78
 39.78
-Virginia Macgregor,80.31
 80.31
-Kristin Hahn,14.24
 Kristin Hahn
-Ellen Jackson,53.48
 53.48
-Richard Mabey,79.09
 Richard Mabey
-Derek Jacobi,8.360
 Derek Jacobi
-Jerome A. Jackson,24.84
 Jerome A. Jackson
-Mary Curran Hackett,5.410
 5.410
-Tiffany D. Jackson,32.99
 32.99
-George Jacobs,45.09
 45.09
-David Halberstam,46.81
 David Halberstam
-Bradley Jackson,63.57
 Bradley Jackson
-Carla Hall,23.87
 23.87
-Kathleen Hale,47.48
 47.48
-Kathryn Ma,50.88
 50.88
-William Hague,4.893
 William Hague
-Daniel Hahn,69.74
 Daniel Hahn
-T. T. Macan,20.62
 T. T. Macan
-Meredith L. Jacobs,27.87
 27.87
-H. JACKSON,91.92
 91.92
-Fiona MacDonald,75.00
 Fiona MacDonald
-Tony Macaulay,87.26
 87.26
-H. JACKSON,91.92
 91.92
-Elaine Hall,3.876
 Elaine Hall
-Robert Macfarlane,89.47
 Robert Macfarlane
-John Hale,7.213
 John Hale
-Gracie MacGregor,53.79
 53.79
 ----------------------------------------
 
