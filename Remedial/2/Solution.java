@@ -15,6 +15,7 @@ public class Solution {
 		switch(str[0]) {
 			case "BE":
 			String[] temp = token[1].split(",");
+			System.out.println(temp[0]);
 			if (Double.parseDouble(str[1]) <= Double.parseDouble(temp[1]) & Double.parseDouble(str[2]) >= Double.parseDouble(temp[1])) {
 				System.out.println(temp[0]);
 			}

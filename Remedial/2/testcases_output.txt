@@ -6,7 +6,7 @@ Dan
 Abegg
 
 Your Output: 
-
+Tim
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -58,7 +58,7 @@ Abegg
 Brian Caffrey
 
 Your Output: 
-
+Jeannette Caines
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
