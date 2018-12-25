@@ -21,13 +21,13 @@ public class Solution {
 				if (sc.get(token1[1]) == null) {
 					System.out.println("Student doesn't exists...");
 			    } else {
-					System.out.printf("%.1f",str.split(",")[0]);	
+					System.out.println(Double.parseDouble(str.split(",")[0]));	
 				} break;
 				case "2":
 				if (sc.get(token1[1]) == null) {
 					System.out.println("Student doesn't exists...");
 				} else {
-					System.out.printf("%.1f",str.split(",")[1]);
+					System.out.println(Double.parseDouble(str.split(",")[1]));
 				}
 				break;
 			}

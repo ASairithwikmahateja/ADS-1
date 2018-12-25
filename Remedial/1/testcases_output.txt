@@ -10,17 +10,14 @@ Bob
 John
 
 Your Output: 
-Exception in thread "main" java.util.IllegalFormatConversionException: f != java.lang.String
-	at java.base/java.util.Formatter$FormatSpecifier.failConversion(Unknown Source)
-	at java.base/java.util.Formatter$FormatSpecifier.printFloat(Unknown Source)
-	at java.base/java.util.Formatter$FormatSpecifier.print(Unknown Source)
-	at java.base/java.util.Formatter.format(Unknown Source)
-	at java.base/java.io.PrintStream.format(Unknown Source)
-	at java.base/java.io.PrintStream.printf(Unknown Source)
+Exception in thread "main" java.lang.NumberFormatException: For input string: "Clark"
+	at java.base/jdk.internal.math.FloatingDecimal.readJavaFormatString(Unknown Source)
+	at java.base/jdk.internal.math.FloatingDecimal.parseDouble(Unknown Source)
+	at java.base/java.lang.Double.parseDouble(Unknown Source)
 	at Solution.main(Solution.java:24)
 ----------------------------------------
 
-########## Testcase 1: Failed ##########
+########## Testcase 1: Passed ##########
 Expected Output: 
 100.1
 100.0
@@ -37,14 +34,19 @@ Expected Output:
 99.3
 
 Your Output: 
-Exception in thread "main" java.util.IllegalFormatConversionException: f != java.lang.String
-	at java.base/java.util.Formatter$FormatSpecifier.failConversion(Unknown Source)
-	at java.base/java.util.Formatter$FormatSpecifier.printFloat(Unknown Source)
-	at java.base/java.util.Formatter$FormatSpecifier.print(Unknown Source)
-	at java.base/java.util.Formatter.format(Unknown Source)
-	at java.base/java.io.PrintStream.format(Unknown Source)
-	at java.base/java.io.PrintStream.printf(Unknown Source)
-	at Solution.main(Solution.java:30)
+100.1
+100.0
+76.4
+78.2
+65.7
+85.6
+98.3
+88.3
+56.7
+65.7
+11.2
+45.4
+99.3
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -68,13 +70,10 @@ Student doesn't exists...
 Student doesn't exists...
 
 Your Output: 
-Exception in thread "main" java.util.IllegalFormatConversionException: f != java.lang.String
-	at java.base/java.util.Formatter$FormatSpecifier.failConversion(Unknown Source)
-	at java.base/java.util.Formatter$FormatSpecifier.printFloat(Unknown Source)
-	at java.base/java.util.Formatter$FormatSpecifier.print(Unknown Source)
-	at java.base/java.util.Formatter.format(Unknown Source)
-	at java.base/java.io.PrintStream.format(Unknown Source)
-	at java.base/java.io.PrintStream.printf(Unknown Source)
+Exception in thread "main" java.lang.NumberFormatException: For input string: "Knuth"
+	at java.base/jdk.internal.math.FloatingDecimal.readJavaFormatString(Unknown Source)
+	at java.base/jdk.internal.math.FloatingDecimal.parseDouble(Unknown Source)
+	at java.base/java.lang.Double.parseDouble(Unknown Source)
 	at Solution.main(Solution.java:24)
 ----------------------------------------
 
@@ -582,13 +581,11 @@ John Hale
 53.79
 
 Your Output: 
-Exception in thread "main" java.util.IllegalFormatConversionException: f != java.lang.String
-	at java.base/java.util.Formatter$FormatSpecifier.failConversion(Unknown Source)
-	at java.base/java.util.Formatter$FormatSpecifier.printFloat(Unknown Source)
-	at java.base/java.util.Formatter$FormatSpecifier.print(Unknown Source)
-	at java.base/java.util.Formatter.format(Unknown Source)
-	at java.base/java.io.PrintStream.format(Unknown Source)
-	at java.base/java.io.PrintStream.printf(Unknown Source)
-	at Solution.main(Solution.java:30)
+7.213
+Exception in thread "main" java.lang.NumberFormatException: For input string: "Michael Hale"
+	at java.base/jdk.internal.math.FloatingDecimal.readJavaFormatString(Unknown Source)
+	at java.base/jdk.internal.math.FloatingDecimal.parseDouble(Unknown Source)
+	at java.base/java.lang.Double.parseDouble(Unknown Source)
+	at Solution.main(Solution.java:24)
 ----------------------------------------
 
