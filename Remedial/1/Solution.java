@@ -6,11 +6,9 @@ public class Solution {
 		int n = Integer.parseInt(scan.nextLine());
 		// System.out.println(n);
 		SeparateChainingHashST sc = new SeparateChainingHashST(n);
-		SeparateChainingHashST sc1 = new SeparateChainingHashST(n);
 		for(int i = 0; i < n; i++) {
-			String[] token = scan.nextLine().split(",");
+			String[] token = scan.nextLine().split(",", 2);
 			sc.put(token[0], token[1]);
-			sc1.put(token[0], token[2]);
 		}
 		int m = Integer.parseInt(scan.nextLine());
 		// System.out.println(m);
@@ -21,7 +19,7 @@ public class Solution {
 					System.out.println(sc.get(token1[1]));	
 				break;
 				case "2":
-					System.out.println(sc1.get(token1[2]));
+					System.out.println(sc.get(token1[1]));
 			}
 		}
 	}
