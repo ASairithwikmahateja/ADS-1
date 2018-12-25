@@ -5,7 +5,7 @@ public class Solution {
 		Scanner sc = new Scanner(System.in);
 		int n = Integer.parseInt(sc.nextLine());
 		BinarySearchTree bst = new BinarySearchTree();
-		String[] token = new String[10];
+		String[] token = new String[n];
 		for (int i = 0; i < n; i++) {
 			token = sc.nextLine().split(",", 2);	
 			bst.put(token[0], token[1]);
@@ -15,7 +15,7 @@ public class Solution {
 		switch(str[0]) {
 			case "BE":
 			String[] temp = token[1].split(",");
-			System.out.println(temp[0]);
+			System.out.println(temp[0]+temp[1]);
 			if (Double.parseDouble(str[1]) <= Double.parseDouble(temp[1]) & Double.parseDouble(str[2]) >= Double.parseDouble(temp[1])) {
 				System.out.println(temp[0]);
 			}
