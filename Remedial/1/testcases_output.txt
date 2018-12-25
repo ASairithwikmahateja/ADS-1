@@ -37,19 +37,19 @@ Expected Output:
 99.3
 
 Your Output: 
-Knuth
-Bob
-Clark
-Rivest
-Abegg
-Access
-Wayne
-Alice
-John
-Abegg
-Hank
-Keith
-Jeannette Caines
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -74,17 +74,17 @@ Student doesn't exists...
 
 Your Output: 
 Knuth
-Bob
+null
 Clark
-Rivest
+null
 Abegg
-Access
+null
 Wayne
-Alice
+null
 John
-Abegg
+null
 Hank
-Deborah Cadbury
+null
 Jeannette Caines
 null
 null
@@ -596,81 +596,81 @@ John Hale
 53.79
 
 Your Output: 
-John Hale
+null
 Michael Hale
-Steph Jagger
+null
 Bradley Jackson
-Shannon Hale
+null
 Madhur Jaffrey
-Ann-Marie MacDonald
+null
 Ruth H. Jacobs
-Mary MacCracken
-Michael Hale
-Taylor Hackford
+null
+null
+null
 Richard Jacoby
 Kady MacDonald Denton
 Kate Jacoby
 Charles B. Macdonald
 Laura Holmes Haddad
-David H. Hackworth
+null
 Debra W. Haffner
-John Jacobs
-Richard Jackson
-Catherine Macaulay
-M MacCallum
-Ellie Macdonald
-Sophie Jaff
-Auston Habershaw
+null
+null
+null
+null
+null
+null
+null
 Kathryn Jacobi
 Brad Haddin
 Gerry Hadden
 Kathryn Ma
-Charlie Haas
+null
 T. T. Macan
 Simon Jacobson
 Carla Jablonski
-Stuart MacBride
-Keith Habersberger
-Meredith L. Jacobs
-Kady MacDonald Denton
+null
+null
+null
+null
 Sammy Hagar
-Tony Macaulay
-Ellen Jackson
+null
+null
 Taylor Hackford
 Michael Hale
 Taylor Hackford
-Laura Holmes Haddad
+null
 Katharina Hagena
-Marilyn Hagerty
+null
 Gracie MacGregor
 David Halberstam
 Michael Haag
-Norm MacDonald
+null
 Chuck Hagel
-Gene Hackman
+null
 Sophie Jaff
-Taylor Hackford
-Jenna Bush Hager
+null
+null
 Katharina Hagena
-Keach Hagey
+null
 Colin Jack
-Carla Jablonski
+null
 Margaret Peterson Haddix
 Bethany Hagen
 Aparna Jain
 Pamela Haag
 H3CZ
-Carrington MacDuffie
+null
 Olivia Mace
-Alan Jacobs
-Alex James
-Marilyn Hagerty
-Kristin Halbrook
+null
+null
+null
+null
 Debra W. Haffner
-Ruth H. Jacobs
+null
 Tracey Jackson
 Steve Hagen
-Kinley MacGregor
+null
 Yossi Klein Halevi
 Nafisa Haji
 David Haig
@@ -678,152 +678,152 @@ Mary Downing Hahn
 Roger Lea MacBride
 Steph Jagger
 Ian Jackman
-Peter Jackson
-Al Jaffee
+null
+null
 Guru Jagat
-William Hague
-Melissa Jacobs
+null
+null
 Carrington MacDuffie
-Nasim Marie Jafry
-Charles B. Macdonald
-Jane MacDougall
+null
+null
+null
 Tony Macaulay
-Jeff MacGregor
+null
 Cynthia Jabar
-Jerome A. Jackson
+null
 Carla Hall
 Michael Hale
-James Macdonald
-A.N.D Haksar
-Ellen Jackson
+null
+null
+null
 David Jacobs
 John Hornor Jacobs
-Ian Jackman
-Ellen Jackson
+null
+null
 Ann-Marie MacDonald
 Jane MacDougall
-Mark Haddon
+null
 Amanda Hall
 Shaili Jain M.D.
-W. G. Hale
+null
 Peter Jackson
 Dana C. Jack
 Catherine Macaulay
 John Hornor Jacobs
-Ann-Marie MacDonald
+null
 Namita Jain
 David Halberstam
 Richard Jackson
-David Halberstam
-Kate Jacoby
+null
+null
 Peter Jackson
 Kellie Hailes
 Andrew Macdonald
 Howard Jacobson
 Bernie Mac
-Bernie Mac
-Amanda Hall
-Kate Jacoby
+null
+null
+null
 Al Jaffee
 Tessa Hadley
 A.N.D Haksar
 Mary MacCracken
-Nasim Marie Jafry
+null
 Steph Jagger
-Richard Jackson
+null
 Bradley Jackson
 Michele Jaffe
 Namita Jain
 Tracey Jackson
-Tony Macaulay
-Jennifer Haigh
+null
+null
 Olivia Mace
 Shane Jacobson
 Don Hagen
-Ian Jackman
+null
+null
 Thomas Hackett
-Thomas Hackett
-Merle Haggard
+null
 Mick Jackson
 Sarah Jacoby
-Madhur Jaffrey
-Vicky Hales-Dutton
-Philip MacDonald
-Derek Jacobi
+null
+null
+null
+null
 Nafisa Haji
 Katharina Hagena
 Nasim Marie Jafry
 M MacCallum
-Jeannette Haien
+null
 Betty MacDonald
 Jessie Haas
 Andrew Macdonald
-Lynn F. Jacobs
+null
 Robert Jackson
-Al Jaffee
-James Macdonald
-Richard Jacoby
+null
+null
+null
 Daniel Hahn
-John W. Jacobs M.D.
+null
 Kristin Halbrook
 M MacCallum
-Roger O.M.D. Jahnke
-Tracy Hafen
+null
+null
 William Hague
 Taylor Hackford
 Debra W. Haffner
-Al Jaffee
+null
 Heather Hach
-John Hale
+null
 Kathleen Hale
 Terrence J
-Kate Jacoby
+null
 Andrew Jacobson
 Julie Mac
-Elaine Hall
+null
 Kinley MacGregor
-Kennell Jackson
+null
 Namita Jain
-Keach Hagey
+null
 Heather Hach
 Michael Hale
 Dana C. Jack
-Tracy Hafen
-Jerome A. Jackson
-John Hale
+null
+null
+null
 Mary MacCracken
-Terrence J
-Namita Jain
+null
+null
 Kevin MacAllister
 Simon Jacobson
-Bonnie MacBird
+null
 Sheila Hale
-Mary Curran Hackett
-Ruby Jackson
+null
+null
 Sara MacDonald
 Andrew Macdonald
-Tony Macaulay
+null
 John W. Jacobs M.D.
-Tracey Jackson
+null
 Heather Hach
 Gene Hackman
-James B. Maas
+null
 Kennell Jackson
-Rawi Hage
+null
 Mary MacCracken
 Carla Hall
-Nasim Marie Jafry
+null
 Sophie Jaff
-Bonnie MacBird
+null
 Joie Jager-Hyman
 Emma Jackson
-Peter Jackson
+null
 Jeremy Jackson
-Kathryn Ma
-W. G. Hale
+null
+null
 Olivia Mace
 David H. Hackworth
-Stuart B. MacBride
+null
 Rachel Jacobs
 Ruth H. Jacobs
 Dana Jacobi
@@ -832,129 +832,129 @@ Al Jaffee
 M MacCallum
 Lynn F. Jacobs
 Carrington MacDuffie
-Annie Maccoby
+null
 Cynthia Jabar
-Albert Jack
-William Haefeli
-Michael Haag
+null
+null
+null
 Marylin Hafner
-Annie Maccoby
-Myla Jackson
-Baby Halder
-James Macdonald
-Merle Haggard
-Ian Jackman
+null
+null
+null
+null
+null
+null
 Gene Hackman
-Betty MacDonald
-Gracie MacGregor
+null
+null
 Marilyn Hagerty
 Araminta Hall
-Mark Haddon
+null
 David Jacobs
-Libby Jackson
-Kevin MacAllister
+null
+null
 Keach Hagey
 Araminta Hall
-Gene Hackman
-Allan Hall
+null
+null
 Marilyn Hagerty
 Bethany Hagen
 Sara MacDonald
-Pamela Haag
-Heather Hach
-Ian Jackman
-Richard Mabey
-Charlie Haas
+null
+null
+null
+null
+null
 Kathleen Hale
 Laura Holmes Haddad
 Jessie Haas
-Philip MacDonald
+null
 David Haig
-Peter Haining
-Bradley Jackson
-Robert Jackson
+null
+null
+null
 John Jacobs
-Shvetha Jaishankar
+null
 Gene Hackman
-Laura Holmes Haddad
-Chuck Hagel
-Baby Halder
+null
+null
+null
 Mary MacCracken
 Nate Jackson
-Michael Hale
+null
 William Hague
-M MacCallum
-Kinley MacGregor
+null
+null
 Ruby Jackson
-John Hale
+null
 Saskia Maarleveld
-Michael Hale
-Kate Jacoby
+null
+null
 Tracey Jackson
-Don Hagen
-Kinley MacGregor
-Howard Jacobson
+null
+null
+null
 Auston Habershaw
 Bruce Hale
-Laura Holmes Haddad
-A.N.D Haksar
+null
+null
 Rawi Hage
 Jo Jackson King
 Cynthia Jabar
 Richard Jacoby
 Andrew Macdonald
 Daniel Hahn
-Rachel Jacobs
-David Macfarlane
-Kate Jacoby
-Korey Jackson
-Melissa Jacobs
-James Graham Hale
+null
+null
+null
+null
+null
+null
 Vicky Hales-Dutton
 Yossi Klein Halevi
-Laura Holmes Haddad
+null
 Margaret Peterson Haddix
-Chuck Hagel
-Philip MacDonald
-Taylor Hackford
-Simcha Jacobovici
-Fiona MacDonald
-Kristin Halbrook
+null
+null
+null
+null
+null
+null
 Ellen Jackson
 Catherine Macaulay
 Peter Haining
 Annie Maccoby
 David Macfarlane
-Bernie Mac
-Margaret Read MacDonald
 null
-Meredith Jaeger
-Rawi Hage
-Al Jaffee
-Norm MacDonald
-William Haefeli
+null
+null
+null
+null
+null
+null
+null
 Ann-Marie MacDonald
-Lynn F. Jacobs
+null
 Ellie Macdonald
 Michael Hague
-Madhur Jaffrey
+null
 Ruby Jackson
 David Haig
-Cynthia Jabar
-Ellen Jackson
-Kevin MacAllister
+null
+null
+null
 Jennifer Haigh
-Steve Jackson
-Peter Maas
-Peter Maas
+null
+null
+null
 Kevin MacAllister
-Shannon Hale
+null
 Katharina Hagena
-Kathryn Ma
-Shvetha Jaishankar
+null
+null
 Margaret Read MacDonald
 Carla Jablonski
-Dana C. Jack
+null
 Kate Jacoby
 Sylvie Haisman
 Tony Macaulay
@@ -964,87 +964,87 @@ Steve Hagen
 H. JACKSON
 John Hale
 Korey Jackson
-Margaret Peterson Haddix
+null
 Betty Halbreich
-Marilyn Hagerty
+null
 Dana C. Jack
 null
 Elaine Hall
 Bonnie MacBird
-A.N.D Haksar
-Dana C. Jack
+null
+null
 John Hornor Jacobs
 William Hague
 Marilyn Hagerty
-Steph Jagger
+null
 Simon Jacobson
-Tessa Hadley
+null
 David Haig
 Myla Jackson
-David Halberstam
+null
 Guru Jagat
 June Hadley
-Catherine Macaulay
+null
 Jeannette Haien
-David Hagedorn
-Sophie Jaff
-Kathryn Miller Haines
-J.D. Jackson
+null
+null
+null
+null
 Emma Jackson
-Namita Jain
-Al Jaffee
+null
+null
 Kathryn Miller Haines
-Shane Jacobson
-Baby Halder
+null
+null
 Adele Jacques
 Baby Halder
-Richard Jacoby
-Katharina Hagena
-Shaili Jain M.D.
+null
+null
+null
 Colin Jack
-Kevin MacAllister
+null
 Andrew Jacobson
-Meredith Jaeger
+null
 Carla Hall
-Magnus MacFarlane-Barrow
+null
 Carla Jablonski
-Tracey Jackson
-Sylvie Haisman
+null
+null
 Shelley Jackson
 Richard Jacoby
 Norm MacDonald
-Gildart Jackson
-Anthony Haden-Guest
+null
+null
 David Halberstam
-Kellie Hailes
+null
 Nathan Hale
-Peter Haining
+null
 James B. Maas
 Kady MacDonald Denton
 Catherine Macaulay
-Fiona MacDonald
+null
 Kate Jacoby
 Roger O.M.D. Jahnke
-Sophie Jaff
-Simon Jacobson
+null
+null
 Colin Jack
 David Macfarlane
 James Macdonald
 Richard Mabey
-Libby Jackson
-Emma Jackson
+null
+null
 Madhur Jaffrey
-Bethany Hagen
-David Haig
-Magnus MacFarlane-Barrow
+null
+null
+null
 Jane MacDougall
 Bonnie MacBird
-Philip MacDonald
+null
 Heather Hach
-Tessa Hadley
+null
 Chuck Hagel
-Mary MacCracken
-Heather Hach
+null
+null
 John W. Jacobs
 David Hagedorn
 Todd Haberkorn
@@ -1052,49 +1052,49 @@ null
 Mary Curran Hackett
 Catherine Macaulay
 Kinley MacGregor
-Emily Hainsworth
+null
 Daniel Hahn
 Laura Holmes Haddad
 Joshilyn Jackson
-Kristin Halbrook
-Emily Hainsworth
+null
+null
 Kathryn Ma
-Ellie Macdonald
+null
 John Hale
-Elaine Hall
+null
 A.N.D Haksar
-Michele Jaffe
-Nasim Marie Jafry
-Richard Jacoby
+null
+null
+null
 Keach Hagey
-Robert Jackson
-Tiffany D. Jackson
-Vicky Hales-Dutton
-Virginia Macgregor
+null
+null
+null
+null
 Kristin Hahn
-Ellen Jackson
+null
 Richard Mabey
 Derek Jacobi
 Jerome A. Jackson
-Mary Curran Hackett
-Tiffany D. Jackson
-George Jacobs
+null
+null
+null
 David Halberstam
 Bradley Jackson
-Carla Hall
-Kathleen Hale
-Kathryn Ma
+null
+null
+null
 William Hague
 Daniel Hahn
 T. T. Macan
-Meredith L. Jacobs
-H. JACKSON
+null
+null
 Fiona MacDonald
-Tony Macaulay
-H. JACKSON
+null
+null
 Elaine Hall
 Robert Macfarlane
 John Hale
-Gracie MacGregor
+null
 ----------------------------------------
 
