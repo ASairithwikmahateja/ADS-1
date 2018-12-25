@@ -8,7 +8,11 @@ public class Solution {
 		for(int i = 0; i <= n; i++) {
 			String[] token = scan.nextLine().split(",");
 			sc.put(token[0], token[1]);
-			System.out.println(sc.get(token[0]));
+		}
+		int m = Integer.parseInt(scan.nextLine());
+		for (int j = 0; j <= m; j++) {
+			String[] token1 = scan.nextLine().split("");
+			System.out.println(sc.get(token1[1]));	
 		}
 	}
 }
