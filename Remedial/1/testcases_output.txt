@@ -87,7 +87,7 @@ Hank
 13.3
 Jeannette Caines
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 1
-	at Solution.main(Solution.java:26)
+	at Solution.main(Solution.java:29)
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -967,6 +967,6 @@ Betty Halbreich
 35.60
 Dana C. Jack
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 1
-	at Solution.main(Solution.java:26)
+	at Solution.main(Solution.java:29)
 ----------------------------------------
 

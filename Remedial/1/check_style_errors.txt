@@ -82,7 +82,10 @@ Starting audit...
 [ERROR] E:\ADS-1\Remedial\1\Solution.java:9:20: 'for' is not followed by whitespace. [WhitespaceAround]
 [ERROR] E:\ADS-1\Remedial\1\Solution.java:17:55: '+' is not preceded with whitespace. [WhitespaceAround]
 [ERROR] E:\ADS-1\Remedial\1\Solution.java:17:56: '+' is not followed by whitespace. [WhitespaceAround]
-[ERROR] E:\ADS-1\Remedial\1\Solution.java:21: switch without "default" clause. [MissingSwitchDefault]
+[ERROR] E:\ADS-1\Remedial\1\Solution.java:18: switch without "default" clause. [MissingSwitchDefault]
+[ERROR] E:\ADS-1\Remedial\1\Solution.java:21: Line is longer than 80 characters (found 88). [LineLength]
 [ERROR] E:\ADS-1\Remedial\1\Solution.java:23: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\ADS-1\Remedial\1\Solution.java:24:33: '}' at column 5 should be alone on a line. [RightCurly]
+[ERROR] E:\ADS-1\Remedial\1\Solution.java:27: Line is longer than 80 characters (found 88). [LineLength]
 Audit done.
-Checkstyle ends with 12 errors.
+Checkstyle ends with 15 errors.
