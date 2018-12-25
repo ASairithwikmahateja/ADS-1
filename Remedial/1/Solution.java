@@ -15,9 +15,10 @@ public class Solution {
 		for (int j = 0; j < m; j++) {
 			String[] token1 = scan.nextLine().split(" ");
 			String str = sc.get(token1[1])+"";
+			System.out.println(str);
 			switch (token1[2]) {
 				case "1":
-				System.out.println(sc.get(str));
+				System.out.println(sc.get(str));			
 				if (sc.get(str) == null) {
 					System.out.println("Student doesn't exists...");
 			    } else {
