@@ -82,5 +82,7 @@ Starting audit...
 [ERROR] E:\ADS-1\Remedial\1\Solution.java:9:20: 'for' is not followed by whitespace. [WhitespaceAfter]
 [ERROR] E:\ADS-1\Remedial\1\Solution.java:17: switch without "default" clause. [MissingSwitchDefault]
 [ERROR] E:\ADS-1\Remedial\1\Solution.java:19: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\ADS-1\Remedial\1\Solution.java:19: Line is longer than 80 characters (found 96). [LineLength]
+[ERROR] E:\ADS-1\Remedial\1\Solution.java:22: Line is longer than 80 characters (found 92). [LineLength]
 Audit done.
-Checkstyle ends with 10 errors.
+Checkstyle ends with 12 errors.
