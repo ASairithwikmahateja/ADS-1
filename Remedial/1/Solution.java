@@ -10,7 +10,7 @@ public class Solution {
 		for(int i = 0; i < n; i++) {
 			String[] token = scan.nextLine().split(",");
 			sc.put(token[0], token[1]);
-			sc1.put(token[1], token[2]);
+			sc1.put(token[0], token[2]);
 		}
 		int m = Integer.parseInt(scan.nextLine());
 		// System.out.println(m);
