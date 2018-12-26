@@ -13,24 +13,24 @@ public class Solution {
 		int m = Integer.parseInt(sc.nextLine());
 		for (int j = 0; j < m; j++) {
 			String[] str = sc.nextLine().split(" ");
+			String[] temp = token[1].split(",");
 			switch(str[0]) {
 				case "BE":
-				String[] temp = token[1].split(",");
-				System.out.println(temp[0]+temp[1]);
 				if (Double.parseDouble(str[1]) <= Double.parseDouble(temp[1]) & Double.parseDouble(str[2]) >= Double.parseDouble(temp[1])) {
+					System.out.println(temp[0]+temp[1]);
 					System.out.println(temp[0]);
 				}
 				break;
-			// 	case "GE":
-			// 	if (str[1] > token) {
+				case "GE":
+				if (Double.parseDouble(str[1]) >= Double.parseDouble(temp[1])) {
 
-			// 	}
-			// 	break;
-			// 	case "LE":
-			// 	if (str[1] > token) {
+				}
+				break;
+				case "LE":
+				if (Double.parseDouble(str[1]) <= Double.parseDouble(temp[1])) {
 
-			// 	}
-			// 	break;
+				}
+				break;
 			}
 		}
 	}
