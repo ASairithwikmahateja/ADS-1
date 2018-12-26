@@ -99,8 +99,7 @@ class Queue<Item> implements Iterable<Item> {
  * @param      <Value1>  The Key
  * @param      <Value>  The value
  */
-class BinarySearchTree<Key extends Comparable<Key>,
-Value1 extends Comparable<Key>, Value extends Comparable<Value>> {
+class BinarySearchTree<Key extends Comparable<Key>, Value extends Comparable<Value>> {
     /**
      * Constructs the object.
      */
