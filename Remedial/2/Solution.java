@@ -16,8 +16,9 @@ public class Solution {
 			String[] str = sc.nextLine().split(" ");
 			switch(str[0]) {
 					case "BE":
+					System.out.println(token.split(",")[1]);
 					if ((Double.parseDouble(str[1]) <= Double.parseDouble(token.split(",")[2])) & (Double.parseDouble(str[2]) >= Double.parseDouble(token.split(",")[2]))) {
-						System.out.println(token.split(",")[1]);
+						
 					}
 					break;
 		// 			case "GE":

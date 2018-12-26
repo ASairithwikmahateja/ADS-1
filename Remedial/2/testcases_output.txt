@@ -6,7 +6,8 @@ Dan
 Abegg
 
 Your Output: 
-
+Tim
+Tim
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -58,7 +59,7 @@ Abegg
 Brian Caffrey
 
 Your Output: 
-
+Jeannette Caines
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -848,6 +849,8 @@ Thelma Page
 Vicky Hales-Dutton
 
 Your Output: 
+Manoj Pandey
+Manoj Pandey
 Manoj Pandey
 ----------------------------------------
 

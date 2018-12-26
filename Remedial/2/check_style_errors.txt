@@ -59,9 +59,10 @@ Starting audit...
 [ERROR] E:\ADS-1\Remedial\2\Solution.java:10: Line has trailing spaces. [RegexpSingleline]
 [ERROR] E:\ADS-1\Remedial\2\Solution.java:17: switch without "default" clause. [MissingSwitchDefault]
 [ERROR] E:\ADS-1\Remedial\2\Solution.java:17:31: 'switch' is not followed by whitespace. [WhitespaceAround]
-[ERROR] E:\ADS-1\Remedial\2\Solution.java:19: Line is longer than 80 characters (found 192). [LineLength]
-[ERROR] E:\ADS-1\Remedial\2\Solution.java:20: Line is longer than 80 characters (found 88). [LineLength]
-[ERROR] E:\ADS-1\Remedial\2\Solution.java:24: Line is longer than 80 characters (found 104). [LineLength]
-[ERROR] E:\ADS-1\Remedial\2\Solution.java:29: Line is longer than 80 characters (found 104). [LineLength]
+[ERROR] E:\ADS-1\Remedial\2\Solution.java:20: Line is longer than 80 characters (found 192). [LineLength]
+[ERROR] E:\ADS-1\Remedial\2\Solution.java:20:192: Must have at least one statement. [EmptyBlock]
+[ERROR] E:\ADS-1\Remedial\2\Solution.java:21: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\ADS-1\Remedial\2\Solution.java:25: Line is longer than 80 characters (found 104). [LineLength]
+[ERROR] E:\ADS-1\Remedial\2\Solution.java:30: Line is longer than 80 characters (found 104). [LineLength]
 Audit done.
-Checkstyle ends with 12 errors.
+Checkstyle ends with 13 errors.
