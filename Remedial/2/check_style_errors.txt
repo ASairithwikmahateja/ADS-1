@@ -59,11 +59,14 @@ Starting audit...
 [ERROR] E:\ADS-1\Remedial\2\Solution.java:17: switch without "default" clause. [MissingSwitchDefault]
 [ERROR] E:\ADS-1\Remedial\2\Solution.java:17:31: 'switch' is not followed by whitespace. [WhitespaceAround]
 [ERROR] E:\ADS-1\Remedial\2\Solution.java:19: Line is longer than 80 characters (found 156). [LineLength]
+[ERROR] E:\ADS-1\Remedial\2\Solution.java:20: Line is longer than 80 characters (found 83). [LineLength]
 [ERROR] E:\ADS-1\Remedial\2\Solution.java:20:67: '+' is not preceded with whitespace. [WhitespaceAround]
 [ERROR] E:\ADS-1\Remedial\2\Solution.java:20:68: '+' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS-1\Remedial\2\Solution.java:20:75: '+' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\ADS-1\Remedial\2\Solution.java:20:76: '+' is not followed by whitespace. [WhitespaceAround]
 [ERROR] E:\ADS-1\Remedial\2\Solution.java:25: Line is longer than 80 characters (found 96). [LineLength]
 [ERROR] E:\ADS-1\Remedial\2\Solution.java:25:96: Must have at least one statement. [EmptyBlock]
 [ERROR] E:\ADS-1\Remedial\2\Solution.java:30: Line is longer than 80 characters (found 96). [LineLength]
 [ERROR] E:\ADS-1\Remedial\2\Solution.java:30:96: Must have at least one statement. [EmptyBlock]
 Audit done.
-Checkstyle ends with 16 errors.
+Checkstyle ends with 19 errors.
