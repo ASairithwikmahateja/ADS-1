@@ -14,20 +14,20 @@ final class Solution {
      */
     public static void main(final String[] args) {
         Scanner sc = new Scanner(System.in);
-        BinarySearchTree<Student, String> h =
+        BinarySearchTree<Student, String> bst =
             new BinarySearchTree();
         int n = Integer.parseInt(sc.nextLine());
-        while (n-- != 0) {
-            String[] inp = sc.nextLine().split(",");
-            h.put(new Student(inp[0], inp[1],
-                Double.parseDouble(inp[2])), inp[0]);
+        for (int i = 0; i < n; i++) {
+            String[] token = sc.nextLine().split(",");
+            bst.put(new Student(token[0], token[1],
+                Double.parseDouble(token[2])), token[0]);
         }
-        int testcases = Integer.parseInt(sc.nextLine());
-        while (testcases-- != 0) {
+        int m = Integer.parseInt(sc.nextLine());
+        for (int j = 0; j < m; j++) {
             String[] tokens = sc.nextLine().split(" ");
             switch (tokens[0]) {
             case "BE":
-                for (Student s : h.keys()) {
+                for (Student s : bst.keys()) {
                     if (s.getTotalMarks() >= Double.parseDouble(tokens[1])
                     && s.getTotalMarks() <= Double.parseDouble(tokens[2])) {
                         System.out.println(s.getStudentName());
@@ -35,14 +35,14 @@ final class Solution {
                 }
                 break;
             case "GE":
-                for (Student s : h.keys()) {
+                for (Student s : bst.keys()) {
                     if (s.getTotalMarks() >= Double.parseDouble(tokens[1])) {
                         System.out.println(s.getStudentName());
                     }
                 }
                 break;
             case "LE":
-                for (Student s : h.keys()) {
+                for (Student s : bst.keys()) {
                     if (s.getTotalMarks() <= Double.parseDouble(tokens[1])) {
                         System.out.println(s.getStudentName());
                     }
