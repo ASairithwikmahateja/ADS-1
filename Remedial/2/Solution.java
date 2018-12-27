@@ -1,42 +1,56 @@
 import java.util.Scanner;
-
-public class Solution {
-	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-		int n = Integer.parseInt(sc.nextLine());
-		BinarySearchTree bst = new BinarySearchTree();
-		String token = new String();
-		for (int i = 0; i < n; i++) {
-			token = sc.nextLine();	
-			bst.put(token.split(",")[0], token);
-			// System.out.println(token.split(",")[0] + token);
-		}
-		int m = Integer.parseInt(sc.nextLine());
-		for (int j = 0; j < m; j++) {
-			String[] str = sc.nextLine().split(" ");
-			System.out.println(bst.keys());
-		}
-			// String temp = bst.get(for (Key key : bst.keys()));
-			// System.out.println(temp.split(",")[2]);
-		
-			// switch(str[0]) {
-			// 	case "BE":
-			// 	System.out.println(temp.split(",")[1]);
-			// 	if ((Double.parseDouble(str[1]) <= Double.parseDouble(temp.split(",")[2])) &&
-			// 		(Double.parseDouble(str[2]) >= Double.parseDouble(temp))) {
-			// 		System.out.println(temp.split(",")[1]);
-			// 	}
-				// break;
-		// 			case "GE":
-		// 			if (Double.parseDouble(str[1]) >= Double.parseDouble(temp[1])) {
-
-		// 			}
-		// 			break;
-		// 			case "LE":
-		// 			if (Double.parseDouble(str[1]) <= Double.parseDouble(temp[1])) {
-
-		// 			}
-		// 			break;
-				// }
-			}
-		}
+/**
+ * Class for solution.
+ */
+final class Solution {
+    /**
+     * Constructs the object.
+     */
+    private Solution() {
+    }
+    /**
+     * main method that drives the program.
+     * @param      args  The arguments
+     */
+    public static void main(final String[] args) {
+        Scanner sc = new Scanner(System.in);
+        BinarySearchTree<Student, String> h =
+            new BinarySearchTree();
+        int n = Integer.parseInt(sc.nextLine());
+        while (n-- != 0) {
+            String[] inp = sc.nextLine().split(",");
+            h.put(new Student(inp[0], inp[1],
+                Double.parseDouble(inp[2])), inp[0]);
+        }
+        int testcases = Integer.parseInt(sc.nextLine());
+        while (testcases-- != 0) {
+            String[] tokens = sc.nextLine().split(" ");
+            switch (tokens[0]) {
+            case "BE":
+                for (Student s : h.keys()) {
+                    if (s.getTotalMarks() >= Double.parseDouble(tokens[1])
+                    && s.getTotalMarks() <= Double.parseDouble(tokens[2])) {
+                        System.out.println(s.getStudentName());
+                    }
+                }
+                break;
+            case "GE":
+                for (Student s : h.keys()) {
+                    if (s.getTotalMarks() >= Double.parseDouble(tokens[1])) {
+                        System.out.println(s.getStudentName());
+                    }
+                }
+                break;
+            case "LE":
+                for (Student s : h.keys()) {
+                    if (s.getTotalMarks() <= Double.parseDouble(tokens[1])) {
+                        System.out.println(s.getStudentName());
+                    }
+                }
+                break;
+            default:
+                break;
+            }
+        }
+    }
+}

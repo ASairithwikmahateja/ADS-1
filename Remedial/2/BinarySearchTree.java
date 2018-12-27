@@ -1,243 +1,179 @@
-import java.util.Iterator;
-/**
- *  @param <Item> the generic type of an item in this queue
- */
-class Queue<Item> implements Iterable<Item> {
-    private Node<Item> first;    // beginning of queue
-    private Node<Item> last;     // end of queue
-    private int n;               // number of elements on queue
-
-    // helper linked list class
-    private static class Node<Item> {
-        private Item item;
-        private Node<Item> next;
-    }
-
-    /**
-     * Initializes an empty queue.
-     */
-    public Queue() {
-        first = null;
-        last  = null;
-        n = 0;
-    }
-
-    /**
-     * Adds the item to this queue.
-     *
-     * @param  item the item to add
-     */
-    public void enqueue(Item item) {
-        Node<Item> oldlast = last;
-        last = new Node<Item>();
-        last.item = item;
-        last.next = null;
-        if (isEmpty()) first = last;
-        else           oldlast.next = last;
-        n++;
-    }
-
-
-    /**
-     * Returns true if this queue is empty.
-     *
-     * @return {@code true} if this queue is empty; {@code false} otherwise
-     */
-    public boolean isEmpty() {
-        return first == null;
-    }
-
-    /**
-     * Returns the number of items in this queue.
-     *
-     * @return the number of items in this queue
-     */
-    public int size() {
-        return n;
-    }
-
-    /**
-     * Returns the item least recently added to this queue.
-     *
-     * @return the item least recently added to this queue
-     */
-    public Item peek() {
-        return first.item;
-    }
-
-    /**
-     * Returns an iterator that iterates over the items in this queue in FIFO order.
-     *
-     * @return an iterator that iterates over the items in this queue in FIFO order
-     */
-    public Iterator<Item> iterator()  {
-        return new ListIterator<Item>(first);  
-    }
-
-    // an iterator, doesn't implement remove() since it's optional
-    private class ListIterator<Item> implements Iterator<Item> {
-        private Node<Item> current;
-
-        public ListIterator(Node<Item> first) {
-            current = first;
-        }
-
-        public boolean hasNext()  {
-            return current != null;
-        }
-        public Item next() {
-            Item item = current.item;
-            current = current.next; 
-            return item;
-        }
-    }
-}
+import java.util.Queue;
+import java.util.LinkedList;
 /**
  * Class for binary search tree.
- *
- * @param      <Key>    The key
- * @param      <Value1>  The Key
- * @param      <Value>  The value
+ * @param      <Key>     The key
+ * @param      <Value>  The values
  */
-class BinarySearchTree<Key extends Comparable<Key>, Value extends Comparable<Value>> {
-    /**
-     * Constructs the object.
-     */
-    BinarySearchTree() {
-
-    }
-    /**
-     * root node.
+class BinarySearchTree<Key extends Comparable<Key>, Value> {
+    /**.
+     * starting element in the BST.
      */
     private Node root;
-    /**
+    /**.
      * Class for node.
      */
-    private class Node {
-        /**
-         * key of book type.
+    class Node {
+        /**.
+         * Object of Book class with book details.
          */
         private Key key;
-        /**
-         * value of string type.
-         */
-        private Key value1;
-        /**
-         * value of integer type.
+        /**.
+         * value of the book in Book class
          */
         private Value value;
-        /**
-         * left and right nodes.
+        /**.
+         * Left and Right node of the BST
          */
         private Node left, right;
-        /**
+        /**.
          * Constructs the object.
          *
-         * @param      k     { key }
-         * @param      v1   { key }
-         * @param      v     { value }
+         * @param      k  The key 1
+         * @param      v   The value
          */
         Node(final Key k, final Value v) {
-            this.key = k;
-            this.value = v;
+            key = k;
+            value = v;
         }
+
     }
-    /**
-     * put method.
+    /**.
+     * This method is to add a key and value to BST.
+     * Time Complexity is O(log N)*.
+     * For worst case time complexity may be O(N).
+     * because it calls another put method to add elements.
      *
      * @param      key    The key
-     * @param      value1    The value
      * @param      value  The value
      */
     public void put(final Key key, final Value value) {
-         root = put(root, key, value);
+        if (key == null) {
+            return;
+        }
+        root = put(root, key, value);
     }
-    /**
-     * put overloaded method.
+    /**.
+     * This method is to add element to BST
+     * Time complexity is O(log N)*.
+     * Time Complexity is O(N) for worst case.
+     * element is added until it reaches to the
+     * position it should added at.
      *
-     * @param      x      { Node }
+     * @param      node   The node
      * @param      key    The key
      * @param      value  The value
      *
-     * @return     { returns the node }
+     * @return     returns node
      */
-    private Node put(final Node x,
-     final Key key, final Value value) {
-        if (x == null) {
+    public Node put(final Node node, final Key key,
+                    final Value value) {
+        if (node == null) {
             return new Node(key, value);
         }
-        int cmp = key.compareTo(x.key);
+        int cmp = key.compareTo(node.key);
         if (cmp < 0) {
-            x.left = put(x.left, key, value);
+            node.left = put(node.left, key, value);
+        } else if (cmp > 0) {
+            node.right = put(node.right, key, value);
+        } else {
+            node.value = value;
         }
-        if (cmp > 0) {
-            x.right = put(x.right, key, value);
-        }
-        if (cmp == 0) {
-            x.value = value;
-        }
-        return x;
+        return node;
     }
-    /**
-     * get method.
-     *
+    /**.
+     * This method is to return the value of that key
+     * Time Complexity is O(log N)*
+     * For worst case time complexity is O(N).
      * @param      key   The key
-     *
-     * @return     { returns integer value }
+     * @return     returns the value.
      */
     public Value get(final Key key) {
-        Node x = root;
-        while (x != null) {
-            int cmp = key.compareTo(x.key);
-                if (cmp < 0) {
-                    x = x.left;
-                }
-                if (cmp > 0) {
-                    x = x.right;
-                }
-                if (cmp == 0) {
-                    return x.value;
-                }
-            } return null;
+        return get(root, key);
     }
-
-
-    /**
-     * get method.
-     *
+    /**.
+     * This method is to return the value of that key
+     * Time Complexity is O(log N)*
+     * For worst case it may be O(N).
+     * @param      node  the node where the book details and
+     *                   values.
      * @param      key   The key
      *
-     * @return     { returns integer value }
+     * @return     returns the value of that key.
      */
-    public Key get1(final Value value) {
-        Node x = root;
-        while (x != null) {
-            int cmp = value.compareTo(x.value);
-                if (cmp < 0) {
-                    x = x.left;
-                }
-                if (cmp > 0) {
-                    x = x.right;
-                }
-                if (cmp == 0) {
-                    return x.key;
-                }
-            } return null;
+    private Value get(final Node node, final Key key) {
+        if (node == null) {
+            return null;
+        }
+        int cmp = key.compareTo(node.key);
+        if (cmp < 0) {
+            return get(node.left, key);
+        } else if (cmp > 0) {
+            return get(node.right, key);
+        } else {
+            return node.value;
+        }
     }
-
     /**
-     * Returns the smallest key in the symbol table.
-     * @return the smallest key in the symbol table
+     * returns the keys.
+     * @return     keys of type Iterable.
+     * Time complexity is O(N).
      */
+    public Iterable<Key> keys() {
+        return keys(min(), max());
+    }
+    /**
+     * returns the keys.
+     * @param      lo    The lower
+     * @param      hi    The higher
+     * @return     keys of type Iterable.
+     * Time complexity is O(N).
+     */
+    public Iterable<Key> keys(final Key lo, final Key hi) {
+        Queue<Key> queue = new LinkedList<Key>();
+        keys(root, queue, lo, hi);
+        return queue;
+    }
+    /**
+     * keys method.
+     * @param      x      Node.
+     * @param      queue  The queue
+     * @param      lo     The lower
+     * @param      hi     The higher
+     * Time complexity for this method is O(N) since it is
+     * calling recursively.
+     */
+    private void keys(final Node x, final Queue<Key> queue,
+        final Key lo, final Key hi) {
+        if (x == null) {
+            return;
+        }
+        int cmplo = lo.compareTo(x.key);
+        int cmphi = hi.compareTo(x.key);
+        if (cmplo < 0) {
+            keys(x.left, queue, lo, hi);
+        }
+        if (cmplo <= 0 && cmphi >= 0) {
+            queue.add(x.key);
+        }
+        if (cmphi > 0) {
+            keys(x.right, queue, lo, hi);
+        }
+    }
+    /**
+    * Returns the smallest key in the symbol table.
+    * @return the smallest key in the symbol table
+     * Time complexity is O(N).
+    */
     public Key min() {
         return min(root).key;
     }
     /**
-     * returns minimum node.
-     *
-     * @param      x    node
-     *
-     * @return  node
+     * min method that returns smallest key.
+     * @param      x     Node.
+     * @return     Node.
+     * Time complexity is O(N) since it is calling its
+     * method recursively.
      */
     private Node min(final Node x) {
         if (x.left == null) {
@@ -249,14 +185,17 @@ class BinarySearchTree<Key extends Comparable<Key>, Value extends Comparable<Val
     /**
      * Returns the largest key in the symbol table.
      * @return the largest key in the symbol table
+     * Time complexity is O(N).
      */
     public Key max() {
         return max(root).key;
     }
     /**
-     * returns maximum node.
-     * @param      x    node
-     * @return    node
+     * max method that returns largest key.
+     * @param      x     Node.
+     * @return     Node.
+     * Time complexity is O(N) since it is calling its
+     * method recursively.
      */
     private Node max(final Node x) {
         if (x.right == null) {
@@ -264,73 +203,5 @@ class BinarySearchTree<Key extends Comparable<Key>, Value extends Comparable<Val
         } else {
             return max(x.right);
         }
-    }
-
-    /**
-     * Returns all keys in the symbol table as an {@code Iterable}.
-     * To iterate over all of the keys in the symbol table named {@code st},
-     * use the foreach notation: {@code for (Key key : st.keys())}.
-     *
-     * @return all keys in the symbol table
-     */
-    public Iterable<Key> keys() {
-        return keys(min(), max());
-    }
-
-    /**
-     * Returns all keys in the symbol table in the given range,
-     * as an {@code Iterable}.
-     *
-     * @param  lo minimum endpoint
-     * @param  hi maximum endpoint
-     * @return all keys in the symbol table between {@code lo} 
-     *         (inclusive) and {@code hi} (inclusive)
-     * @throws IllegalArgumentException if either {@code lo} or {@code hi}
-     *         is {@code null}
-     */
-    public Iterable<Key> keys(Key lo, Key hi) {
-        Queue<Key> queue = new Queue<Key>();
-        keys(root, queue, lo, hi);
-        return queue;
-    }
-
-    private void keys(Node x, Queue<Key> queue, Key lo, Key hi) { 
-        if (x == null) return; 
-        int cmplo = lo.compareTo(x.key);
-        int cmphi = hi.compareTo(x.key); 
-        if (cmplo < 0) keys(x.left, queue, lo, hi); 
-        if (cmplo <= 0 && cmphi >= 0) queue.enqueue(x.key); 
-        if (cmphi > 0) keys(x.right, queue, lo, hi); 
-    }
-
-    /**
-     * Gets the key.
-     *
-     * @param      valuea  The valuea
-     * @param      valueb  The valueb
-     *
-     * @return     The key.
-     */
-    public String getKey(final Value valuea, final Value valueb) {
-        String str = "";
-        Value i = valuea;
-        while (i.compareTo(valueb) > 0) {
-            str = str + (Key) get1(i); 
-        } return str;
-    }
-    /**
-     * Gets the key.
-     *
-     * @param      valuea  The valuea
-     * @param      valueb  The valueb
-     *
-     * @return     The key.
-     */
-    public String getKey(final Value valuea) {
-        String str = "";
-        Value i = valuea;
-        while (max().compareTo(get1(i)) > 0) {
-            str = str + (Key) get1(i); 
-        } return str;
     }
 }
