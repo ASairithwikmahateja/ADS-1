@@ -6,8 +6,8 @@ Dan
 Abegg
 
 Your Output: 
-Tim
-Tim
+145,Tim,23.4
+145,Tim,23.4
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -59,12 +59,9 @@ Abegg
 Brian Caffrey
 
 Your Output: 
-Jeannette Caines
-Exception in thread "main" java.lang.NumberFormatException: For input string: "88,Jeannette Caines,99.3"
-	at java.base/jdk.internal.math.FloatingDecimal.readJavaFormatString(Unknown Source)
-	at java.base/jdk.internal.math.FloatingDecimal.parseDouble(Unknown Source)
-	at java.base/java.lang.Double.parseDouble(Unknown Source)
-	at Solution.main(Solution.java:22)
+88,Jeannette Caines,99.3
+88,Jeannette Caines,99.3
+88,Jeannette Caines,99.3
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -133,7 +130,9 @@ Megon
 Meili Cady
 
 Your Output: 
-
+88,Jeannette Caines,99.3
+88,Jeannette Caines,99.3
+88,Jeannette Caines,99.3
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -854,11 +853,15 @@ Thelma Page
 Vicky Hales-Dutton
 
 Your Output: 
-Manoj Pandey
-Exception in thread "main" java.lang.NumberFormatException: For input string: "10300,Manoj Pandey,77.69"
-	at java.base/jdk.internal.math.FloatingDecimal.readJavaFormatString(Unknown Source)
-	at java.base/jdk.internal.math.FloatingDecimal.parseDouble(Unknown Source)
-	at java.base/java.lang.Double.parseDouble(Unknown Source)
-	at Solution.main(Solution.java:22)
+10300,Manoj Pandey,77.69
+10300,Manoj Pandey,77.69
+10300,Manoj Pandey,77.69
+10300,Manoj Pandey,77.69
+10300,Manoj Pandey,77.69
+10300,Manoj Pandey,77.69
+10300,Manoj Pandey,77.69
+10300,Manoj Pandey,77.69
+10300,Manoj Pandey,77.69
+10300,Manoj Pandey,77.69
 ----------------------------------------
 
