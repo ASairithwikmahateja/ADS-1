@@ -57,12 +57,15 @@ Starting audit...
 [ERROR] E:\ADS-1\Remedial\2\Solution.java:4:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] E:\ADS-1\Remedial\2\Solution.java:4:33: Parameter args should be final. [FinalParameters]
 [ERROR] E:\ADS-1\Remedial\2\Solution.java:10: Line has trailing spaces. [RegexpSingleline]
-[ERROR] E:\ADS-1\Remedial\2\Solution.java:17: switch without "default" clause. [MissingSwitchDefault]
-[ERROR] E:\ADS-1\Remedial\2\Solution.java:17:31: 'switch' is not followed by whitespace. [WhitespaceAround]
-[ERROR] E:\ADS-1\Remedial\2\Solution.java:20: Line is longer than 80 characters (found 192). [LineLength]
-[ERROR] E:\ADS-1\Remedial\2\Solution.java:20:192: Must have at least one statement. [EmptyBlock]
-[ERROR] E:\ADS-1\Remedial\2\Solution.java:21: Line has trailing spaces. [RegexpSingleline]
-[ERROR] E:\ADS-1\Remedial\2\Solution.java:25: Line is longer than 80 characters (found 104). [LineLength]
-[ERROR] E:\ADS-1\Remedial\2\Solution.java:30: Line is longer than 80 characters (found 104). [LineLength]
+[ERROR] E:\ADS-1\Remedial\2\Solution.java:17:67: '+' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\ADS-1\Remedial\2\Solution.java:17:68: '+' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS-1\Remedial\2\Solution.java:18: switch without "default" clause. [MissingSwitchDefault]
+[ERROR] E:\ADS-1\Remedial\2\Solution.java:18:31: 'switch' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS-1\Remedial\2\Solution.java:20: Line is longer than 80 characters (found 117). [LineLength]
+[ERROR] E:\ADS-1\Remedial\2\Solution.java:20:116: '&&' should be on a new line. [OperatorWrap]
+[ERROR] E:\ADS-1\Remedial\2\Solution.java:21: Line is longer than 80 characters (found 107). [LineLength]
+[ERROR] E:\ADS-1\Remedial\2\Solution.java:22: Line is longer than 80 characters (found 87). [LineLength]
+[ERROR] E:\ADS-1\Remedial\2\Solution.java:26: Line is longer than 80 characters (found 104). [LineLength]
+[ERROR] E:\ADS-1\Remedial\2\Solution.java:31: Line is longer than 80 characters (found 104). [LineLength]
 Audit done.
-Checkstyle ends with 13 errors.
+Checkstyle ends with 16 errors.
