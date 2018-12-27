@@ -1,0 +1,21 @@
+Starting audit...
+[ERROR] E:\ADS-1\Remedial\Assignment-1\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] E:\ADS-1\Remedial\Assignment-1\Solution.java:3: Missing a Javadoc comment. [JavadocType]
+[ERROR] E:\ADS-1\Remedial\Assignment-1\Solution.java:3:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] E:\ADS-1\Remedial\Assignment-1\Solution.java:4:1: File contains tab characters (this is the first instance). [FileTabCharacter]
+[ERROR] E:\ADS-1\Remedial\Assignment-1\Solution.java:4:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] E:\ADS-1\Remedial\Assignment-1\Solution.java:4:33: Parameter args should be final. [FinalParameters]
+[ERROR] E:\ADS-1\Remedial\Assignment-1\Solution.java:12:22: 'while' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS-1\Remedial\Assignment-1\Solution.java:14: Line is longer than 80 characters (found 89). [LineLength]
+[ERROR] E:\ADS-1\Remedial\Assignment-1\Solution.java:14:52: '+' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\ADS-1\Remedial\Assignment-1\Solution.java:14:53: '+' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS-1\Remedial\Assignment-1\Solution.java:14:61: '+' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\ADS-1\Remedial\Assignment-1\Solution.java:14:62: '+' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS-1\Remedial\Assignment-1\Solution.java:14:70: '+' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\ADS-1\Remedial\Assignment-1\Solution.java:14:71: '+' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS-1\Remedial\Assignment-1\Solution.java:14:77: '3' is a magic number. [MagicNumber]
+[ERROR] E:\ADS-1\Remedial\Assignment-1\Solution.java:14:79: '+' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\ADS-1\Remedial\Assignment-1\Solution.java:14:80: '+' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS-1\Remedial\Assignment-1\Solution.java:14:86: '4' is a magic number. [MagicNumber]
+Audit done.
+Checkstyle ends with 18 errors.
