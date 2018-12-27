@@ -14,7 +14,11 @@ public class Solution {
 		int m = Integer.parseInt(sc.nextLine());
 		for (int j = 0; j < m; j++) {
 			String[] str = sc.nextLine().split(" ");
-			System.out.println(bst.get(token.split(",")[0]));
+			System.out.println(bst.keys());
+		}
+			// String temp = bst.get(for (Key key : bst.keys()));
+			// System.out.println(temp.split(",")[2]);
+		
 			// switch(str[0]) {
 			// 	case "BE":
 			// 	System.out.println(temp.split(",")[1]);
@@ -36,4 +40,3 @@ public class Solution {
 				// }
 			}
 		}
-	}
