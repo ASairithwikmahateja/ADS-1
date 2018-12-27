@@ -6,7 +6,8 @@ Dan
 Abegg
 
 Your Output: 
-
+Tim
+Tim
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -58,11 +59,12 @@ Abegg
 Brian Caffrey
 
 Your Output: 
+Jeannette Caines
 Exception in thread "main" java.lang.NumberFormatException: For input string: "88,Jeannette Caines,99.3"
 	at java.base/jdk.internal.math.FloatingDecimal.readJavaFormatString(Unknown Source)
 	at java.base/jdk.internal.math.FloatingDecimal.parseDouble(Unknown Source)
 	at java.base/java.lang.Double.parseDouble(Unknown Source)
-	at Solution.main(Solution.java:21)
+	at Solution.main(Solution.java:22)
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -852,10 +854,11 @@ Thelma Page
 Vicky Hales-Dutton
 
 Your Output: 
+Manoj Pandey
 Exception in thread "main" java.lang.NumberFormatException: For input string: "10300,Manoj Pandey,77.69"
 	at java.base/jdk.internal.math.FloatingDecimal.readJavaFormatString(Unknown Source)
 	at java.base/jdk.internal.math.FloatingDecimal.parseDouble(Unknown Source)
 	at java.base/java.lang.Double.parseDouble(Unknown Source)
-	at Solution.main(Solution.java:21)
+	at Solution.main(Solution.java:22)
 ----------------------------------------
 

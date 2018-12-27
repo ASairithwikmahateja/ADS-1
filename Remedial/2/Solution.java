@@ -17,6 +17,7 @@ public class Solution {
 			String temp = bst.get(token.split(",")[0])+"";
 			switch(str[0]) {
 					case "BE":
+					System.out.println(temp.split(",")[1]);
 					if ((Double.parseDouble(str[1]) <= Double.parseDouble(temp.split(",")[2])) &&
 						(Double.parseDouble(str[2]) >= Double.parseDouble(temp))) {
 						System.out.println(temp.split(",")[1]);
