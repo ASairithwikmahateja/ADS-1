@@ -30,9 +30,10 @@ Starting audit...
 [ERROR] E:\ADS-1\Remedial\Team Ranking (copy)\Solution.java:4:1: File contains tab characters (this is the first instance). [FileTabCharacter]
 [ERROR] E:\ADS-1\Remedial\Team Ranking (copy)\Solution.java:4:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] E:\ADS-1\Remedial\Team Ranking (copy)\Solution.java:4:33: Parameter args should be final. [FinalParameters]
-[ERROR] E:\ADS-1\Remedial\Team Ranking (copy)\Solution.java:12:54: '3' is a magic number. [MagicNumber]
+[ERROR] E:\ADS-1\Remedial\Team Ranking (copy)\Solution.java:10: Line is longer than 80 characters (found 89). [LineLength]
+[ERROR] E:\ADS-1\Remedial\Team Ranking (copy)\Solution.java:10:86: '3' is a magic number. [MagicNumber]
 Audit done.
-Checkstyle ends with 7 errors.
+Checkstyle ends with 8 errors.
 Starting audit...
 [ERROR] E:\ADS-1\Remedial\Team Ranking (copy)\Team.java:1: Missing a Javadoc comment. [JavadocType]
 [ERROR] E:\ADS-1\Remedial\Team Ranking (copy)\Team.java:2:1: File contains tab characters (this is the first instance). [FileTabCharacter]

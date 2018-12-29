@@ -6,11 +6,8 @@ public class Solution {
 		Team t = new Team();
 		while (scan.hasNext()) {
 			String inp = scan.nextLine();
-			String team = inp.split(" ")[0];
-			String win = inp.split(" ")[1];
-			String loss = inp.split(" ")[2];
-			String draw = inp.split(" ")[3];
-			CricketTeam ct = new CricketTeam(team, win, loss, draw);
+			CricketTeam ct = new CricketTeam(inp.split(" ")[0],
+				inp.split(" ")[1], inp.split(" ")[2], inp.split(" ")[3]);
 			t.addCricketTeam(ct);
 		}
 		t.selectionSort();
