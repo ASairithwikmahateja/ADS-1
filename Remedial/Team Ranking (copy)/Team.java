@@ -33,7 +33,7 @@ class Team {
 	public String toString() {
 		String s = "";
 		for (int i = 0; i < size; i++) {
-			s += teams[i].name+",";
+			s += teams[i].name+" ";
 		}
 		return s.substring(0, s.length() - 1);
 	}
