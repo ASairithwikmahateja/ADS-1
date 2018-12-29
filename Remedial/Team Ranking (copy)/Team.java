@@ -11,7 +11,7 @@ class Team {
 	 * Constructs the object.
 	 */
 	Team() {
-		teams = new CricketTeam[10];
+		teams = new CricketTeam[100];
 		size = 0;
 	}
 	/**

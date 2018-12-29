@@ -22,13 +22,11 @@ Your Output:
 a1 a2 a3 a4 a5 a6 a7 a8
 ----------------------------------------
 
-########## Testcase 3: Failed ##########
+########## Testcase 3: Passed ##########
 Expected Output: 
 a11 a12 a13 a14 a15 a16 a17 a18 a1 a2 a3 a4 a5 a6 a7 a8
 
 Your Output: 
-Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 10
-	at Team.addCricketTeam(Team.java:24)
-	at Solution.main(Solution.java:14)
+a11 a12 a13 a14 a15 a16 a17 a18 a1 a2 a3 a4 a5 a6 a7 a8
 ----------------------------------------
 
