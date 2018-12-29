@@ -1,0 +1,53 @@
+Starting audit...
+[ERROR] E:\ADS-1\Remedial\Team Ranking (copy)\CricketTeam.java:1: Missing a Javadoc comment. [JavadocType]
+[ERROR] E:\ADS-1\Remedial\Team Ranking (copy)\CricketTeam.java:1:53: '>' is followed by an illegal character. [GenericWhitespace]
+[ERROR] E:\ADS-1\Remedial\Team Ranking (copy)\CricketTeam.java:1:53: '{' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\ADS-1\Remedial\Team Ranking (copy)\CricketTeam.java:2:1: File contains tab characters (this is the first instance). [FileTabCharacter]
+[ERROR] E:\ADS-1\Remedial\Team Ranking (copy)\CricketTeam.java:2:9: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] E:\ADS-1\Remedial\Team Ranking (copy)\CricketTeam.java:2:16: Variable 'name' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] E:\ADS-1\Remedial\Team Ranking (copy)\CricketTeam.java:3:9: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] E:\ADS-1\Remedial\Team Ranking (copy)\CricketTeam.java:3:13: Variable 'wins' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] E:\ADS-1\Remedial\Team Ranking (copy)\CricketTeam.java:4:9: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] E:\ADS-1\Remedial\Team Ranking (copy)\CricketTeam.java:4:13: Variable 'losses' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] E:\ADS-1\Remedial\Team Ranking (copy)\CricketTeam.java:5:9: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] E:\ADS-1\Remedial\Team Ranking (copy)\CricketTeam.java:5:13: Variable 'draws' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] E:\ADS-1\Remedial\Team Ranking (copy)\CricketTeam.java:14:21: Parameter name should be final. [FinalParameters]
+[ERROR] E:\ADS-1\Remedial\Team Ranking (copy)\CricketTeam.java:14:28: 'name' hides a field. [HiddenField]
+[ERROR] E:\ADS-1\Remedial\Team Ranking (copy)\CricketTeam.java:14:34: Parameter wins should be final. [FinalParameters]
+[ERROR] E:\ADS-1\Remedial\Team Ranking (copy)\CricketTeam.java:14:41: 'wins' hides a field. [HiddenField]
+[ERROR] E:\ADS-1\Remedial\Team Ranking (copy)\CricketTeam.java:14:47: Parameter losses should be final. [FinalParameters]
+[ERROR] E:\ADS-1\Remedial\Team Ranking (copy)\CricketTeam.java:14:54: 'losses' hides a field. [HiddenField]
+[ERROR] E:\ADS-1\Remedial\Team Ranking (copy)\CricketTeam.java:14:62: Parameter draws should be final. [FinalParameters]
+[ERROR] E:\ADS-1\Remedial\Team Ranking (copy)\CricketTeam.java:14:69: 'draws' hides a field. [HiddenField]
+[ERROR] E:\ADS-1\Remedial\Team Ranking (copy)\CricketTeam.java:59:30: Parameter c should be final. [FinalParameters]
+[ERROR] E:\ADS-1\Remedial\Team Ranking (copy)\CricketTeam.java:78: Line has trailing spaces. [RegexpSingleline]
+Audit done.
+Checkstyle ends with 22 errors.
+Starting audit...
+[ERROR] E:\ADS-1\Remedial\Team Ranking (copy)\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] E:\ADS-1\Remedial\Team Ranking (copy)\Solution.java:3: Missing a Javadoc comment. [JavadocType]
+[ERROR] E:\ADS-1\Remedial\Team Ranking (copy)\Solution.java:3:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] E:\ADS-1\Remedial\Team Ranking (copy)\Solution.java:4:1: File contains tab characters (this is the first instance). [FileTabCharacter]
+[ERROR] E:\ADS-1\Remedial\Team Ranking (copy)\Solution.java:4:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] E:\ADS-1\Remedial\Team Ranking (copy)\Solution.java:4:33: Parameter args should be final. [FinalParameters]
+[ERROR] E:\ADS-1\Remedial\Team Ranking (copy)\Solution.java:12:54: '3' is a magic number. [MagicNumber]
+Audit done.
+Checkstyle ends with 7 errors.
+Starting audit...
+[ERROR] E:\ADS-1\Remedial\Team Ranking (copy)\Team.java:1: Missing a Javadoc comment. [JavadocType]
+[ERROR] E:\ADS-1\Remedial\Team Ranking (copy)\Team.java:2:1: File contains tab characters (this is the first instance). [FileTabCharacter]
+[ERROR] E:\ADS-1\Remedial\Team Ranking (copy)\Team.java:14:41: '10' is a magic number. [MagicNumber]
+[ERROR] E:\ADS-1\Remedial\Team Ranking (copy)\Team.java:23:36: Parameter t should be final. [FinalParameters]
+[ERROR] E:\ADS-1\Remedial\Team Ranking (copy)\Team.java:36:43: '+' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\ADS-1\Remedial\Team Ranking (copy)\Team.java:36:44: '+' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS-1\Remedial\Team Ranking (copy)\Team.java:48:26: Parameter teams should be final. [FinalParameters]
+[ERROR] E:\ADS-1\Remedial\Team Ranking (copy)\Team.java:48:40: 'teams' hides a field. [HiddenField]
+[ERROR] E:\ADS-1\Remedial\Team Ranking (copy)\Team.java:48:47: Parameter i should be final. [FinalParameters]
+[ERROR] E:\ADS-1\Remedial\Team Ranking (copy)\Team.java:48:54: Parameter j should be final. [FinalParameters]
+[ERROR] E:\ADS-1\Remedial\Team Ranking (copy)\Team.java:56: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\ADS-1\Remedial\Team Ranking (copy)\Team.java:64: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\ADS-1\Remedial\Team Ranking (copy)\Team.java:79:22: Parameter arr should be final. [FinalParameters]
+[ERROR] E:\ADS-1\Remedial\Team Ranking (copy)\Team.java:79:41: Parameter i should be final. [FinalParameters]
+[ERROR] E:\ADS-1\Remedial\Team Ranking (copy)\Team.java:79:48: Parameter j should be final. [FinalParameters]
+Audit done.
+Checkstyle ends with 15 errors.
