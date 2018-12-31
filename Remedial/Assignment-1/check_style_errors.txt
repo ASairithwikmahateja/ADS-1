@@ -57,6 +57,6 @@ Starting audit...
 [ERROR] E:\ADS-1\Remedial\Assignment-1\Solution.java:31:72: '4' is a magic number. [MagicNumber]
 [ERROR] E:\ADS-1\Remedial\Assignment-1\Solution.java:31:98: '5' is a magic number. [MagicNumber]
 [ERROR] E:\ADS-1\Remedial\Assignment-1\Solution.java:31:107: '6' is a magic number. [MagicNumber]
-[ERROR] E:\ADS-1\Remedial\Assignment-1\Solution.java:40: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\ADS-1\Remedial\Assignment-1\Solution.java:42: Line has trailing spaces. [RegexpSingleline]
 Audit done.
 Checkstyle ends with 8 errors.

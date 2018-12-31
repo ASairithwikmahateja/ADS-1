@@ -34,7 +34,9 @@ final class Solution {
 		seat.selectionSort();
 		System.out.println(seat + "\n");
 		while (vac > 0) {
+			int i = 0;
 			System.out.println(seat);
+			i++;
 			vac--;
 		}
 	}		
