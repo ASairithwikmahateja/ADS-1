@@ -68,17 +68,6 @@ final class Seat {
         }
 	}
 	/**
-	 * vacancy method.
-	 *
-	 * @param      vac   The vac
-	 */
-	public void vacancies(int vac) {
-		while (vac > 0) {
-			System.out.println(seats);
-			vac--;
-		}
-	}
-	/**
 	 * Compare the seats.
 	 * The time Complexity is O(1), since return statement takes value
 	 * from compareTo.
