@@ -33,14 +33,6 @@ final class Solution {
 		}
 		seat.selectionSort();
 		System.out.println(seat + "\n");
-		// SeatAllotment st;
-		// System.out.println(vac);
-		// for (int i = 0; i < vac; i++) {
-		// 	while (unresvac-- != 0) {
-		// 		s.compareTo(st);
-		// 	}
-
-		// }
-
+		seat.vacancies(vac);
 	}		
 }
