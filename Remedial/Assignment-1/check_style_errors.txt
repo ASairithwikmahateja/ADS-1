@@ -47,10 +47,9 @@ Starting audit...
 [ERROR] E:\ADS-1\Remedial\Assignment-1\SeatAllotment.java:27:52: 'cate' hides a field. [HiddenField]
 [ERROR] E:\ADS-1\Remedial\Assignment-1\SeatAllotment.java:99:30: Parameter s should be final. [FinalParameters]
 [ERROR] E:\ADS-1\Remedial\Assignment-1\SeatAllotment.java:103: Line has trailing spaces. [RegexpSingleline]
-[ERROR] E:\ADS-1\Remedial\Assignment-1\SeatAllotment.java:103:46: '{' is not followed by whitespace. [WhitespaceAround]
-[ERROR] E:\ADS-1\Remedial\Assignment-1\SeatAllotment.java:106:47: '{' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS-1\Remedial\Assignment-1\SeatAllotment.java:103: Line is longer than 80 characters (found 83). [LineLength]
 Audit done.
-Checkstyle ends with 32 errors.
+Checkstyle ends with 31 errors.
 Starting audit...
 [ERROR] E:\ADS-1\Remedial\Assignment-1\Solution.java:6:1: File contains tab characters (this is the first instance). [FileTabCharacter]
 [ERROR] E:\ADS-1\Remedial\Assignment-1\Solution.java:30: Line is longer than 80 characters (found 101). [LineLength]
