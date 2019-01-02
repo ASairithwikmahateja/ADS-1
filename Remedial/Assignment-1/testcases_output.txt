@@ -55,6 +55,16 @@ Manoj,39,SC
 Anjali,38,SC
 Aryan,32,ST
 Shreya,23,SC
+
+Ira
+16-07-1993
+33
+40
+20
+93
+ST
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 7
+	at Solution.main(Solution.java:41)
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -130,6 +140,16 @@ Manoj,39,SC
 Anjali,38,SC
 Aryan,32,ST
 Shreya,23,SC
+
+Ira
+16-07-1993
+33
+40
+20
+93
+ST
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 7
+	at Solution.main(Solution.java:41)
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -160,6 +180,16 @@ Priyanka,70,Open
 Amit,70,Open
 Tanya,66,BC
 Abhishek,60,BC
+
+tanvi
+22-01-1994
+38
+33
+19
+90
+Open
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 7
+	at Solution.main(Solution.java:41)
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -193,6 +223,16 @@ Priyanka,70,Open
 Amit,70,Open
 Tanya,66,BC
 Abhishek,60,BC
+
+tanvi
+22-01-1994
+38
+33
+19
+90
+ST
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 7
+	at Solution.main(Solution.java:41)
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -273,6 +313,16 @@ Anjali,38,Open
 Aryan,32,Open
 shyam,23,Open
 Shreya,23,Open
+
+Ira
+16-07-1993
+33
+40
+20
+93
+Open
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 7
+	at Solution.main(Solution.java:41)
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -355,5 +405,15 @@ Anjali,38,SC
 Manoj,32,SC
 Aryan,32,ST
 Shreya,23,SC
+
+Ira
+16-07-1993
+33
+40
+20
+93
+ST
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 7
+	at Solution.main(Solution.java:41)
 ----------------------------------------
 

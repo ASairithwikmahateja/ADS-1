@@ -37,7 +37,9 @@ final class Solution {
 		String[] str1 = st.split("\n");
 		while (vac > 0) {
 			while (unresvac > 0) {
-				System.out.println();	
+				for (int j = 0; j < str1.length; j++) {
+					System.out.println(str[j]);	
+				}
 				unresvac--;
 			}
 			vac--;
