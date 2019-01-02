@@ -55,11 +55,6 @@ Manoj,39,SC
 Anjali,38,SC
 Aryan,32,ST
 Shreya,23,SC
-
-teja
-teja
-teja
-teja
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -135,12 +130,6 @@ Manoj,39,SC
 Anjali,38,SC
 Aryan,32,ST
 Shreya,23,SC
-
-teja
-teja
-teja
-teja
-teja
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -171,8 +160,6 @@ Priyanka,70,Open
 Amit,70,Open
 Tanya,66,BC
 Abhishek,60,BC
-
-teja
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -206,10 +193,6 @@ Priyanka,70,Open
 Amit,70,Open
 Tanya,66,BC
 Abhishek,60,BC
-
-teja
-teja
-teja
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -290,14 +273,6 @@ Anjali,38,Open
 Aryan,32,Open
 shyam,23,Open
 Shreya,23,Open
-
-teja
-teja
-teja
-teja
-teja
-teja
-teja
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -380,14 +355,5 @@ Anjali,38,SC
 Manoj,32,SC
 Aryan,32,ST
 Shreya,23,SC
-
-teja
-teja
-teja
-teja
-teja
-teja
-teja
-teja
 ----------------------------------------
 
