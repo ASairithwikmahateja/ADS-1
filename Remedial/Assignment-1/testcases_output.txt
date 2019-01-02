@@ -56,29 +56,6 @@ Anjali,38,SC
 Aryan,32,ST
 Shreya,23,SC
 
-divya,99,ST
-Deepak,98,Open
-Ira,93,ST
-tanvi,90,BC
-Raj,87,BC
-riya,83,Open
-Aditya,80,ST
-Ajay,76,Open
-Arjun,75,Open
-rahul,73,Open
-priya,72,SC
-shyam,71,ST
-Priyanka,70,Open
-varsha,66,BC
-yash,61,BC
-Abhishek,60,BC
-Ankit,58,BC
-vani,50,Open
-Aishwarya,48,Open
-Manoj,39,SC
-Anjali,38,SC
-Aryan,32,ST
-Shreya,23,SC
 Ira
 16-07-1993
 33
@@ -87,7 +64,7 @@ Ira
 93
 ST
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 7
-	at Solution.main(Solution.java:42)
+	at Solution.main(Solution.java:39)
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -164,36 +141,6 @@ Anjali,38,SC
 Aryan,32,ST
 Shreya,23,SC
 
-divya,99,ST
-Ishita,99,Open
-Deepak,98,Open
-Ira,93,ST
-tanvi,90,BC
-mahesh,87,Open
-Raj,87,BC
-riya,83,Open
-Aditya,80,ST
-Ajay,76,Open
-Arjun,75,Open
-rahul,73,Open
-priya,72,SC
-shyam,71,ST
-ROHIT,70,SC
-Amit,70,Open
-Priyanka,70,Open
-varsha,66,BC
-Tanya,66,BC
-yash,61,BC
-Abhishek,60,BC
-Gayatri,58,SC
-Ankit,58,BC
-Sneha,50,SC
-vani,50,Open
-Aishwarya,48,Open
-Manoj,39,SC
-Anjali,38,SC
-Aryan,32,ST
-Shreya,23,SC
 Ira
 16-07-1993
 33
@@ -202,7 +149,7 @@ Ira
 93
 ST
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 7
-	at Solution.main(Solution.java:42)
+	at Solution.main(Solution.java:39)
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -234,16 +181,6 @@ Amit,70,Open
 Tanya,66,BC
 Abhishek,60,BC
 
-divya,99,Open
-tanvi,90,Open
-Aditya,80,ST
-Ajay,76,Open
-priya,76,SC
-rahul,73,Open
-Priyanka,70,Open
-Amit,70,Open
-Tanya,66,BC
-Abhishek,60,BC
 tanvi
 22-01-1994
 38
@@ -252,7 +189,7 @@ tanvi
 90
 Open
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 7
-	at Solution.main(Solution.java:42)
+	at Solution.main(Solution.java:39)
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -287,16 +224,6 @@ Amit,70,Open
 Tanya,66,BC
 Abhishek,60,BC
 
-divya,99,Open
-tanvi,90,ST
-Aditya,80,Open
-Ajay,76,Open
-priya,76,SC
-rahul,73,Open
-Priyanka,70,Open
-Amit,70,Open
-Tanya,66,BC
-Abhishek,60,BC
 tanvi
 22-01-1994
 38
@@ -305,7 +232,7 @@ tanvi
 90
 ST
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 7
-	at Solution.main(Solution.java:42)
+	at Solution.main(Solution.java:39)
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -387,36 +314,6 @@ Aryan,32,Open
 shyam,23,Open
 Shreya,23,Open
 
-divya,99,Open
-tanvi,99,Open
-Ishita,99,Open
-Deepak,98,Open
-Ira,93,Open
-mahesh,87,Open
-Raj,87,Open
-riya,83,Open
-Aditya,80,Open
-priya,76,Open
-Ajay,76,Open
-Amit,76,Open
-Arjun,75,Open
-rahul,73,Open
-Tanya,72,Open
-Priyanka,70,Open
-ROHIT,70,Open
-varsha,66,Open
-yash,61,Open
-Abhishek,60,Open
-Gayatri,58,Open
-Ankit,58,Open
-vani,50,Open
-Sneha,50,Open
-Aishwarya,48,Open
-Manoj,39,Open
-Anjali,38,Open
-Aryan,32,Open
-shyam,23,Open
-Shreya,23,Open
 Ira
 16-07-1993
 33
@@ -425,7 +322,7 @@ Ira
 93
 Open
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 7
-	at Solution.main(Solution.java:42)
+	at Solution.main(Solution.java:39)
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -509,36 +406,6 @@ Manoj,32,SC
 Aryan,32,ST
 Shreya,23,SC
 
-divya,99,ST
-Ishita,99,Open
-Deepak,99,Open
-Ira,93,ST
-tanvi,90,BC
-mahesh,87,BC
-Raj,87,BC
-riya,83,Open
-Aditya,80,ST
-Ajay,76,Open
-Amit,76,Open
-Arjun,75,Open
-rahul,73,Open
-priya,72,SC
-shyam,71,ST
-ROHIT,70,SC
-Priyanka,70,Open
-varsha,66,BC
-Tanya,66,SC
-yash,61,Open
-Abhishek,60,SC
-Ankit,58,SC
-Gayatri,58,SC
-Sneha,50,SC
-vani,50,Open
-Aishwarya,48,Open
-Anjali,38,SC
-Manoj,32,SC
-Aryan,32,ST
-Shreya,23,SC
 Ira
 16-07-1993
 33
@@ -547,6 +414,6 @@ Ira
 93
 ST
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 7
-	at Solution.main(Solution.java:42)
+	at Solution.main(Solution.java:39)
 ----------------------------------------
 

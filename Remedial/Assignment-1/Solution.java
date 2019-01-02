@@ -34,13 +34,12 @@ final class Solution {
 		seat.selectionSort();
 		System.out.println(seat + "\n");
 		String st = seat + "";
-		System.out.println(st);
 		String[] str1 = st.split("\n");
+		for (int j = 0; j < str1.length; j++) {
+			System.out.println(str[j]);	
+		}
 		while (vac > 0) {
 			while (unresvac > 0) {
-				for (int j = 0; j < str1.length; j++) {
-					System.out.println(str[j]);	
-				}
 				unresvac--;
 			}
 			vac--;
