@@ -35,7 +35,7 @@ final class Solution {
 		System.out.println(seat + "\n");
 		while (vac > 0) {
 			while (unresvac > 0) {
-				System.out.println("teja");	
+				System.out.println(seat);	
 				unresvac--;
 			}
 			vac--;
