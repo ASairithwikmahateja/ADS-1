@@ -90,6 +90,15 @@ final class SeatAllotment implements Comparable<SeatAllotment> {
 		return marks3;
 	}
 	/**
+	 * Returns a string representation of the object.
+	 *
+	 * @return     String representation of the object.
+	 */
+	public String toString() {
+		String st = name + "," + totalmarks + "," + cate;
+		return st;
+	}
+	/**
 	 * compareTo method.
 	 *
 	 * @param      s     Seat Allotment
