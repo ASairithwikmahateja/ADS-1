@@ -143,11 +143,6 @@ Ishita,99,Open
 Deepak,98,Open
 Ira,93,ST
 tanvi,90,BC
-mahesh,87,Open
-Aditya,80,ST
-rahul,73,Open
-ROHIT,70,SC
-varsha,66,BC
 varsha,66,BC
 Gayatri,58,SC
 ----------------------------------------
@@ -220,12 +215,9 @@ Abhishek,60,BC
 divya,99,Open
 tanvi,90,ST
 Aditya,80,Open
-Ajay,76,Open
-Priyanka,70,Open
-Abhishek,60,BC
 Abhishek,60,BC
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 10
-	at Solution.main(Solution.java:56)
+	at Solution.main(Solution.java:55)
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -314,16 +306,8 @@ Deepak,98,Open
 Ira,93,Open
 mahesh,87,Open
 Raj,87,Open
-riya,83,Open
-Ajay,76,Open
-rahul,73,Open
-ROHIT,70,Open
-Abhishek,60,Open
-vani,50,Open
-Manoj,39,Open
-shyam,23,Open
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 30
-	at Solution.main(Solution.java:65)
+	at Solution.main(Solution.java:64)
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -415,17 +399,7 @@ tanvi,90,BC
 mahesh,87,BC
 Raj,87,BC
 riya,83,Open
-Aditya,80,ST
-Arjun,75,Open
 priya,72,SC
-shyam,71,ST
-Priyanka,70,Open
-Tanya,66,SC
-Abhishek,60,SC
-Gayatri,58,SC
-vani,50,Open
-Anjali,38,SC
-Aryan,32,ST
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 30
 	at Solution.main(Solution.java:46)
 ----------------------------------------
