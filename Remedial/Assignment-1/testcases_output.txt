@@ -141,6 +141,14 @@ Ishita,99,Open
 Deepak,98,Open
 Ira,93,ST
 tanvi,90,BC
+teja
+teja
+teja
+teja
+teja
+teja
+teja
+teja
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -210,6 +218,12 @@ Abhishek,60,BC
 divya,99,Open
 tanvi,90,ST
 Aditya,80,Open
+teja
+teja
+teja
+teja
+teja
+teja
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -298,6 +312,19 @@ Deepak,98,Open
 Ira,93,Open
 mahesh,87,Open
 Raj,87,Open
+teja
+teja
+teja
+teja
+teja
+teja
+teja
+teja
+teja
+teja
+teja
+teja
+teja
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -389,6 +416,21 @@ tanvi,90,BC
 mahesh,87,BC
 Raj,87,BC
 riya,83,Open
+teja
 Aditya,80,ST
+teja
+teja
+teja
+teja
+teja
+teja
+teja
+teja
+teja
+teja
+teja
+teja
+teja
+teja
 ----------------------------------------
 

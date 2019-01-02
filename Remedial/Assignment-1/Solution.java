@@ -43,6 +43,7 @@ final class Solution {
 				unresvac--;
 			}
 			while (cateA > 0) {
+				System.out.println("teja");
 				if (str1[j].split(",")[2].equals("BC")) {
 					System.out.println(str1[j]);
 					j++;
