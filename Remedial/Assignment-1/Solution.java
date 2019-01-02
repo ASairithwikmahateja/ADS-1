@@ -43,13 +43,14 @@ final class Solution {
 				unresvac--;
 			}
 			while (cateA > 0) {
-				System.out.println("teja");
+				System.out.println(str1[j]);
 				if (str1[j].split(",")[2].equals("BC")) {
 					System.out.println(str1[j]);
 					j++;
 					cateA--;
 				}
-				else break;
+				else j++;
+				break;
 			}
 			while (cateB > 0) {
 				if (str1[j].split(",")[2].equals("ST")) {
@@ -57,7 +58,8 @@ final class Solution {
 					j++;
 					cateB--;
 				}
-				else break;
+				else j++;
+				break;
 			}
 			while (cateC > 0) {
 				if (str1[j].split(",")[2].equals("SC")) {
@@ -65,7 +67,8 @@ final class Solution {
 					j++;
 					cateC--;
 				}
-				else break;
+				else j++;
+				break;
 			}
 			vac--;
 		}

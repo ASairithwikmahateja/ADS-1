@@ -1,4 +1,4 @@
-########## Testcase 0: Failed ##########
+########## Testcase 0: Passed ##########
 Expected Output: 
 divya,99,ST
 Deepak,98,Open
@@ -60,6 +60,8 @@ divya,99,ST
 Deepak,98,Open
 Ira,93,ST
 tanvi,90,BC
+Aditya,80,ST
+priya,72,SC
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -141,14 +143,13 @@ Ishita,99,Open
 Deepak,98,Open
 Ira,93,ST
 tanvi,90,BC
-teja
-teja
-teja
-teja
-teja
-teja
-teja
-teja
+mahesh,87,Open
+Aditya,80,ST
+rahul,73,Open
+ROHIT,70,SC
+varsha,66,BC
+varsha,66,BC
+Gayatri,58,SC
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -181,6 +182,7 @@ Tanya,66,BC
 Abhishek,60,BC
 
 divya,99,Open
+priya,76,SC
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -218,12 +220,12 @@ Abhishek,60,BC
 divya,99,Open
 tanvi,90,ST
 Aditya,80,Open
-teja
-teja
-teja
-teja
-teja
-teja
+Ajay,76,Open
+Priyanka,70,Open
+Abhishek,60,BC
+Abhishek,60,BC
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 10
+	at Solution.main(Solution.java:56)
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -312,19 +314,16 @@ Deepak,98,Open
 Ira,93,Open
 mahesh,87,Open
 Raj,87,Open
-teja
-teja
-teja
-teja
-teja
-teja
-teja
-teja
-teja
-teja
-teja
-teja
-teja
+riya,83,Open
+Ajay,76,Open
+rahul,73,Open
+ROHIT,70,Open
+Abhishek,60,Open
+vani,50,Open
+Manoj,39,Open
+shyam,23,Open
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 30
+	at Solution.main(Solution.java:65)
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -416,21 +415,18 @@ tanvi,90,BC
 mahesh,87,BC
 Raj,87,BC
 riya,83,Open
-teja
 Aditya,80,ST
-teja
-teja
-teja
-teja
-teja
-teja
-teja
-teja
-teja
-teja
-teja
-teja
-teja
-teja
+Arjun,75,Open
+priya,72,SC
+shyam,71,ST
+Priyanka,70,Open
+Tanya,66,SC
+Abhishek,60,SC
+Gayatri,58,SC
+vani,50,Open
+Anjali,38,SC
+Aryan,32,ST
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 30
+	at Solution.main(Solution.java:46)
 ----------------------------------------
 
