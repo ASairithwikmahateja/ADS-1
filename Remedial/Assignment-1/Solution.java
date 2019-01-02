@@ -32,13 +32,11 @@ final class Solution {
 			Integer.parseInt(str[3]), Integer.parseInt(str[4]), Integer.parseInt(str[5]), str[6]);
 			seat.seatAllot(s);
 		}
+		SeatAllotment sa = s;
 		seat.selectionSort();
 		System.out.println(seat + "\n");
 		while (vac > 0) {
-			while (unresvac > 0) {
-				System.out.println(s.toString());	
-				unresvac--;
-			}
+			System.out.println(sa.toString());	
 			vac--;
 		}
 	}		

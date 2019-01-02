@@ -60,6 +60,8 @@ Ira,93,ST
 Ira,93,ST
 Ira,93,ST
 Ira,93,ST
+Ira,93,ST
+Ira,93,ST
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -141,6 +143,9 @@ Ira,93,ST
 Ira,93,ST
 Ira,93,ST
 Ira,93,ST
+Ira,93,ST
+Ira,93,ST
+Ira,93,ST
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -172,6 +177,8 @@ Amit,70,Open
 Tanya,66,BC
 Abhishek,60,BC
 
+tanvi,90,Open
+tanvi,90,Open
 tanvi,90,Open
 ----------------------------------------
 
@@ -207,6 +214,9 @@ Amit,70,Open
 Tanya,66,BC
 Abhishek,60,BC
 
+tanvi,90,ST
+tanvi,90,ST
+tanvi,90,ST
 tanvi,90,ST
 tanvi,90,ST
 tanvi,90,ST
@@ -298,6 +308,12 @@ Ira,93,Open
 Ira,93,Open
 Ira,93,Open
 Ira,93,Open
+Ira,93,Open
+Ira,93,Open
+Ira,93,Open
+Ira,93,Open
+Ira,93,Open
+Ira,93,Open
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -381,6 +397,13 @@ Manoj,32,SC
 Aryan,32,ST
 Shreya,23,SC
 
+Ira,93,ST
+Ira,93,ST
+Ira,93,ST
+Ira,93,ST
+Ira,93,ST
+Ira,93,ST
+Ira,93,ST
 Ira,93,ST
 Ira,93,ST
 Ira,93,ST
