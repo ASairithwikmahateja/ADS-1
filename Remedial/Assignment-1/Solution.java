@@ -36,7 +36,7 @@ final class Solution {
 		String st = seat + "";
 		String[] str1 = st.split("\n");
 		for (int j = 0; j < str1.length; j++) {
-			System.out.println(str[j]);	
+			System.out.println(str1[j]);	
 		}
 		while (vac > 0) {
 			while (unresvac > 0) {
