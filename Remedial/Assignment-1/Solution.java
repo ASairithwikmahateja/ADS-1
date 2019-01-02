@@ -25,18 +25,19 @@ final class Solution {
 		int cateC = Integer.parseInt(sc.nextLine());
 		final int size = 10;
 		String[] str = new String[size];
-		SeatAllotment s = null;
 		for (int i = 0; i < noofstu; i++) {
 			str = sc.nextLine().split(",");
-			s = new SeatAllotment(str[0], str[1], Integer.parseInt(str[2]),
+			SeatAllotment s = new SeatAllotment(str[0], str[1], Integer.parseInt(str[2]),
 			Integer.parseInt(str[3]), Integer.parseInt(str[4]), Integer.parseInt(str[5]), str[6]);
 			seat.seatAllot(s);
 		}
-		SeatAllotment sa = s;
 		seat.selectionSort();
 		System.out.println(seat + "\n");
 		while (vac > 0) {
-			System.out.println(sa.toString());	
+			while (unresvac > 0) {
+				System.out.println("teja");	
+				unresvac--;
+			}
 			vac--;
 		}
 	}		
