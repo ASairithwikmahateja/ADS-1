@@ -36,19 +36,35 @@ final class Solution {
 		String st = seat + "";
 		String[] str1 = st.split("\n");
 		int j = 0;
-		int temp = unresvac;
 		while (vac > 0) {
 			while (unresvac > 0) {
 				System.out.println(str1[j]);	
 				j++;
 				unresvac--;
 			}
-			int temp1 = vac - temp;
-			while (temp1 > 0) {
+			while (cateA > 0) {
+				if (str1[j].split(",")[2].equals("BC")) {
+					System.out.println(str1[j]);
+					j++;
+					cateA--;
+				}
+				else break;
+			}
+			while (cateB > 0) {
 				if (str1[j].split(",")[2].equals("ST")) {
 					System.out.println(str1[j]);
+					j++;
+					cateB--;
 				}
-				temp1--;
+				else break;
+			}
+			while (cateC > 0) {
+				if (str1[j].split(",")[2].equals("SC")) {
+					System.out.println(str1[j]);
+					j++;
+					cateC--;
+				}
+				else break;
 			}
 			vac--;
 		}
