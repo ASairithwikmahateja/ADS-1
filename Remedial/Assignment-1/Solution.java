@@ -35,9 +35,9 @@ final class Solution {
 		System.out.println(seat + "\n");
 		String st = seat + "";
 		String[] str1 = st.split("\n");
+		int j = 0;
 		while (vac > 0) {
 			while (unresvac > 0) {
-				int j = 0;
 				System.out.println(str1[j]);	
 				j++;
 				unresvac--;
