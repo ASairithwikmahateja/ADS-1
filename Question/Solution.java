@@ -20,12 +20,12 @@ public class Solution {
 					bst.put(token[1], count[Integer.parseInt(token[1])]++);
 					// System.out.println(token[1] + "-" + count[Integer.parseInt(token[1])]);
 				}
-				System.out.println(token[0] + "," + token[1]);
 			} else {
 				if (bst.isEmpty()) {
 					System.out.println("NO Registrations");
-				} else {					
+				} else {				
 					bst.delete(bst.min());
+					// bst.delete(Collections.min(Arrays.asList(count)));
 				}
 			}
 		}
