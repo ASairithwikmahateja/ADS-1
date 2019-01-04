@@ -1,0 +1,23 @@
+Starting audit...
+Audit done.
+Starting audit...
+Audit done.
+Starting audit...
+[ERROR] E:\ADS-1\Question\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] E:\ADS-1\Question\Solution.java:2:8: Unused import - java.util.Arrays. [UnusedImports]
+[ERROR] E:\ADS-1\Question\Solution.java:3:8: Unused import - java.util.Collections. [UnusedImports]
+[ERROR] E:\ADS-1\Question\Solution.java:5: Missing a Javadoc comment. [JavadocType]
+[ERROR] E:\ADS-1\Question\Solution.java:5:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] E:\ADS-1\Question\Solution.java:6:1: File contains tab characters (this is the first instance). [FileTabCharacter]
+[ERROR] E:\ADS-1\Question\Solution.java:6:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] E:\ADS-1\Question\Solution.java:6:33: Parameter args should be final. [FinalParameters]
+[ERROR] E:\ADS-1\Question\Solution.java:8:57: '50' is a magic number. [MagicNumber]
+[ERROR] E:\ADS-1\Question\Solution.java:9:39: '50' is a magic number. [MagicNumber]
+[ERROR] E:\ADS-1\Question\Solution.java:16: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\ADS-1\Question\Solution.java:17: Line is longer than 80 characters (found 93). [LineLength]
+[ERROR] E:\ADS-1\Question\Solution.java:18: Line is longer than 80 characters (found 114). [LineLength]
+[ERROR] E:\ADS-1\Question\Solution.java:20: Line is longer than 80 characters (found 95). [LineLength]
+[ERROR] E:\ADS-1\Question\Solution.java:21: Line is longer than 80 characters (found 114). [LineLength]
+[ERROR] E:\ADS-1\Question\Solution.java:27: Line has trailing spaces. [RegexpSingleline]
+Audit done.
+Checkstyle ends with 16 errors.
