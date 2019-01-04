@@ -18,9 +18,8 @@ Starting audit...
 [ERROR] E:\ADS-1\Question\Solution.java:18: Line is longer than 80 characters (found 114). [LineLength]
 [ERROR] E:\ADS-1\Question\Solution.java:20: Line is longer than 80 characters (found 95). [LineLength]
 [ERROR] E:\ADS-1\Question\Solution.java:21: Line is longer than 80 characters (found 114). [LineLength]
-[ERROR] E:\ADS-1\Question\Solution.java:22: Line is longer than 80 characters (found 85). [LineLength]
-[ERROR] E:\ADS-1\Question\Solution.java:22:70: '+' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS-1\Question\Solution.java:23:62: '+' is not followed by whitespace. [WhitespaceAround]
 [ERROR] E:\ADS-1\Question\Solution.java:27: Line has trailing spaces. [RegexpSingleline]
 [ERROR] E:\ADS-1\Question\Solution.java:29: Line is longer than 80 characters (found 93). [LineLength]
 Audit done.
-Checkstyle ends with 19 errors.
+Checkstyle ends with 18 errors.
