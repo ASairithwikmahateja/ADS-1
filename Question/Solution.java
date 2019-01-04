@@ -19,6 +19,7 @@ public class Solution {
 				} else {
 					bst.put(token[1], count[Integer.parseInt(token[1])]++);
 					// System.out.println(token[1] + "-" + count[Integer.parseInt(token[1])]);
+					System.out.println(token[0] +"," + token[1]);
 				}
 			} else {
 				if (bst.isEmpty()) {
