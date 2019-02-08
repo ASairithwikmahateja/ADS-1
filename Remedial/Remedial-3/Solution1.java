@@ -65,7 +65,7 @@ class Student implements Comparable<Student> {
 		return 0;
 	}
 }
-public class Solution {
+public class Solution1 {
 	public static void main(String[] args) throws NumberFormatException {
 		Scanner sc = new Scanner(System.in);
 		int n = Integer.parseInt(sc.nextLine());
@@ -87,7 +87,9 @@ public class Solution {
 					flag++;
 					System.out.println(flag);
 				} else if (num > stuar.getStudent(j).getMarks()) {
-					System.out.println(num);
+					j = stuar.getSize()/2;
+				// } else if (num < stuar.getStudent(j).getMarks()) {
+				// 	j = stuar.getSize();
 				} else if (num == stuar.getStudent(j).getMarks()) {
 					System.out.println(stuar.getStudent(j).toString());
 				}
